@@ -1,13 +1,17 @@
+import os
 import torch
 import torch.nn.functional as F
 import numpy as np
+import pandas as pd
 import json
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import skimage.transform
 import argparse
+
 from scipy.misc import imread, imresize
+from nltk.metrics.distance import edit_distance
 from PIL import Image
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -169,7 +173,7 @@ def visualize_att(image_path, seq, alphas, rev_word_map, smooth=True):
             break
         plt.subplot(np.ceil(len(words) / 5.), 5, t + 1)
 
-        plt.text(0, 1, '%s' % (words[t]), color='black', backgroundcolor='white', fontsize=12)
+        plt.text(0, 1, '%s' % (words[t]), color='black', backgroundcolor='white', fontsize=8)
         plt.imshow(image)
         current_alpha = alphas[t, :]
         if smooth:
@@ -182,18 +186,85 @@ def visualize_att(image_path, seq, alphas, rev_word_map, smooth=True):
             plt.imshow(alpha, alpha=0.8)
         plt.set_cmap(cm.Greys_r)
         plt.axis('off')
-    plt.show()
+    plt.savefig(os.path.join(args.out, image_path[image_path.rfind('/')+1 :]))
+    plt.close()
+    return ' '.join(words[1:-1])
+
+
+# Evaluate caption results for each trial, create output and accuracy
+# Load trials into a hash
+def load_trials(trials):
+    img_target = {}
+    for index, row in trials.iterrows():
+        word_target, word_foil = row["word_target"], row["word_foil"]
+        target, foil = row["image_name"].split(' ')
+        img_target[target] = word_target
+        img_target[foil] = word_foil
+    return img_target
+
+# Evaluation for all the trials (first item in image_name is always target and the second is foil)
+def eval_trials(trial, img_caption, gt):
+    # Load ground truth and trial info for testing set
+    trials = pd.DataFrame.from_csv(trial)    
+    gt_caption = json.load(open(gt, 'r'))
+    # Result dataframe
+    res_df = pd.DataFrame(columns=[ "desired_label", "target_image", "target_model_generated_label", 
+                                    "dis_target_predicted", "foil_image", "foil_word", 
+                                    "foil_model_generated_label", "dis_foil_predicted", "correct"], 
+                          index=trials.index.values.tolist())
+    # Load trials into desired format (img : target_number)
+    img_target = load_trials(trials)
+    # A trial is counted as correct if (in order):
+    # 1). 
+    correct = 0
+    # Get result
+    for index, row in trials.iterrows():
+        target, foil = row["image_name"].split(' ')
+        word_target = img_target[target]
+        # Get net output for target and foil image
+        target_res, target_label = img_caption[target], gt_caption[target]
+        foil_res, foil_label = img_caption[foil], gt_caption[foil]
+        # Compute target
+        # A trial is counted as correct if and only if following conditions are met:
+        # -- dis_target_predicted or foil_predict_correct == 0
+        # else:
+        # 
+        dis_foil_predicted = edit_distance(word_target, foil_res)
+        dis_target_predicted = edit_distance(word_target, target_res)
+        # Record foil_predict_correct for evaluation (0 is correct prediciton)
+        foil_predict_correct = edit_distance(foil_label, foil_res)
+        is_correct = 0
+        if not foil_predict_correct or not dis_target_predicted:
+            is_correct = 1
+        else:
+            if dis_target_predicted < dis_foil_predicted:
+                is_correct = 1
+        
+        res_df.loc[index] = [target_label, target, target_res, dis_target_predicted, 
+                             foil, foil_label, foil_res, dis_foil_predicted, is_correct]
+
+    print("Saving result to {}".format(args.out))
+    res_df.to_csv(args.out_tiral)
+    # Compute the accuracy for the test set
+    total = res_df.count()["target_image"]
+    correct = res_df[res_df["correct"]==1].count()["target_image"]
+    incorrect = res_df[res_df["correct"]==0].count()["target_image"]
+    print("Accuracy for {} is {}".format(args.trial, correct/total))
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Show, Attend, and Tell - Tutorial - Generate Caption')
-
-    parser.add_argument('--img', '-i', help='path to image')
+    
     parser.add_argument('--model', '-m', help='path to model')
     parser.add_argument('--word_map', '-wm', help='path to word map JSON')
     parser.add_argument('--beam_size', '-b', default=5, type=int, help='beam size for beam search')
     parser.add_argument('--dont_smooth', dest='smooth', action='store_false', help='do not smooth alpha overlay')
-
+    ''' Create caption for images in a folder (modified by violetxi) '''
+    parser.add_argument('--img_dir', '-i', help='path to image directory')
+    parser.add_argument('--out', '-o', help='Output directory to save visualization')
+    parser.add_argument('--gt', '-g', help='Ground truth for the testing set.')
+    parser.add_argument('--trial', '-t', help="Path to where tiral file is.")
+    parser.add_argument('--out_tiral', '-ot', help='Output directory to save trial results')
     args = parser.parse_args()
 
     # Load model
@@ -209,10 +280,17 @@ if __name__ == '__main__':
     with open(args.word_map, 'r') as j:
         word_map = json.load(j)
     rev_word_map = {v: k for k, v in word_map.items()}  # ix2word
-
-    # Encode, decode with attention and beam search
-    seq, alphas = caption_image_beam_search(encoder, decoder, args.img, word_map, args.beam_size)
-    alphas = torch.FloatTensor(alphas)
-
-    # Visualize caption and attention of best sequence
-    visualize_att(args.img, seq, alphas, rev_word_map, args.smooth)
+    
+    # Create captions for all images in the directory and visulization
+    img_caption = {}
+    imgs = [f for f in os.listdir(args.img_dir) if f.endswith('png') or f.endswith('jpg')]
+    for img in imgs:
+        img_full = os.path.join(args.img_dir, img)
+        # Encode, decode with attention and beam search
+        seq, alphas = caption_image_beam_search(encoder, decoder, img_full, word_map, args.beam_size)
+        alphas = torch.FloatTensor(alphas)
+        # Visualize caption and attention of best sequence
+        caption = visualize_att(img_full, seq, alphas, rev_word_map, args.smooth)
+        img_caption[img] = caption
+    #print(img_caption)
+    eval_trials(args.trial, img_caption, args.gt)

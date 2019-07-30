@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct,predicted_foil_numbers,predicted_target_numbers,true_foil_numbers,true_target_numbers
+0,seven ty eight,0.png,two hundred,13,1.png,eight hundred and seven,two hundred,13,0,200,200,807,78
+1,six ty four,2.png,two hundred ty,13,3.png,six hundred and four,two hundred and,14,1,200,N/A,604,64
+2,eigh ty five,4.png,two hundred,11,5.png,eight hundred and fif ty,two hundred and,14,1,200,200,850,85
+3,thir ty six,6.png,two hundred ty,12,7.png,three hundred and six,three hundred and,13,1,300,N/A,306,36
+4,twelve,8.png,one hundred and,13,9.png,twen ty two,two hundred and,12,0,200,100,22,12
+5,four hundred,10.png,four hundred and,4,11.png,four thousand,four hundred,0,0,400,400,4000,400
+6,seven ty six,12.png,two hundred ty,13,13.png,seven hundred and six ty,two hundred and,13,0,200,N/A,760,76
+7,thir ty one,14.png,five hundred ty,13,15.png,three hundred and one,three hundred and,12,0,300,N/A,301,31
+8,eigh ty nine,16.png,two hundred,10,17.png,eight hundred and nine,two hundred,10,0,200,200,809,89
+9,three hundred and seven,18.png,three hundred and,6,19.png,three hundred and six ty seven,three hundred and,6,0,300,300,367,307
+10,thir teen,20.png,one hundred ty,12,21.png,for ty two,four hundred and,12,0,400,N/A,42,13
+11,five hundred and eight,22.png,two hundred and,10,23.png,five hundred and eigh ty,two hundred and,10,0,200,200,580,508
+12,two thousand and three,24.png,two hundred,12,25.png,two thousand and thir ty,two hundred,12,0,200,200,2030,2003
+13,three hundred and six,26.png,three hundred and,4,27.png,three hundred and six ty,two hundred and,8,1,200,300,360,306
+14,seven,28.png,seven,0,29.png,eigh teen,six hundred,9,1,600,7,18,7
+15,five,30.png,five hundred,8,31.png,eight,two ty,6,0,N/A,500,8,5
+16,five hundred,32.png,two hundred and,8,33.png,five thousand,three hundred,4,0,300,200,5000,500
+17,thir ty six,34.png,two hundred ty,12,35.png,five hundred and nine,two hundred and,12,0,200,N/A,509,36
+18,for ty two,36.png,four hundred and,11,37.png,four hundred and twen ty,four hundred and ty,14,1,N/A,400,420,42
+19,twen ty seven,38.png,two hundred,9,39.png,two hundred and seven,two hundred and,11,1,200,200,207,27
+20,six hundred and eight,40.png,two hundred and,9,41.png,six hundred and fif ty eight,two hundred ty,12,1,N/A,200,658,608
+21,seven teen,42.png,four ty,8,43.png,twen ty eight,two hundred,10,1,200,N/A,28,17
+22,five hundred and six ty seven,44.png,two hundred and,17,45.png,five hundred and seven ty six,two hundred and,17,0,200,200,576,567
+23,one,46.png,one,0,47.png,nine,two,3,1,2,1,9,1

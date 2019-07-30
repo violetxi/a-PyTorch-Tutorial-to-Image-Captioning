@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct,predicted_foil_numbers,predicted_target_numbers,true_foil_numbers,true_target_numbers
+0,seventy eight,0.png,eighty,9,1.png,eight hundred and seven,two hundred and,14,1,200,80,807,78
+1,sixty four,2.png,eighty,8,3.png,six hundred and four,four hundred and twenty,22,1,420,80,604,64
+2,eighty five,4.png,eighty,5,5.png,eight hundred and fifty,two hundred and,14,1,200,80,850,85
+3,thirty six,6.png,thirty,4,7.png,three hundred and six,three hundred and,13,1,300,30,306,36
+4,twelve,8.png,one,5,9.png,twenty two,two hundred and,12,1,200,1,22,12
+5,four hundred,10.png,four hundred and,4,11.png,four thousand,two thousand,10,1,2000,400,4000,400
+6,seventy six,12.png,sixteen,9,13.png,seven hundred and sixty,two hundred and sixty,16,1,260,16,760,76
+7,thirty one,14.png,thirty,4,15.png,three hundred and one,three hundred and,12,1,300,30,301,31
+8,eighty nine,16.png,eighty,5,17.png,eight hundred and nine,two hundred and,13,1,200,80,809,89
+9,three hundred and seven,18.png,three hundred and,6,19.png,three hundred and sixty seven,three hundred and sixty,4,0,360,300,367,307
+10,thirteen,20.png,fifteen,3,21.png,forty two,four four,8,1,8,15,42,13
+11,five hundred and eight,22.png,five hundred and,6,23.png,five hundred and eighty,five hundred and,6,0,500,500,580,508
+12,two thousand and three,24.png,two thousand and,6,25.png,two thousand and thirty,two thousand and,6,0,2000,2000,2030,2003
+13,three hundred and six,26.png,three hundred and,4,27.png,three hundred and sixty,three hundred and sixty,2,1,360,300,360,306
+14,seven,28.png,seven,0,29.png,eighteen,eighty,6,1,80,7,18,7
+15,five,30.png,five,0,31.png,eight,eight,4,1,8,5,8,5
+16,five hundred,32.png,five hundred and,4,33.png,five thousand,three thousand,10,1,3000,500,5000,500
+17,thirty six,34.png,thirty,4,35.png,five hundred and nine,five hundred and,13,1,500,30,509,36
+18,forty two,36.png,four four,7,37.png,four hundred and twenty,four hundred and fifty,18,1,450,8,420,42
+19,twenty seven,38.png,twenty four,5,39.png,two hundred and seven,two hundred and twenty,16,1,220,24,207,27
+20,six hundred and eight,40.png,six hundred and,6,41.png,six hundred and fifty eight,two hundred and,9,1,200,600,658,608
+21,seventeen,42.png,one,7,43.png,twenty eight,two hundred,9,1,200,1,28,17
+22,five hundred and sixty seven,44.png,five hundred and sixty,6,45.png,five hundred and seventy six,five hundred and five,8,1,505,560,576,567
+23,one,46.png,one,0,47.png,nine,nine,2,1,9,1,9,1

@@ -1,5 +1,7 @@
+import os
 import sys
 import time
+import argparse
 import torch.backends.cudnn as cudnn
 import torch.optim
 import torch.utils.data
@@ -11,8 +13,14 @@ from datasets import *
 from utils import *
 from nltk.translate.bleu_score import corpus_bleu
 
+# I/O parameters for data and model (parser from command line)
+parser = argparse.ArgumentParser(description="Show, attend and tell training bootstrapping")
+parser.add_argument('--model', '-m', help="Path where model is saved")
+parser.add_argument('--data_dir', '-d', help="Path where data files are saved by create_input_files.py")
+parser.add_argument('--num_models', '-n', type=int, help="Number of models that needs to be trained")
+args = parser.parse_args()
 # Data parameters
-data_folder = 'data/caption_kids/set_2_t_sep/freq_1'  # folder with data files saved by create_input_files.py
+data_folder = args.data_dir  # folder with data files saved by create_input_files.py
 data_name = 'coco_1_cap_per_img_1_min_word_freq'  # base name shared by data files
 
 # Model parameters
@@ -25,18 +33,46 @@ cudnn.benchmark = True  # set to true only if inputs to model are fixed size; ot
 
 # Training parameters
 start_epoch = 0
-epochs = 100  # number of epochs to train for (if early stopping is not triggered)
+epochs = 500  # number of epochs to train for (if early stopping is not triggered)
 epochs_since_improvement = 0  # keeps track of number of epochs since there's been an improvement in validation BLEU
 batch_size = 64
 workers = 1  # for data-loading; right now, only 1 works with h5py
-encoder_lr = 1e-4  # learning rate for encoder if fine-tuning
-decoder_lr = 4e-4  # learning rate for decoder
+encoder_lr = 1e-5  # learning rate for encoder if fine-tuning
+decoder_lr = 4e-5  # learning rate for decoder
 grad_clip = 5.  # clip gradients at an absolute value of
 alpha_c = 1.  # regularization parameter for 'doubly stochastic attention', as in the paper
 best_bleu4 = 0.  # BLEU-4 score right now
 print_freq = 100  # print training/validation stats every __ batches
-fine_tune_encoder = False  # fine-tune encoder?
+fine_tune_encoder = True  # fine-tune encoder?
 checkpoint = None  # path to checkpoint, None if none
+
+# Save checkpoint
+def save_checkpoint_with_dir(model_dir, data_name, epoch, epochs_since_improvement, encoder, decoder, encoder_optimizer, decoder_optimizer,
+                             bleu4, is_best):
+    """
+    Saves model checkpoint.
+    :param data_name: base name of processed dataset
+    :param epoch: epoch number
+    :param epochs_since_improvement: number of epochs since last improvement in BLEU-4 score
+    :param encoder: encoder model
+    :param decoder: decoder model
+    :param encoder_optimizer: optimizer to update encoder's weights, if fine-tuning
+    :param decoder_optimizer: optimizer to update decoder's weights
+    :param bleu4: validation BLEU-4 score for this epoch
+    :param is_best: is this checkpoint the best so far?
+    """
+    state = {'epoch': epoch,
+             'epochs_since_improvement': epochs_since_improvement,
+             'bleu-4': bleu4,
+             'encoder': encoder,
+             'decoder': decoder,
+             'encoder_optimizer': encoder_optimizer,
+             'decoder_optimizer': decoder_optimizer}    
+    filename = 'checkpoint_' + data_name + '.pth.tar'
+    torch.save(state, os.path.join(model_dir, filename))
+    # If this checkpoint is the best so far, store a copy so it doesn't get overwritten by a worse checkpoint
+    if is_best:
+        torch.save(state, os.path.join(model_dir, 'BEST_' + filename))
 
 
 def main():
@@ -50,91 +86,106 @@ def main():
     word_map_file = os.path.join(data_folder, 'WORDMAP_' + data_name + '.json')
     with open(word_map_file, 'r') as j:
         word_map = json.load(j)
-
-    # Initialize / load checkpoint
-    if checkpoint is None:
-        decoder = DecoderWithAttention(attention_dim=attention_dim,
-                                       embed_dim=emb_dim,
-                                       decoder_dim=decoder_dim,
-                                       vocab_size=len(word_map),
-                                       dropout=dropout)
-        decoder_optimizer = torch.optim.Adam(params=filter(lambda p: p.requires_grad, decoder.parameters()),
-                                             lr=decoder_lr)
-        encoder = Encoder()
-        encoder.fine_tune(fine_tune_encoder)
-        encoder_optimizer = torch.optim.Adam(params=filter(lambda p: p.requires_grad, encoder.parameters()),
-                                             lr=encoder_lr) if fine_tune_encoder else None
-
-    else:
-        checkpoint = torch.load(checkpoint)
-        start_epoch = checkpoint['epoch'] + 1
-        epochs_since_improvement = checkpoint['epochs_since_improvement']
-        best_bleu4 = checkpoint['bleu-4']
-        decoder = checkpoint['decoder']
-        decoder_optimizer = checkpoint['decoder_optimizer']
-        encoder = checkpoint['encoder']
-        encoder_optimizer = checkpoint['encoder_optimizer']
-        if fine_tune_encoder is True and encoder_optimizer is None:
+    
+    # Train N models and save them to each directory
+    for n in range(1, args.num_models+1):
+        # Directory where the model will be saved
+        model_out = os.path.join(args.model, "model_{}".format(n))
+        try:
+            os.mkdir(model_out)
+        except:
+            pass
+        # Initialize / load checkpoint
+        if checkpoint is None:
+            decoder = DecoderWithAttention(attention_dim=attention_dim,
+                                           embed_dim=emb_dim,
+                                           decoder_dim=decoder_dim,
+                                           vocab_size=len(word_map),
+                                           dropout=dropout)
+            decoder_optimizer = torch.optim.Adam(params=filter(lambda p: p.requires_grad, decoder.parameters()),
+                                                 lr=decoder_lr)
+            encoder = Encoder()
             encoder.fine_tune(fine_tune_encoder)
             encoder_optimizer = torch.optim.Adam(params=filter(lambda p: p.requires_grad, encoder.parameters()),
-                                                 lr=encoder_lr)
-
-    # Move to GPU, if available
-    decoder = decoder.to(device)
-    encoder = encoder.to(device)
-
-    # Loss function
-    criterion = nn.CrossEntropyLoss().to(device)
-
-    # Custom dataloaders
-    normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
-                                     std=[0.229, 0.224, 0.225])
-    train_loader = torch.utils.data.DataLoader(
-        CaptionDataset(data_folder, data_name, 'TRAIN', transform=transforms.Compose([normalize])),
-        batch_size=batch_size, shuffle=True, num_workers=workers, pin_memory=True)
-    val_loader = torch.utils.data.DataLoader(
-        CaptionDataset(data_folder, data_name, 'VAL', transform=transforms.Compose([normalize])),
-        batch_size=batch_size, shuffle=True, num_workers=workers, pin_memory=True)
-
-    # Epochs
-    for epoch in range(start_epoch, epochs):
-
-        # Decay learning rate if there is no improvement for 8 consecutive epochs, and terminate training after 20
-        if epochs_since_improvement == 20:
-            break
-        if epochs_since_improvement > 0 and epochs_since_improvement % 8 == 0:
-            adjust_learning_rate(decoder_optimizer, 0.8)
-            if fine_tune_encoder:
-                adjust_learning_rate(encoder_optimizer, 0.8)
-
-        # One epoch's training
-        train(train_loader=train_loader,
-              encoder=encoder,
-              decoder=decoder,
-              criterion=criterion,
-              encoder_optimizer=encoder_optimizer,
-              decoder_optimizer=decoder_optimizer,
-              epoch=epoch)
-
-        # One epoch's validation
-        recent_bleu4 = validate(val_loader=val_loader,
-                                encoder=encoder,
-                                decoder=decoder,
-                                criterion=criterion)
-        # Check if there was an improvement
-        is_best = recent_bleu4 > best_bleu4
-        best_bleu4 = max(recent_bleu4, best_bleu4)
-        if not is_best:
-            epochs_since_improvement += 1
-            print("\nEpochs since last improvement: %d\n" % (epochs_since_improvement,))
+                                             lr=encoder_lr) if fine_tune_encoder else None
         else:
-            epochs_since_improvement = 0
+            checkpoint = torch.load(checkpoint)
+            start_epoch = checkpoint['epoch'] + 1
+            epochs_since_improvement = checkpoint['epochs_since_improvement']
+            best_bleu4 = checkpoint['bleu-4']
+            decoder = checkpoint['decoder']
+            decoder_optimizer = checkpoint['decoder_optimizer']
+            encoder = checkpoint['encoder']
+            encoder_optimizer = checkpoint['encoder_optimizer']
+            if fine_tune_encoder is True and encoder_optimizer is None:
+                encoder.fine_tune(fine_tune_encoder)
+                encoder_optimizer = torch.optim.Adam(params=filter(lambda p: p.requires_grad, encoder.parameters()),
+                                                     lr=encoder_lr)
 
-        # Save checkpoint
-        save_checkpoint(data_name, epoch, epochs_since_improvement, encoder, decoder, encoder_optimizer,
-                        decoder_optimizer, recent_bleu4, is_best)
+        # Move to GPU, if available
+        decoder = decoder.to(device)
+        encoder = encoder.to(device)
 
+        # Loss function
+        criterion = nn.CrossEntropyLoss().to(device)
 
+        # Custom dataloaders
+        normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406],
+                                         std=[0.229, 0.224, 0.225])
+        train_loader = torch.utils.data.DataLoader(
+            CaptionDataset(data_folder, data_name, 'TRAIN', transform=transforms.Compose([normalize])),
+            batch_size=batch_size, shuffle=True, num_workers=workers, pin_memory=True)
+        val_loader = torch.utils.data.DataLoader(
+            CaptionDataset(data_folder, data_name, 'VAL', transform=transforms.Compose([normalize])),
+            batch_size=batch_size, shuffle=True, num_workers=workers, pin_memory=True)
+
+        # Epochs
+        for epoch in range(start_epoch, epochs):
+
+            # Decay learning rate if there is no improvement for 20 consecutive epochs, and terminate training after 100
+            if epochs_since_improvement == 100:
+                break
+            if epochs_since_improvement > 0 and epochs_since_improvement % 50 == 0:
+                adjust_learning_rate(decoder_optimizer, 0.8)
+                if fine_tune_encoder:
+                    adjust_learning_rate(encoder_optimizer, 0.8)
+
+            # One epoch's training
+            train(train_loader=train_loader,
+                  encoder=encoder,
+                  decoder=decoder,
+                  criterion=criterion,
+                  encoder_optimizer=encoder_optimizer,
+                  decoder_optimizer=decoder_optimizer,
+                  epoch=epoch)
+
+            # One epoch's validation
+            recent_bleu4 = validate(val_loader=val_loader,
+                                    encoder=encoder,
+                                    decoder=decoder,
+                                    criterion=criterion)
+            # Check if there was an improvement
+            is_best = recent_bleu4 > best_bleu4
+            best_bleu4 = max(recent_bleu4, best_bleu4)
+            if not is_best:
+                epochs_since_improvement += 1
+                print("\nEpochs since last improvement: %d\n" % (epochs_since_improvement,))
+            else:
+                epochs_since_improvement = 0
+
+            # Save check point
+            save_checkpoint_with_dir(model_out, data_name, epoch, epochs_since_improvement, encoder, decoder, encoder_optimizer,
+                                     decoder_optimizer, recent_bleu4, is_best)
+        # Delete encoder&decoder objects and reset memory
+        del decoder
+        del encoder
+        torch.cuda.empty_cache()
+        # Reset epochs since improvement to 0 for a new round of training
+        epochs_since_improvement = 0
+        best_bleu4, start_epoch = 0, 0
+        check_point = None
+        fine_tune_encoder = False
+            
 def train(train_loader, encoder, decoder, criterion, encoder_optimizer, decoder_optimizer, epoch):
     """
     Performs one epoch's training.
@@ -169,7 +220,7 @@ def train(train_loader, encoder, decoder, criterion, encoder_optimizer, decoder_
 
         # Forward prop.
         imgs = encoder(imgs)
-        scores, caps_sorted, decode_lengths, alphas, sort_ind = decoder(imgs, caps, caplens)
+        _, scores, caps_sorted, decode_lengths, alphas, sort_ind = decoder(imgs, caps, caplens)
 
         # Since we decoded starting with <start>, the targets are all words after <start>, up to <end>
         targets = caps_sorted[:, 1:]
@@ -256,7 +307,7 @@ def validate(val_loader, encoder, decoder, criterion):
         # Forward prop.
         if encoder is not None:
             imgs = encoder(imgs)
-        scores, caps_sorted, decode_lengths, alphas, sort_ind = decoder(imgs, caps, caplens)
+        _, scores, caps_sorted, decode_lengths, alphas, sort_ind = decoder(imgs, caps, caplens)
 
         # Since we decoded starting with <start>, the targets are all words after <start>, up to <end>
         targets = caps_sorted[:, 1:]
@@ -324,5 +375,6 @@ def validate(val_loader, encoder, decoder, criterion):
     return bleu4
 
 
-if __name__ == '__main__':
+
+if __name__ == '__main__':        
     main()
