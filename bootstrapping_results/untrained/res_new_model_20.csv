@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,eighty one,1.png,eight hundred and seven,sixty sixty three three,False,78,807,81,126
+1,sixty four,2.png,seven thousand,3.png,six hundred and four,sixty sixty sixty three,False,64,604,7000,183
+2,eighty five,4.png,seven seven,5.png,eight hundred and fifty,eighty seven three three,False,85,850,14,93
+3,thirty six,6.png,seven thousand,7.png,three hundred and six,sixty eighty <unk> <unk>,True,36,306,7000,N/A
+4,twelve,8.png,sixty,9.png,twenty two,thousand thousand,False,12,22,60,0
+5,four hundred,10.png,sixty sixty,11.png,four thousand,sixty sixty,True,400,4000,120,120
+6,seventy six,12.png,sixty sixty,13.png,seven hundred and sixty,sixty sixty three three,False,76,760,120,126
+7,thirty one,14.png,seven fifteen,15.png,three hundred and one,one one thousand <unk>,True,31,301,22,N/A
+8,eighty nine,16.png,seven seven,17.png,eight hundred and nine,eighty sixty three three,True,89,809,14,146
+9,three hundred and seven,18.png,one one thousand fifteen,19.png,three hundred and sixty seven,eighty sixty thousand fifteen <unk>,True,307,367,2015,N/A
+10,thirteen,20.png,seven,21.png,forty two,thousand thousand,True,13,42,7,0
+11,five hundred and eight,22.png,eighty eighty three three,23.png,five hundred and eighty,eighty eighty three three,True,508,580,166,166
+12,two thousand and three,24.png,twenty three three three,25.png,two thousand and thirty,thousand three three three,False,2003,2030,29,9
+13,three hundred and six,26.png,sixty eighty <unk> <unk>,27.png,three hundred and sixty,eighty eighty eighty <unk>,False,306,360,N/A,N/A
+14,seven,28.png,thousand,29.png,eighteen,eighty,False,7,18,0,80
+15,five,30.png,seven,31.png,eight,seven,True,5,8,7,7
+16,five hundred,32.png,seven sixty,33.png,five thousand,eighty sixty,True,500,5000,67,140
+17,thirty six,34.png,seven thousand,35.png,five hundred and nine,eighty eighty eighty <unk>,True,36,509,7000,N/A
+18,forty two,36.png,thousand thousand,37.png,four hundred and twenty,sixty sixty sixty three,True,42,420,0,183
+19,twenty seven,38.png,sixty thousand,39.png,two hundred and seven,sixty sixty three three,False,27,207,60000,126
+20,six hundred and eight,40.png,sixty sixty three three,41.png,six hundred and fifty eight,eighty sixty three three three,False,608,658,126,149
+21,seventeen,42.png,thirty,43.png,twenty eight,seven seven,False,17,28,30,14
+22,five hundred and sixty seven,44.png,eighty sixty sixty sixty sixty,45.png,five hundred and seventy six,seven sixty sixty fifteen fifteen,True,567,576,320,157
+23,one,46.png,thirty,47.png,nine,seven,False,1,9,30,7

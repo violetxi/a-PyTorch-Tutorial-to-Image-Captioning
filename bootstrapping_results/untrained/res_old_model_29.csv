@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,two hundred and six,0.png,one fifteen fifteen fifteen,1.png,two hundred and sixty,fifteen fifteen fifteen fifteen,True,206,260,46,60
+1,one hundred,2.png,one fifteen,3.png,one thousand,one <pad>,True,100,1000,16,N/A
+2,sixty seven,4.png,fifteen fifteen,5.png,six hundred and seventy,seven fifteen fifteen fifteen,False,67,670,30,52
+3,one thousand and two,6.png,seven <pad> <pad> <pad>,7.png,one thousand and twenty,seven <pad> <pad> <pad>,False,1002,1020,N/A,N/A
+4,twenty one,8.png,fifteen fifteen,9.png,two hundred and one,fifteen fifteen fifteen fifteen,False,21,201,30,60
+5,one hundred and five,10.png,one <pad> <pad> <pad>,11.png,one hundred and twenty five,seven <pad> <pad> <pad> <pad>,True,105,125,N/A,N/A
+6,three hundred and five,12.png,one one <pad> <pad>,13.png,three hundred and fifty,one <pad> <pad> <pad>,False,305,350,N/A,N/A
+7,forty two,14.png,hundred nine,15.png,four hundred and two,one <pad> <pad> <pad>,True,42,402,9,N/A
+8,five,16.png,hundred,17.png,fifteen,hundred,True,5,15,0,0
+9,eleven,18.png,hundred,19.png,twenty four,hundred fifteen,False,11,24,0,15
+10,two,20.png,hundred,21.png,eight,hundred,False,2,8,0,0
+11,twenty five,22.png,seven forty,23.png,four hundred and five,one <pad> <pad> <pad>,False,25,405,47,N/A
+12,sixty two,24.png,fifteen forty,25.png,six hundred and two,one fifteen fifteen fifteen,True,62,602,55,46
+13,twenty one,26.png,fifteen fifteen,27.png,two hundred and ten,fifteen fifteen fifteen fifteen,False,21,210,30,60
+14,twenty four,28.png,hundred fifteen,29.png,two hundred and four,one fifteen fifteen <pad>,False,24,204,15,N/A
+15,seventeen,30.png,hundred,31.png,twenty one,fifteen fifteen,True,17,21,0,30
+16,thirty five,32.png,seven forty,33.png,three hundred and five,one one <pad> <pad>,True,35,305,47,N/A
+17,forty seven,34.png,hundred nine,35.png,four hundred and seventy,one nine nine nine,False,47,470,9,28
+18,nineteen,36.png,hundred,37.png,one hundred and nine,one <pad> <pad> <pad>,True,19,109,0,N/A
+19,sixteen,38.png,fifteen,39.png,one hundred and six,fifteen fifteen fifteen fifteen,True,16,106,15,60
+20,fifty three,40.png,seven forty,41.png,eighty,forty,True,53,80,47,40
+21,two hundred and sixteen,42.png,fifteen fifteen fifteen fifteen,43.png,two hundred and sixty one,fifteen fifteen fifteen fifteen fifteen,True,216,261,60,75
+22,four hundred and twelve,44.png,one nine nine nine,45.png,four hundred and twenty one,one nine nine <pad> <pad>,True,412,421,28,N/A
+23,six,46.png,fifteen,47.png,thirteen,hundred,False,6,13,15,0

@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,six six,1.png,eight hundred and seven,six six thousand thousand,True,78,807,12,12000
+1,sixty four,2.png,six six,3.png,six hundred and four,six seven thousand thousand,True,64,604,12,13000
+2,eighty five,4.png,six six,5.png,eight hundred and fifty,six six thousand thousand,True,85,850,12,12000
+3,thirty six,6.png,six six,7.png,three hundred and six,six eight eight thousand,True,36,306,12,22000
+4,twelve,8.png,six,9.png,twenty two,six six,True,12,22,6,12
+5,four hundred,10.png,six seven,11.png,four thousand,ninety seven,True,400,4000,13,97
+6,seventy six,12.png,six six,13.png,seven hundred and sixty,six six six thousand,True,76,760,12,18000
+7,thirty one,14.png,six six,15.png,three hundred and one,six eight eight eight,False,31,301,12,30
+8,eighty nine,16.png,six six,17.png,eight hundred and nine,ninety thousand thousand thousand,False,89,809,12,90000
+9,three hundred and seven,18.png,six six eight eight,19.png,three hundred and sixty seven,six six six thousand thousand,False,307,367,28,18000
+10,thirteen,20.png,six,21.png,forty two,six six,True,13,42,6,12
+11,five hundred and eight,22.png,six six thousand thousand,23.png,five hundred and eighty,six six thousand thousand,True,508,580,12000,12000
+12,two thousand and three,24.png,six six thousand thousand,25.png,two thousand and thirty,ninety six eight thousand,True,2003,2030,12000,104000
+13,three hundred and six,26.png,six eight eight thousand,27.png,three hundred and sixty,six eight eight eight,False,306,360,22000,30
+14,seven,28.png,six,29.png,eighteen,six,False,7,18,6,6
+15,five,30.png,six,31.png,eight,six,True,5,8,6,6
+16,five hundred,32.png,six six,33.png,five thousand,ninety six,True,500,5000,12,96
+17,thirty six,34.png,six six,35.png,five hundred and nine,six eight thousand thousand,True,36,509,12,14000
+18,forty two,36.png,six six,37.png,four hundred and twenty,six seven seven three,True,42,420,12,23
+19,twenty seven,38.png,six six,39.png,two hundred and seven,six six six six,True,27,207,12,24
+20,six hundred and eight,40.png,ninety six thousand thousand,41.png,six hundred and fifty eight,six six thousand thousand thousand,False,608,658,96000,12000
+21,seventeen,42.png,hundred,43.png,twenty eight,six six,True,17,28,0,12
+22,five hundred and sixty seven,44.png,six six thousand thousand thousand,45.png,five hundred and seventy six,six six six six six,False,567,576,12000,30
+23,one,46.png,six,47.png,nine,six,False,1,9,6,6

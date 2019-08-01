@@ -18,7 +18,7 @@ from PIL import Image
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
-def caption_image_beam_search(encoder, decoder, image_path, word_map, beam_size=3):
+def caption_image_beam_search(encoder, decoder, image_path, word_map, beam_size=1):
     """
     Reads an image and captions it with beam search.
 
@@ -341,7 +341,6 @@ if __name__ == '__main__':
         with open(args.word_map, 'r') as j:
             word_map = json.load(j)
         rev_word_map = {v: k for k, v in word_map.items()}  # ix2word
-        " Pre-test situation uses n randomly initialized caption networks and evaluate "
         "For post-test situation loads n trained models"
         cur_model = "model_" + str(n)
         model_path = os.path.join(args.model_dir, os.path.join(cur_model, model_file))

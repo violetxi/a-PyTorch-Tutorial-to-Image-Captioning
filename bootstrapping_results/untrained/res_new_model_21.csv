@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,sixty sixty,1.png,eight hundred and seven,sixty sixty sixty sixty,True,78,807,120,240
+1,sixty four,2.png,sixty sixty,3.png,six hundred and four,sixty sixty fifteen fifteen,True,64,604,120,150
+2,eighty five,4.png,sixty sixty,5.png,eight hundred and fifty,sixty sixty fifteen fifteen,False,85,850,120,150
+3,thirty six,6.png,sixty sixty,7.png,three hundred and six,sixty sixty fifteen fifteen,False,36,306,120,150
+4,twelve,8.png,sixty,9.png,twenty two,sixty sixty,True,12,22,60,120
+5,four hundred,10.png,sixty sixty,11.png,four thousand,sixty fifteen,True,400,4000,120,75
+6,seventy six,12.png,sixty sixty,13.png,seven hundred and sixty,sixty sixty sixty six,False,76,760,120,186
+7,thirty one,14.png,sixty sixty,15.png,three hundred and one,sixty sixty fifteen fifteen,True,31,301,120,150
+8,eighty nine,16.png,sixty sixty,17.png,eight hundred and nine,sixty fifteen fifteen fifteen,True,89,809,120,105
+9,three hundred and seven,18.png,sixty sixty sixty sixty,19.png,three hundred and sixty seven,sixty sixty sixty sixty sixty,True,307,367,240,300
+10,thirteen,20.png,sixty,21.png,forty two,sixty sixty,True,13,42,60,120
+11,five hundred and eight,22.png,sixty sixty fifteen fifteen,23.png,five hundred and eighty,sixty sixty fifteen fifteen,True,508,580,150,150
+12,two thousand and three,24.png,sixty fifteen fifteen fifteen,25.png,two thousand and thirty,sixty fifteen fifteen fifteen,False,2003,2030,105,105
+13,three hundred and six,26.png,sixty sixty fifteen fifteen,27.png,three hundred and sixty,sixty sixty fifteen fifteen,False,306,360,150,150
+14,seven,28.png,sixty,29.png,eighteen,sixty,False,7,18,60,60
+15,five,30.png,two,31.png,eight,sixty,True,5,8,2,60
+16,five hundred,32.png,sixty sixty,33.png,five thousand,sixty fifteen,True,500,5000,120,75
+17,thirty six,34.png,sixty sixty,35.png,five hundred and nine,sixty sixty fifteen fifteen,False,36,509,120,150
+18,forty two,36.png,sixty sixty,37.png,four hundred and twenty,sixty sixty sixty fifteen,True,42,420,120,195
+19,twenty seven,38.png,sixty sixty,39.png,two hundred and seven,sixty sixty sixty six,True,27,207,120,186
+20,six hundred and eight,40.png,sixty fifteen fifteen fifteen,41.png,six hundred and fifty eight,sixty sixty fifteen fifteen fifteen,True,608,658,105,165
+21,seventeen,42.png,sixty,43.png,twenty eight,sixty sixty,True,17,28,60,120
+22,five hundred and sixty seven,44.png,sixty sixty sixty sixty six,45.png,five hundred and seventy six,sixty sixty sixty sixty fifteen,True,567,576,246,255
+23,one,46.png,<unk>,47.png,nine,sixty,True,1,9,N/A,60

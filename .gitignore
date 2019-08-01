@@ -11,12 +11,10 @@ __pycache__
 *tar
 
 # Large raw files
-attention_map_per_digit/
 raw_attention_map/
 chinese_results/
 inference_vis/
 results/
 *npy
 
-# Temporarily ignored files
-inference_vis_bootstrap/
+

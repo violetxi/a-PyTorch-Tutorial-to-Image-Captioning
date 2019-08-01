@@ -1,25 +1,25 @@
-,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
-0,two hundred and six,0.png,four hundred and,1.png,two hundred and sixty,four hundred and,True,206,260,400,400
-1,one hundred,2.png,one hundred,3.png,one thousand,one,True,100,1000,100,1
-2,sixty seven,4.png,four hundred and,5.png,six hundred and seventy,four hundred and,True,67,670,400,400
-3,one thousand and two,6.png,one hundred and,7.png,one thousand and twenty,five hundred and,True,1002,1020,100,500
-4,twenty one,8.png,one hundred and,9.png,two hundred and one,four hundred,True,21,201,100,400
-5,one hundred and five,10.png,one hundred and five,11.png,one hundred and twenty five,one hundred and five,False,105,125,105,105
-6,three hundred and five,12.png,five hundred and five,13.png,three hundred and fifty,five hundred and,False,305,350,505,500
-7,forty two,14.png,four hundred,15.png,four hundred and two,four hundred and,True,42,402,400,400
-8,five,16.png,five,17.png,fifteen,one hundred and,True,5,15,5,100
-9,eleven,18.png,one hundred,19.png,twenty four,one hundred and,True,11,24,100,100
-10,two,20.png,two,21.png,eight,two,True,2,8,2,2
-11,twenty five,22.png,one hundred and,23.png,four hundred and five,one hundred and five,True,25,405,100,105
-12,sixty two,24.png,two hundred and,25.png,six hundred and two,two hundred and,True,62,602,200,200
-13,twenty one,26.png,one hundred and,27.png,two hundred and ten,one hundred and,True,21,210,100,100
-14,twenty four,28.png,one hundred and,29.png,two hundred and four,four hundred,False,24,204,100,400
-15,seventeen,30.png,one hundred,31.png,twenty one,one hundred and,True,17,21,100,100
-16,thirty five,32.png,five hundred and,33.png,three hundred and five,five hundred and five,False,35,305,500,505
-17,forty seven,34.png,four hundred and,35.png,four hundred and seventy,four,False,47,470,400,4
-18,nineteen,36.png,one hundred,37.png,one hundred and nine,one,True,19,109,100,1
-19,sixteen,38.png,one hundred,39.png,one hundred and six,four hundred and,True,16,106,100,400
-20,fifty three,40.png,five hundred and,41.png,eighty,one,True,53,80,500,1
-21,two hundred and sixteen,42.png,four hundred and,43.png,two hundred and sixty one,one hundred and,False,216,261,400,100
-22,four hundred and twelve,44.png,one hundred and,45.png,four hundred and twenty one,four hundred and,False,412,421,100,400
-23,six,46.png,one hundred,47.png,thirteen,one hundred,True,6,13,100,100
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct
+0,two hundred and six,0.png,four hundred and,1.png,two hundred and sixty,four hundred and,True
+1,one hundred,2.png,one hundred,3.png,one thousand,one,True
+2,sixty seven,4.png,four hundred and,5.png,six hundred and seventy,four hundred and,True
+3,one thousand and two,6.png,one hundred and,7.png,one thousand and twenty,five hundred and,True
+4,twenty one,8.png,one hundred and,9.png,two hundred and one,four hundred,True
+5,one hundred and five,10.png,one hundred and five,11.png,one hundred and twenty five,one hundred and five,False
+6,three hundred and five,12.png,five hundred and five,13.png,three hundred and fifty,five hundred and,False
+7,forty two,14.png,four hundred,15.png,four hundred and two,four hundred and,True
+8,five,16.png,five,17.png,fifteen,one hundred and,True
+9,eleven,18.png,one hundred,19.png,twenty four,one hundred and,True
+10,two,20.png,two,21.png,eight,two,True
+11,twenty five,22.png,one hundred and,23.png,four hundred and five,one hundred and five,True
+12,sixty two,24.png,two hundred and,25.png,six hundred and two,two hundred and,True
+13,twenty one,26.png,one hundred and,27.png,two hundred and ten,one hundred and,True
+14,twenty four,28.png,one hundred and,29.png,two hundred and four,four hundred,False
+15,seventeen,30.png,one hundred,31.png,twenty one,one hundred and,True
+16,thirty five,32.png,five hundred and,33.png,three hundred and five,five hundred and five,False
+17,forty seven,34.png,four hundred and,35.png,four hundred and seventy,four,False
+18,nineteen,36.png,one hundred,37.png,one hundred and nine,one,True
+19,sixteen,38.png,one hundred,39.png,one hundred and six,four hundred and,True
+20,fifty three,40.png,five hundred and,41.png,eighty,one,True
+21,two hundred and sixteen,42.png,four hundred and,43.png,two hundred and sixty one,one hundred and,False
+22,four hundred and twelve,44.png,one hundred and,45.png,four hundred and twenty one,four hundred and,False
+23,six,46.png,one hundred,47.png,thirteen,one hundred,True

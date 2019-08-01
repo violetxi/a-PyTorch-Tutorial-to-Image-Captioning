@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,nine nine,1.png,eight hundred and seven,nine nine <end> <end>,True,78,807,18,N/A
+1,sixty four,2.png,nine nine,3.png,six hundred and four,nine nine one one,False,64,604,18,20
+2,eighty five,4.png,nine nine,5.png,eight hundred and fifty,nine nine <end> <end>,False,85,850,18,N/A
+3,thirty six,6.png,nine nine,7.png,three hundred and six,nine nine <end> <end>,True,36,306,18,N/A
+4,twelve,8.png,one,9.png,twenty two,nine nine,False,12,22,1,18
+5,four hundred,10.png,nine nine,11.png,four thousand,nine twenty,False,400,4000,18,29
+6,seventy six,12.png,nine nine,13.png,seven hundred and sixty,nine nine nine <end>,False,76,760,18,N/A
+7,thirty one,14.png,nine nine,15.png,three hundred and one,nine nine nine nine,True,31,301,18,36
+8,eighty nine,16.png,<pad> nine,17.png,eight hundred and nine,nine <end> <end> <end>,True,89,809,N/A,N/A
+9,three hundred and seven,18.png,nine nine nine <end>,19.png,three hundred and sixty seven,eight nine nine nine <end>,False,307,367,N/A,N/A
+10,thirteen,20.png,one,21.png,forty two,eight one,True,13,42,1,9
+11,five hundred and eight,22.png,nine nine <end> <end>,23.png,five hundred and eighty,nine nine <end> <end>,True,508,580,N/A,N/A
+12,two thousand and three,24.png,nine eight one one,25.png,two thousand and thirty,nine nine twenty twenty,True,2003,2030,19,58
+13,three hundred and six,26.png,nine nine <end> <end>,27.png,three hundred and sixty,nine nine <end> <end>,False,306,360,N/A,N/A
+14,seven,28.png,eight,29.png,eighteen,nine,True,7,18,8,9
+15,five,30.png,nine,31.png,eight,nine,False,5,8,9,9
+16,five hundred,32.png,nine nine,33.png,five thousand,nine forty,False,500,5000,18,49
+17,thirty six,34.png,nine nine,35.png,five hundred and nine,nine nine <end> <end>,True,36,509,18,N/A
+18,forty two,36.png,eight one,37.png,four hundred and twenty,nine nine one one,False,42,420,9,20
+19,twenty seven,38.png,nine nine,39.png,two hundred and seven,nine nine eight one,True,27,207,18,27
+20,six hundred and eight,40.png,nine <end> <end> <end>,41.png,six hundred and fifty eight,nine nine <end> <end> <end>,True,608,658,N/A,N/A
+21,seventeen,42.png,nine,43.png,twenty eight,nine nine,False,17,28,9,18
+22,five hundred and sixty seven,44.png,nine nine nine one <end>,45.png,five hundred and seventy six,nine nine nine nine <end>,False,567,576,N/A,N/A
+23,one,46.png,nine,47.png,nine,nine,True,1,9,9,9

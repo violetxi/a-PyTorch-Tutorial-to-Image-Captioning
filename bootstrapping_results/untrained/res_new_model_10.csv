@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,<unk> <unk>,1.png,eight hundred and seven,<unk> <unk> <unk> <unk>,False,78,807,N/A,N/A
+1,sixty four,2.png,<unk> <unk>,3.png,six hundred and four,<unk> <unk> <unk> <unk>,True,64,604,N/A,N/A
+2,eighty five,4.png,<unk> <unk>,5.png,eight hundred and fifty,<unk> <unk> <unk> <unk>,False,85,850,N/A,N/A
+3,thirty six,6.png,<unk> <unk>,7.png,three hundred and six,<unk> <unk> and and,True,36,306,N/A,N/A
+4,twelve,8.png,<unk>,9.png,twenty two,<unk> <unk>,False,12,22,N/A,N/A
+5,four hundred,10.png,<unk> <unk>,11.png,four thousand,<unk> <unk>,True,400,4000,N/A,N/A
+6,seventy six,12.png,<unk> <unk>,13.png,seven hundred and sixty,<unk> <unk> <unk> <unk>,False,76,760,N/A,N/A
+7,thirty one,14.png,<unk> <unk>,15.png,three hundred and one,<unk> <unk> <unk> fifty,True,31,301,N/A,N/A
+8,eighty nine,16.png,<unk> <unk>,17.png,eight hundred and nine,<unk> <unk> <unk> <unk>,False,89,809,N/A,N/A
+9,three hundred and seven,18.png,<unk> <unk> <unk> fifty,19.png,three hundred and sixty seven,<unk> <unk> and fifty fifty,True,307,367,N/A,N/A
+10,thirteen,20.png,<unk>,21.png,forty two,<unk> <unk>,True,13,42,N/A,N/A
+11,five hundred and eight,22.png,<unk> <unk> <unk> <unk>,23.png,five hundred and eighty,<unk> <unk> <unk> <unk>,False,508,580,N/A,N/A
+12,two thousand and three,24.png,<unk> <unk> and and,25.png,two thousand and thirty,<unk> <unk> and and,True,2003,2030,N/A,N/A
+13,three hundred and six,26.png,<unk> <unk> and and,27.png,three hundred and sixty,<unk> <unk> and and,True,306,360,N/A,N/A
+14,seven,28.png,<unk>,29.png,eighteen,<unk>,False,7,18,N/A,N/A
+15,five,30.png,<unk>,31.png,eight,<unk>,True,5,8,N/A,N/A
+16,five hundred,32.png,<unk> <unk>,33.png,five thousand,<unk> <unk>,True,500,5000,N/A,N/A
+17,thirty six,34.png,<unk> <unk>,35.png,five hundred and nine,<unk> <unk> <unk> <unk>,True,36,509,N/A,N/A
+18,forty two,36.png,<unk> <unk>,37.png,four hundred and twenty,<unk> <unk> <unk> <unk>,False,42,420,N/A,N/A
+19,twenty seven,38.png,<unk> <unk>,39.png,two hundred and seven,<unk> <unk> <unk> <unk>,True,27,207,N/A,N/A
+20,six hundred and eight,40.png,<unk> <unk> <unk> <unk>,41.png,six hundred and fifty eight,<unk> <unk> <unk> <unk> <unk>,False,608,658,N/A,N/A
+21,seventeen,42.png,<unk>,43.png,twenty eight,<unk> <unk>,False,17,28,N/A,N/A
+22,five hundred and sixty seven,44.png,<unk> <unk> <unk> <unk> <unk>,45.png,five hundred and seventy six,<unk> <unk> <unk> <unk> <unk>,False,567,576,N/A,N/A
+23,one,46.png,<unk>,47.png,nine,<unk>,True,1,9,N/A,N/A

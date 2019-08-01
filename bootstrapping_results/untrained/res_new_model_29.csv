@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,<start> forty,1.png,eight hundred and seven,twenty <start> <start> two,False,78,807,N/A,N/A
+1,sixty four,2.png,<start> <start>,3.png,six hundred and four,<start> <start> <start> <start>,True,64,604,N/A,N/A
+2,eighty five,4.png,<start> <start>,5.png,eight hundred and fifty,<start> <start> <start> two,True,85,850,N/A,N/A
+3,thirty six,6.png,<start> <start>,7.png,three hundred and six,<start> <start> <start> <start>,True,36,306,N/A,N/A
+4,twelve,8.png,<start>,9.png,twenty two,<start> <start>,False,12,22,N/A,N/A
+5,four hundred,10.png,twenty <start>,11.png,four thousand,twenty <start>,True,400,4000,N/A,N/A
+6,seventy six,12.png,twenty <end>,13.png,seven hundred and sixty,twenty twenty <end> <end>,False,76,760,N/A,N/A
+7,thirty one,14.png,<start> forty,15.png,three hundred and one,<start> <start> <start> forty,True,31,301,N/A,N/A
+8,eighty nine,16.png,<start> <start>,17.png,eight hundred and nine,<start> <start> <start> <start>,True,89,809,N/A,N/A
+9,three hundred and seven,18.png,<start> <start> <start> two,19.png,three hundred and sixty seven,twenty forty forty forty two,True,307,367,N/A,142
+10,thirteen,20.png,<start>,21.png,forty two,<start> <start>,True,13,42,N/A,N/A
+11,five hundred and eight,22.png,<start> <start> <start> <start>,23.png,five hundred and eighty,<start> <start> <start> <start>,True,508,580,N/A,N/A
+12,two thousand and three,24.png,twenty <start> <start> <start>,25.png,two thousand and thirty,twenty <start> <start> two,True,2003,2030,N/A,N/A
+13,three hundred and six,26.png,<start> <start> <start> <start>,27.png,three hundred and sixty,<start> <start> <start> <start>,False,306,360,N/A,N/A
+14,seven,28.png,forty,29.png,eighteen,<start>,True,7,18,40,N/A
+15,five,30.png,<start>,31.png,eight,<start>,True,5,8,N/A,N/A
+16,five hundred,32.png,<start> <start>,33.png,five thousand,twenty <start>,True,500,5000,N/A,N/A
+17,thirty six,34.png,<start> <start>,35.png,five hundred and nine,<start> <start> <start> <start>,True,36,509,N/A,N/A
+18,forty two,36.png,<start> <start>,37.png,four hundred and twenty,twenty <start> <start> <start>,True,42,420,N/A,N/A
+19,twenty seven,38.png,twenty <end>,39.png,two hundred and seven,twenty <start> <end> <end>,True,27,207,N/A,N/A
+20,six hundred and eight,40.png,<start> <start> <start> <start>,41.png,six hundred and fifty eight,<start> <start> <start> two two,True,608,658,N/A,N/A
+21,seventeen,42.png,forty,43.png,twenty eight,<start> <start>,False,17,28,40,N/A
+22,five hundred and sixty seven,44.png,<start> <start> forty <unk> <unk>,45.png,five hundred and seventy six,<start> <start> forty <end> two,True,567,576,N/A,N/A
+23,one,46.png,forty,47.png,nine,<start>,True,1,9,40,N/A

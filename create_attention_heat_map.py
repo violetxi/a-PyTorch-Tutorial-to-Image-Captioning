@@ -30,7 +30,8 @@ def load_gt():
 # Compute avg attention map at each attention position
 def compute_attention_map(digit_imgs, att_map_dir, out):
     model_att_maps_sum = {}
-    model_images_valid = unqualified_list(args.res_dir)
+    # Only use correctly recognized numbers
+    #model_images_valid = unqualified_list(args.res_dir)
     for model in os.listdir(att_map_dir):
         # Keep track of current map
         added_maps = {}
@@ -52,7 +53,10 @@ def compute_attention_map(digit_imgs, att_map_dir, out):
         # Break map down to each digit
         digit_att_map_files = {digit : [] for digit in [2, 3, 4]}
         for img in gt_data.keys():
-            if img in model_images_valid[model]:
+            # Check if images were correctly recognized
+            #if img in model_images_valid[model]:
+            # Use all images (for Untrained cases)
+            try:
                 # Retrieve all the map related to an image
                 img_att_map_files = [att_map_file for att_map_file in att_map_files if att_map_file[ : att_map_file.find('_')] == img]            
                 digit = digit_imgs[img]            
@@ -96,6 +100,8 @@ def compute_attention_map(digit_imgs, att_map_dir, out):
                             added_maps[4]['unit'] += cur_map
                         i += 1                        
                 model_att_maps_sum[model] = added_maps
+            except:
+                pass
 
     ''' Finished with reading raw maps '''
     # Add all the heat maps together for each model (final results need to be / num of images per digit * number of models
@@ -127,8 +133,7 @@ def compute_attention_map(digit_imgs, att_map_dir, out):
             name = "{}_{}.png".format(digit, pos)
             out = os.path.join(args.out, "{}_{}_{}.npy".format(digit, pos, args.set_type))
             np.save(out, digit_att_map_sum[digit][pos])
-            print(out)
-            plt.title(name)            
+            plt.title(name)
             plt.savefig(os.path.join(args.out, name))
             plt.close()
             #plt.show()
