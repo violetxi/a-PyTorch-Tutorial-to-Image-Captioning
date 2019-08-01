@@ -16,6 +16,7 @@ raw_attention_map/
 chinese_results/
 inference_vis/
 results/
+*npy
 
 # Temporarily ignored files
 inference_vis_bootstrap/

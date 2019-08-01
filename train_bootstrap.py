@@ -33,15 +33,16 @@ cudnn.benchmark = True  # set to true only if inputs to model are fixed size; ot
 
 # Training parameters
 start_epoch = 0
-epochs = 500  # number of epochs to train for (if early stopping is not triggered)
+epochs = 100  # number of epochs to train for (if early stopping is not triggered)
 epochs_since_improvement = 0  # keeps track of number of epochs since there's been an improvement in validation BLEU
 batch_size = 64
 workers = 1  # for data-loading; right now, only 1 works with h5py
-encoder_lr = 1e-5  # learning rate for encoder if fine-tuning
-decoder_lr = 4e-5  # learning rate for decoder
+encoder_lr = 1e-4  # learning rate for encoder if fine-tuning
+decoder_lr = 4e-4  # learning rate for decoder
 grad_clip = 5.  # clip gradients at an absolute value of
 alpha_c = 1.  # regularization parameter for 'doubly stochastic attention', as in the paper
 best_bleu4 = 0.  # BLEU-4 score right now
+lowest_loss_val = float('Inf')
 print_freq = 100  # print training/validation stats every __ batches
 fine_tune_encoder = True  # fine-tune encoder?
 checkpoint = None  # path to checkpoint, None if none
@@ -80,7 +81,7 @@ def main():
     Training and validation.
     """
 
-    global best_bleu4, epochs_since_improvement, checkpoint, start_epoch, fine_tune_encoder, data_name, word_map
+    global best_bleu4, epochs_since_improvement, checkpoint, start_epoch, fine_tune_encoder, data_name, word_map, lowest_loss_val
 
     # Read word map
     word_map_file = os.path.join(data_folder, 'WORDMAP_' + data_name + '.json')
@@ -141,11 +142,11 @@ def main():
 
         # Epochs
         for epoch in range(start_epoch, epochs):
-
-            # Decay learning rate if there is no improvement for 20 consecutive epochs, and terminate training after 100
-            if epochs_since_improvement == 100:
+            # Decay learning rate if there is no improvement for 20 consecutive epochs
+            # and terminate training after 50 consecutive epochs
+            if epochs_since_improvement == 20:
                 break
-            if epochs_since_improvement > 0 and epochs_since_improvement % 50 == 0:
+            if epochs_since_improvement > 0 and epochs_since_improvement % 8 == 0:
                 adjust_learning_rate(decoder_optimizer, 0.8)
                 if fine_tune_encoder:
                     adjust_learning_rate(encoder_optimizer, 0.8)
@@ -160,21 +161,27 @@ def main():
                   epoch=epoch)
 
             # One epoch's validation
-            recent_bleu4 = validate(val_loader=val_loader,
+            recent_loss, recent_bleu4 = validate(val_loader=val_loader,
                                     encoder=encoder,
                                     decoder=decoder,
                                     criterion=criterion)
-            # Check if there was an improvement
+            # Check if there was an improvement using bleu
             is_best = recent_bleu4 > best_bleu4
             best_bleu4 = max(recent_bleu4, best_bleu4)
+            # Check if there was an improvement using loss
+            #is_best = recent_loss < lowest_loss_val
+            #lowest_loss_val = min(recent_loss, lowest_loss_val)
             if not is_best:
                 epochs_since_improvement += 1
                 print("\nEpochs since last improvement: %d\n" % (epochs_since_improvement,))
             else:
                 epochs_since_improvement = 0
 
-            # Save check point
-            save_checkpoint_with_dir(model_out, data_name, epoch, epochs_since_improvement, encoder, decoder, encoder_optimizer,
+            #save_checkpoint_with_dir(model_out, data_name, epoch, epochs_since_improvement, 
+            #                         encoder, decoder, encoder_optimizer,
+            #                         decoder_optimizer, lowest_loss_val, is_best)
+            save_checkpoint_with_dir(model_out, data_name, epoch, epochs_since_improvement, 
+                                     encoder, decoder, encoder_optimizer,
                                      decoder_optimizer, recent_bleu4, is_best)
         # Delete encoder&decoder objects and reset memory
         del decoder
@@ -372,7 +379,7 @@ def validate(val_loader, encoder, decoder, criterion):
             top5=top5accs,
             bleu=bleu4))
 
-    return bleu4
+    return losses.avg, bleu4
 
 
 

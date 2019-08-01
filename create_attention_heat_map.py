@@ -128,12 +128,11 @@ def compute_attention_map(digit_imgs, att_map_dir, out):
             out = os.path.join(args.out, "{}_{}_{}.npy".format(digit, pos, args.set_type))
             np.save(out, digit_att_map_sum[digit][pos])
             print(out)
-            '''
             plt.title(name)            
             plt.savefig(os.path.join(args.out, name))
             plt.close()
             #plt.show()
-            '''
+
 # Decide which numbers should be used remove numbers images that 
 # are incorrectly recognized and numbers less than 20 (two digit)
 # For each model which numbers are used to produce map
