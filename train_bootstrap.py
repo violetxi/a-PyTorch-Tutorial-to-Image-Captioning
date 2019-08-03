@@ -144,7 +144,7 @@ def main():
         for epoch in range(start_epoch, epochs):
             # Decay learning rate if there is no improvement for 20 consecutive epochs
             # and terminate training after 50 consecutive epochs
-            if epochs_since_improvement == 20:
+            if epochs_since_improvement == 50:
                 break
             if epochs_since_improvement > 0 and epochs_since_improvement % 8 == 0:
                 adjust_learning_rate(decoder_optimizer, 0.8)

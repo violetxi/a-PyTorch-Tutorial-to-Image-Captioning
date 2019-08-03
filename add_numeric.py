@@ -54,8 +54,12 @@ def add_numeric(res_dir):
         added_results.to_csv(f_path)
 
 # Convert number
+import math
 def convert_number_label(label):
-    if ' ty' in label:
+    # If no number is recognized, it is denoted as 0
+    if label is not isinstance(label, str):
+        return "zero"
+    elif ' ty' in label:
         return label.replace(' ty', 'ty')
     elif ' teen' in label:
         return label.replace(' teen', 'teen')

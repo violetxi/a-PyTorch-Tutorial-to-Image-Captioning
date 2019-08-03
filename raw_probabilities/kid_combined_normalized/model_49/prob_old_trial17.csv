@@ -1,0 +1,67 @@
+,,Time_0,Time_1,Time_2,Time_3
+forty seven,<pad>,-0.22774267,-0.29260105,,
+forty seven,one,0.5022418,-0.19597256,,
+forty seven,two,-0.19987887,-0.2877947,,
+forty seven,three,-0.17723785,-0.28446695,,
+forty seven,four,5.605859,0.6948185,,
+forty seven,five,-0.15579037,-0.27301386,,
+forty seven,six,-0.2180442,-0.2890409,,
+forty seven,seven,-0.19882868,-0.28338125,,
+forty seven,eight,-0.22113612,-0.29111367,,
+forty seven,nine,-0.20983641,-0.28750014,,
+forty seven,ten,-0.22666708,-0.29170138,,
+forty seven,eleven,-0.22758904,-0.29211298,,
+forty seven,twelve,-0.2277518,-0.29215667,,
+forty seven,thirteen,-0.22801347,-0.2924784,,
+forty seven,fourteen,0.098746456,-0.25038862,,
+forty seven,fifteen,-0.19281498,-0.26300743,,
+forty seven,sixteen,-0.2172085,-0.28895113,,
+forty seven,seventeen,-0.22809514,-0.2929586,,
+forty seven,eighteen,-0.22670586,-0.29109386,,
+forty seven,nineteen,-0.21116456,-0.28099442,,
+forty seven,twenty,-0.09420507,-0.2036893,,
+forty seven,thirty,-0.19820839,-0.27657253,,
+forty seven,forty,-0.17134231,-0.2331836,,
+forty seven,fifty,-0.22820298,-0.2873926,,
+forty seven,sixty,-0.22614855,-0.28906578,,
+forty seven,seventy,-0.14214726,0.010077634,,
+forty seven,eighty,-0.2132143,-0.28562006,,
+forty seven,ninety,-0.22734107,-0.2916925,,
+forty seven,hundred,-0.21173081,2.1846714,,
+forty seven,thousand,-0.2161503,-0.16987734,,
+forty seven,<unk>,-0.22743382,-0.29287174,,
+forty seven,<start>,-0.22846085,-0.2925071,,
+forty seven,<end>,-0.22775625,5.0536337,,
+four hundred seventy,<pad>,-0.17747918,-0.17913899,-0.19378443,-0.17689732
+four hundred seventy,one,-0.17435779,-0.17883071,-0.1887384,-0.17672662
+four hundred seventy,two,-0.17534155,-0.17884453,-0.1472788,-0.1765831
+four hundred seventy,three,-0.1683235,-0.1779859,-0.17738245,-0.17685682
+four hundred seventy,four,5.656846,-0.17341544,-0.16556397,-0.1767965
+four hundred seventy,five,-0.17637159,-0.1778877,-0.16266079,-0.1768325
+four hundred seventy,six,-0.17377202,-0.17805925,-0.19133809,-0.17689121
+four hundred seventy,seven,-0.17734124,-0.17903464,-0.19296634,-0.17689551
+four hundred seventy,eight,-0.17747766,-0.179111,-0.19381242,-0.1768945
+four hundred seventy,nine,-0.17728242,-0.1791051,-0.19413334,-0.17689511
+four hundred seventy,ten,-0.17747486,-0.17911662,-0.19424464,-0.1768958
+four hundred seventy,eleven,-0.17748359,-0.17914318,-0.1943284,-0.17688504
+four hundred seventy,twelve,-0.17748366,-0.17914107,-0.19388215,-0.17689297
+four hundred seventy,thirteen,-0.17742977,-0.179145,-0.19449638,-0.1768954
+four hundred seventy,fourteen,-0.17715809,-0.17908241,-0.19303915,-0.17687853
+four hundred seventy,fifteen,-0.17743345,-0.17903644,-0.19180587,-0.17684372
+four hundred seventy,sixteen,-0.17734271,-0.1790846,-0.19273454,-0.1768775
+four hundred seventy,seventeen,-0.17750688,-0.17915533,-0.19476898,-0.17689964
+four hundred seventy,eighteen,-0.17748444,-0.17910448,-0.19347906,-0.17689501
+four hundred seventy,nineteen,-0.17743434,-0.1790474,-0.19408941,-0.1768859
+four hundred seventy,twenty,-0.17713352,-0.17894052,-0.070103325,-0.17686336
+four hundred seventy,thirty,-0.17740737,-0.17900665,-0.18685347,-0.17687073
+four hundred seventy,forty,-0.17728661,-0.17785029,-0.18426977,-0.17684935
+four hundred seventy,fifty,-0.17751113,-0.17894581,-0.17404355,-0.17672561
+four hundred seventy,sixty,-0.17744163,-0.17875852,-0.17231564,-0.17688437
+four hundred seventy,seventy,-0.17679785,-0.16595815,5.6529493,-0.17425382
+four hundred seventy,eighty,-0.17743744,-0.17912187,-0.1945658,-0.17689611
+four hundred seventy,ninety,-0.17748263,-0.17910154,-0.19405796,-0.17689557
+four hundred seventy,hundred,-0.17681974,5.6566377,-0.13285775,-0.17680782
+four hundred seventy,thousand,-0.17709687,-0.12923585,-0.19201411,-0.17689365
+four hundred seventy,<unk>,-0.1774246,-0.1791472,-0.1938646,-0.17689538
+four hundred seventy,<start>,-0.17750725,-0.17915106,-0.19488786,-0.1768995
+four hundred seventy,<end>,-0.1775203,-0.17895035,-0.018587548,5.6568537

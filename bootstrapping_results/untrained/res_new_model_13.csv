@@ -1,25 +1,25 @@
 ,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
-0,seventy eight,0.png,nine thirty,1.png,eight hundred and seven,nine three three three,False,78,807,39,18
-1,sixty four,2.png,one thirty,3.png,six hundred and four,nine three three three,False,64,604,31,18
-2,eighty five,4.png,nine thirty,5.png,eight hundred and fifty,nine three three three,True,85,850,39,18
-3,thirty six,6.png,nine nine,7.png,three hundred and six,nine nine nine nine,True,36,306,18,36
-4,twelve,8.png,nine,9.png,twenty two,nine thirty,True,12,22,9,39
-5,four hundred,10.png,nine three,11.png,four thousand,nine three,True,400,4000,12,12
-6,seventy six,12.png,nine thirty,13.png,seven hundred and sixty,nine thirty thirty thirty,True,76,760,39,99
-7,thirty one,14.png,three thirty,15.png,three hundred and one,nine three three three,True,31,301,33,18
-8,eighty nine,16.png,nine nine,17.png,eight hundred and nine,nine nine three three,True,89,809,18,24
-9,three hundred and seven,18.png,nine three three thirty,19.png,three hundred and sixty seven,nine nine thirty thirty thirty,True,307,367,45,108
-10,thirteen,20.png,nine,21.png,forty two,nine thirty,True,13,42,9,39
-11,five hundred and eight,22.png,nine nine three three,23.png,five hundred and eighty,nine nine three three,True,508,580,24,24
-12,two thousand and three,24.png,nine nine three three,25.png,two thousand and thirty,nine nine three three,False,2003,2030,24,24
-13,three hundred and six,26.png,nine nine nine nine,27.png,three hundred and sixty,nine nine nine nine,False,306,360,36,36
-14,seven,28.png,three,29.png,eighteen,nine,True,7,18,3,9
-15,five,30.png,nine,31.png,eight,nine,True,5,8,9,9
-16,five hundred,32.png,nine nine,33.png,five thousand,nine three,True,500,5000,18,12
-17,thirty six,34.png,nine nine,35.png,five hundred and nine,nine nine nine three,True,36,509,18,30
-18,forty two,36.png,nine thirty,37.png,four hundred and twenty,nine three thirty thirty,True,42,420,39,72
-19,twenty seven,38.png,nine thirty,39.png,two hundred and seven,nine thirty thirty thirty,False,27,207,39,99
-20,six hundred and eight,40.png,nine nine three three,41.png,six hundred and fifty eight,nine three three three three,True,608,658,24,21
-21,seventeen,42.png,nine,43.png,twenty eight,nine thirty,True,17,28,9,39
-22,five hundred and sixty seven,44.png,nine nine thirty thirty thirty,45.png,five hundred and seventy six,nine thirty thirty thirty thirty,False,567,576,108,129
-23,one,46.png,nine,47.png,nine,nine,False,1,9,9,9
+0,seventy eight,0.png,sixty twenty,1.png,eight hundred seven,sixty twenty three,True,0,0,0,0
+1,sixty four,2.png,sixty twenty,3.png,six hundred four,sixty twenty twenty,False,0,0,0,0
+2,eighty five,4.png,sixty twenty,5.png,eight hundred fifty,sixty twenty twenty,True,0,0,0,0
+3,thirty six,6.png,sixty twenty,7.png,three hundred six,eighty twenty twenty,False,0,0,0,0
+4,twelve,8.png,nineteen,9.png,twenty two,fifteen twenty,False,0,0,0,0
+5,four hundred,10.png,eighty twenty,11.png,four thousand,eighty eighty,True,0,0,0,0
+6,seventy six,12.png,sixty three,13.png,seven hundred sixty,sixty twenty twenty,False,0,0,0,0
+7,thirty one,14.png,nineteen nineteen,15.png,three hundred one,nineteen twenty twenty,True,0,0,0,0
+8,eighty nine,16.png,ninety three,17.png,eight hundred nine,sixty twenty twenty,True,0,0,0,0
+9,three hundred seven,18.png,twenty twenty twenty,19.png,three hundred sixty seven,nineteen twenty twenty twenty,True,0,0,0,0
+10,thirteen,20.png,nineteen,21.png,forty two,fifteen fifteen,True,0,0,0,0
+11,five hundred eight,22.png,eighty twenty twenty,23.png,five hundred eighty,eighty twenty twenty,False,0,0,0,0
+12,two thousand three,24.png,eighty twenty twenty,25.png,two thousand thirty,eighty twenty twenty,False,0,0,0,0
+13,three hundred six,26.png,eighty twenty twenty,27.png,three hundred sixty,eighty twenty twenty,True,0,0,0,0
+14,seven,28.png,fifteen,29.png,eighteen,three,True,0,0,0,0
+15,five,30.png,sixty,31.png,eight,ninety,False,0,0,0,0
+16,five hundred,32.png,eighty twenty,33.png,five thousand,eighty eighty,False,0,0,0,0
+17,thirty six,34.png,sixty twenty,35.png,five hundred nine,eighty twenty twenty,False,0,0,0,0
+18,forty two,36.png,fifteen fifteen,37.png,four hundred twenty,eighty twenty twenty,True,0,0,0,0
+19,twenty seven,38.png,fifteen twenty,39.png,two hundred seven,eighty twenty twenty,False,0,0,0,0
+20,six hundred eight,40.png,sixty three three,41.png,six hundred fifty eight,sixty twenty twenty twenty,True,0,0,0,0
+21,seventeen,42.png,nineteen,43.png,twenty eight,three three,False,0,0,0,0
+22,five hundred sixty seven,44.png,eighty twenty twenty thousand,45.png,five hundred seventy six,eighty twenty twenty twenty,False,0,0,0,0
+23,one,46.png,fifteen,47.png,nine,ninety,False,0,0,0,0

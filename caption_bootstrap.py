@@ -99,9 +99,10 @@ def caption_image_beam_search(encoder, decoder, image_path, word_map, beam_size=
         
         # Probability for each token
         scores = decoder.fc(h)  # (s, vocab_size)
-        scores = F.log_softmax(scores, dim=1)
+        #scores = F.log_softmax(scores, dim=1)
+        scores = F.softmax(scores, dim=1)
         # Add
-        scores = top_k_scores.expand_as(scores) + scores  # (s, vocab_size)
+        #scores = top_k_scores.expand_as(scores) + scores  # (s, vocab_size)
         img_scores.append(scores.cpu().detach().numpy())
         # For the first step, all k points will have the same scores (since same k previous words, h, c)
         if step == 1:
@@ -140,7 +141,7 @@ def caption_image_beam_search(encoder, decoder, image_path, word_map, beam_size=
         encoder_out = encoder_out[prev_word_inds[incomplete_inds]]
         top_k_scores = top_k_scores[incomplete_inds].unsqueeze(1)
         k_prev_words = next_word_inds[incomplete_inds].unsqueeze(1)
-
+        
         # Break if things have been going on too long
         if step > 50:
             break
@@ -149,7 +150,6 @@ def caption_image_beam_search(encoder, decoder, image_path, word_map, beam_size=
     i = complete_seqs_scores.index(max(complete_seqs_scores))
     seq = complete_seqs[i]
     alphas = complete_seqs_alpha[i]
-
     return img_scores, seq, alphas
 
 
@@ -192,21 +192,21 @@ def visualize_att(image_path, seq, alphas, rev_word_map, smooth=True, model='mod
         plt.axis('off')
         "Save the value of attention map"
         current_word = words[t]
+        image_info = image_path[image_path.find("eval/")+len("eval/"):]
+        # which set and type (new or old) is the image
+        image_set = image_info[ : image_info.find('/')]
+        image_type = image_info[image_info.find('/') + 1 : image_info.rfind('/')]
+        image_name = image_info[image_info.rfind('/') + 1 : ]
+        # Create directory to save raw attention map, visualization and trial results
+        sub_dirs = image_set + '/' + model + '/' + image_type
+        out_att_map = os.path.join(args.out_att_map, sub_dirs)
+        out_vis = os.path.join(args.out_vis, sub_dirs)
+        try:
+            os.makedirs(out_att_map)
+            os.makedirs(out_vis)
+        except:
+            pass
         if current_word not in ['<start>', '<end>']:
-            image_info = image_path[image_path.find("eval/")+len("eval/"):]
-            # which set and type (new or old) is the image
-            image_set = image_info[ : image_info.find('/')]
-            image_type = image_info[image_info.find('/') + 1 : image_info.rfind('/')]
-            image_name = image_info[image_info.rfind('/') + 1 : ]
-            # Create directory to save raw attention map, visualization and trial results
-            sub_dirs = image_set + '/' + model + '/' + image_type
-            out_att_map = os.path.join(args.out_att_map, sub_dirs)
-            out_vis = os.path.join(args.out_vis, sub_dirs)
-            try:
-                os.makedirs(out_att_map)
-                os.makedirs(out_vis)
-            except:
-                pass
             # Save raw attention map files
             att_map_file = "{}_{}_{}.npy".format(image_name, current_word, t)
             np.save(os.path.join(out_att_map, att_map_file), alpha)
@@ -233,15 +233,18 @@ def load_trials(trials):
 def eval_trials(trial, img_scores, img_caption, gt, model="model_1"):
     # Load word map (word to index)
     word_map = json.load(open(args.word_map, 'r'))
-    print(word_map)
     # Set information and create directories
     set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
     set_name = set_info[ : set_info.find('/')]
     set_type = set_info[set_info.find('/') + 1 : ]    
     # Create directory to save trial output
     trial_res_out = os.path.join(args.out_trial, set_name)
+    trial_prob_out = os.path.join(args.out_prob, 
+                                  "{}/{}".format(set_name, 
+                                                 model))
     res_name = "res_{}_{}.csv".format(set_type[:-1], model)
     try:
+        os.makedirs(trial_prob_out)
         os.makedirs(trial_res_out)
     except:
         pass
@@ -253,6 +256,8 @@ def eval_trials(trial, img_scores, img_caption, gt, model="model_1"):
     res_df = pd.DataFrame(columns=["desired_label", "target_image", "target_model_generated_label", 
                                    "foil_image", "foil_word", "foil_model_generated_label", "correct"], 
                           index=trials.index.values.tolist())
+    sorted_word_map = list(sorted(word_map.items(), 
+                                  key = lambda kv:(kv[1], kv[0])))
     # Load trials into desired format (img : target_number)
     img_target = load_trials(trials)
     # Whichever one image's score has the highest value at the raw scores
@@ -265,24 +270,48 @@ def eval_trials(trial, img_scores, img_caption, gt, model="model_1"):
         # Get net output for target and foil image
         target_res, target_label = img_caption[target], gt_caption[target]
         foil_res, foil_label = img_caption[foil], gt_caption[foil]
+
+        "Save probabilities"
+        # Target probs
+        target_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
+        target_probs = img_scores[target]
+        for i in range(len(target_probs)):
+            #target_prob_df["Time_{}".format(i)] = target_probs[i][0]
+            target_prob_df["Time_{}".format(i)] = (np.array(target_probs[i][0]) - np.mean(target_probs[i][0])) / np.std(target_probs[i][0])
+                                                   
+        # Foil probs
+        foil_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
+        foil_probs = img_scores[foil]
+        for i in range(len(foil_probs)):
+            #foil_prob_df["Time_{}".format(i)] = foil_probs[i][0]
+            foil_prob_df["Time_{}".format(i)] = (np.array(foil_probs[i][0]) - np.mean(foil_probs[i][0])) / np.std(foil_probs[i][0])
+        # Probability output
+        "Foil and target separate"
+        prob_name = os.path.join(trial_prob_out, 
+                                 "prob_{}_trial{}.csv".format(set_type[:-1], 
+                                                              index))                                                            
+        pd.concat([target_prob_df, foil_prob_df],
+                  keys=[target_label, foil_label]).to_csv(prob_name)
+
         "Deciding whether a trial is correct or not basing on the probability"
-        target_prob = img_scores[target]
-        foil_prob = img_scores[foil]
-        is_correct = evaluate_single_trial(word_target, word_map,
-                                           target_prob, foil_prob)
-        
+        is_correct = evaluate_single_trial(word_target, 
+                                           word_map,
+                                           target_probs, 
+                                           foil_probs)
         res_df.loc[index] = [target_label, target, target_res,
                              foil, foil_label, foil_res, is_correct]
-
-    print("Saving result to {}".format(os.path.join(trial_res_out, res_name)))
+        
+    # Accuracy and output of evaluation results
+    print("Saving result to {}".format(os.path.join(trial_res_out, res_name)))    
     res_df.to_csv(os.path.join(trial_res_out, res_name))
     # Compute the accuracy for the test set
     total = res_df.count()["target_image"]
     correct = res_df[res_df["correct"]==1].count()["target_image"]
-    incorrect = res_df[res_df["correct"]==0].count()["target_image"]    
+    incorrect = res_df[res_df["correct"]==0].count()["target_image"]
     print("{}'s accuracy for {} is {}".format(model, set_type, correct/total))
-    #return "{}'s accuracy for {} is {} \n".format(model, set_type, correct/total)
     return "{}, {}, {} \n".format(model, set_type, correct/total)
+
+
 
 # Evaluate if a trial is correct given correct label, wordmap, 
 # foil_prob and target prob 
@@ -301,9 +330,11 @@ def evaluate_single_trial(word_target, word_map,
         # Compute normalized log probability (Ignore <end> token)
         if i < len(target_prob) and np.argmax(target_prob[i])!=24:
             t_prob = (target_prob[i][0, word_idx] - np.mean(target_prob[i])) / np.std(target_prob[i])
+            #t_prob = target_prob[i][0, word_idx]    # Use raw probs
             t_probs.append(t_prob)
         if i < len(foil_prob) and np.argmax(foil_prob[i])!=24:
             f_prob = (foil_prob[i][0, word_idx] - np.mean(foil_prob[i])) / np.std(foil_prob[i])
+            #f_prob = foil_prob[i][0, word_idx]    # Use raw probs
             f_probs.append(f_prob)
     # Compare normalized mean probability
     return np.mean(t_probs) > np.mean(f_probs)
@@ -326,6 +357,7 @@ parser.add_argument('--out_att_map', '-oa', help="Output directory to save raw a
 parser.add_argument('--gt', '-g', help='Ground truth for the testing set.')
 parser.add_argument('--trial', '-t', help="Path to where tiral file is.")
 parser.add_argument('--out_trial', '-ot', help='Output directory to save trial results')
+parser.add_argument('--out_prob', '-op', help='Output directory to save raw probabilities')
 parser.add_argument('--res_acc', '-r', help="Accuracy of each model on old/new testing set")
 args = parser.parse_args()
 # model name
@@ -373,68 +405,3 @@ if __name__ == '__main__':
         model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
         res_acc_f.write(model_acc)
     res_acc_f.close()
-
-
-
-"Using edit distance"
-def eval_trials_edit_distance(trial, img_caption, gt, model="model_1"):
-    # Set information and create directories
-    set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
-    set_name = set_info[ : set_info.find('/')]
-    set_type = set_info[set_info.find('/') + 1 : ]    
-    # Create directory to save trial output
-    trial_res_out = os.path.join(args.out_trial, set_name)
-    res_name = "res_{}_{}.csv".format(set_type[:-1], model)
-    try:
-        os.makedirs(trial_res_out)
-    except:
-        pass
-        
-    # Load ground truth and trial info for testing set
-    trials = pd.DataFrame.from_csv(trial)    
-    gt_caption = json.load(open(gt, 'r'))
-    # Result dataframe
-    res_df = pd.DataFrame(columns=[ "desired_label", "target_image", "target_model_generated_label", 
-                                    "dis_target_predicted", "foil_image", "foil_word", 
-                                    "foil_model_generated_label", "dis_foil_predicted", "correct"], 
-                          index=trials.index.values.tolist())
-    # Load trials into desired format (img : target_number)
-    img_target = load_trials(trials)
-    # A trial is counted as correct if (in order):
-    # 1). one of the number is correctly predicted 
-    # 2). the edit_distance between target is less than foil
-    correct = 0
-    # Get result
-    for index, row in trials.iterrows():
-        target, foil = row["image_name"].split(' ')
-        word_target = img_target[target]
-        # Get net output for target and foil image
-        target_res, target_label = img_caption[target], gt_caption[target]
-        foil_res, foil_label = img_caption[foil], gt_caption[foil]
-        # Compute target
-        # A trial is counted as correct if and only if following conditions are met:
-        # -- dis_target_predicted or foil_predict_correct == 0
-        # else:
-        # 
-        dis_foil_predicted = edit_distance(word_target, foil_res)
-        dis_target_predicted = edit_distance(word_target, target_res)
-        # Record foil_predict_correct for evaluation (0 is correct prediciton)
-        foil_predict_correct = edit_distance(foil_label, foil_res)
-        is_correct = 0
-        if not foil_predict_correct or not dis_target_predicted:
-            is_correct = 1
-        else:
-            if dis_target_predicted < dis_foil_predicted:
-                is_correct = 1
-        
-        res_df.loc[index] = [target_label, target, target_res, dis_target_predicted, 
-                             foil, foil_label, foil_res, dis_foil_predicted, is_correct]
-
-    print("Saving result to {}".format(os.path.join(trial_res_out, res_name)))
-    res_df.to_csv(os.path.join(trial_res_out, res_name))
-    # Compute the accuracy for the test set
-    total = res_df.count()["target_image"]
-    correct = res_df[res_df["correct"]==1].count()["target_image"]
-    incorrect = res_df[res_df["correct"]==0].count()["target_image"]
-    print("{}'s accuracy for {} is {}".format(model, set_type, correct/total))
-    return "{}'s accuracy for {} is {} \n".format(model, set_type, correct/total)

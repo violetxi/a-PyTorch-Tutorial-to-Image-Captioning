@@ -106,9 +106,9 @@ def caption_image_beam_search(encoder, decoder, image_path,
         
         # Probability for each token
         scores = decoder.fc(h)  # (s, vocab_size)
-        scores = F.log_softmax(scores, dim=1)
+        scores = F.softmax(scores, dim=1)
         # Add
-        scores = top_k_scores.expand_as(scores) + scores  # (s, vocab_size)
+        #scores = top_k_scores.expand_as(scores) + scores  # (s, vocab_size)
         img_scores.append(scores.cpu().detach().numpy())
         # For the first step, all k points will have the same scores (since same k previous words, h, c)
         if step == 1:
@@ -136,7 +136,7 @@ def caption_image_beam_search(encoder, decoder, image_path,
 
 def visualize_att(image_path, seq, alphas, 
                   rev_word_map, smooth=True, 
-                  model='model_1', image_set='Untrained'):
+                  model='model_1', image_set='untrained'):
     """
     Visualizes caption with weights at every word.
 
@@ -225,7 +225,11 @@ def eval_trials(trial, img_scores, img_caption, gt,
     # Create directory to save trial output
     trial_res_out = os.path.join(args.out_trial, set_name)
     res_name = "res_{}_{}.csv".format(set_type[:-1], model)
+    trial_prob_out = os.path.join(args.out_prob,
+                                  "{}/{}".format(set_name,
+                                                 model))
     try:
+        os.makedirs(trial_prob_out)
         os.makedirs(trial_res_out)
     except:
         pass
@@ -237,6 +241,8 @@ def eval_trials(trial, img_scores, img_caption, gt,
     res_df = pd.DataFrame(columns=["desired_label", "target_image", "target_model_generated_label", 
                                    "foil_image", "foil_word", "foil_model_generated_label", "correct"], 
                           index=trials.index.values.tolist())
+    sorted_word_map = list(sorted(word_map.items(),
+                                  key = lambda kv:(kv[1], kv[0])))
     # Load trials into desired format (img : target_number)
     img_target = load_trials(trials)
     # Whichever one image's score has the highest value at the raw scores
@@ -249,6 +255,24 @@ def eval_trials(trial, img_scores, img_caption, gt,
         # Get net output for target and foil image
         target_res, target_label = img_caption[target], gt_caption[target]
         foil_res, foil_label = img_caption[foil], gt_caption[foil]
+        "Save probabilities"
+        # Target probs
+        target_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
+        target_probs = img_scores[target]
+        for i in range(len(target_probs)):
+            target_prob_df["Time_{}".format(i)] = target_probs[i][0]
+        # Foil probs
+        foil_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
+        foil_probs = img_scores[foil]
+        for i in range(len(foil_probs)):
+            foil_prob_df["Time_{}".format(i)] = foil_probs[i][0]
+        # Probability output
+        "Foil and target separate"
+        prob_name = os.path.join(trial_prob_out,
+                                 "prob_{}_trial{}.csv".format(set_type[:-1],
+                                                              index))
+        pd.concat([target_prob_df, foil_prob_df],
+                  keys=[target_label, foil_label]).to_csv(prob_name)
         "Deciding whether a trial is correct or not basing on the probability"
         target_prob = img_scores[target]
         foil_prob = img_scores[foil]
@@ -294,8 +318,6 @@ def evaluate_single_trial(word_target, word_map,
     
 
 
-
-
 # Command line arguments    
 parser = argparse.ArgumentParser(description='Show, Attend, and Tell - Tutorial - Generate Caption')
 parser.add_argument('--word_map', '-wm', help='path to word map JSON')
@@ -309,6 +331,7 @@ parser.add_argument('--out_att_map', '-oa', help="Output directory to save raw a
 parser.add_argument('--gt', '-g', help='Ground truth for the testing set.')
 parser.add_argument('--trial', '-t', help="Path to where tiral file is.")
 parser.add_argument('--out_trial', '-ot', help='Output directory to save trial results')
+parser.add_argument('--out_prob', '-op', help='Output directory to save raw probabilities')
 parser.add_argument('--res_acc', '-r', help="Accuracy of each model on old/new testing set")
 args = parser.parse_args()
 

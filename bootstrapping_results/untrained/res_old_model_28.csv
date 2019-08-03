@@ -1,25 +1,25 @@
 ,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
-0,two hundred and six,0.png,six one one one,1.png,two hundred and sixty,six one one one,True,206,260,9,9
-1,one hundred,2.png,six one,3.png,one thousand,one one,False,100,1000,7,2
-2,sixty seven,4.png,thirty forty,5.png,six hundred and seventy,six forty forty <pad>,False,67,670,70,N/A
-3,one thousand and two,6.png,one one one one,7.png,one thousand and twenty,one one one one,False,1002,1020,4,4
-4,twenty one,8.png,thirty thirty,9.png,two hundred and one,six one one one,False,21,201,60,9
-5,one hundred and five,10.png,one one <pad> <pad>,11.png,one hundred and twenty five,six six <pad> <pad> <pad>,True,105,125,N/A,N/A
-6,three hundred and five,12.png,one one one <pad>,13.png,three hundred and fifty,one one <pad> <pad>,False,305,350,N/A,N/A
-7,forty two,14.png,thirty one,15.png,four hundred and two,thirty one one one,False,42,402,31,33
-8,five,16.png,thirty,17.png,fifteen,thirty,True,5,15,30,30
-9,eleven,18.png,seventy,19.png,twenty four,thirty <unk>,False,11,24,70,N/A
-10,two,20.png,thirty,21.png,eight,one,False,2,8,30,1
-11,twenty five,22.png,thirty <pad>,23.png,four hundred and five,one one one one,False,25,405,N/A,4
-12,sixty two,24.png,six six,25.png,six hundred and two,one one one one,False,62,602,12,4
-13,twenty one,26.png,thirty thirty,27.png,two hundred and ten,six forty forty forty,True,21,210,60,126
-14,twenty four,28.png,thirty <unk>,29.png,two hundred and four,thirty one one one,True,24,204,N/A,33
-15,seventeen,30.png,seventy,31.png,twenty one,thirty thirty,False,17,21,70,60
-16,thirty five,32.png,<pad> <pad>,33.png,three hundred and five,one one one <pad>,False,35,305,N/A,N/A
-17,forty seven,34.png,thirty one,35.png,four hundred and seventy,thirty <unk> one one,False,47,470,31,N/A
-18,nineteen,36.png,thirty,37.png,one hundred and nine,six one one <pad>,False,19,109,30,N/A
-19,sixteen,38.png,thirty,39.png,one hundred and six,six one one <pad>,False,16,106,30,N/A
-20,fifty three,40.png,<pad> <pad>,41.png,eighty,one,False,53,80,N/A,1
-21,two hundred and sixteen,42.png,six forty forty hundred,43.png,two hundred and sixty one,six one one one <pad>,False,216,261,8600,N/A
-22,four hundred and twelve,44.png,thirty one <unk> <unk>,45.png,four hundred and twenty one,thirty one one one one,False,412,421,N/A,34
-23,six,46.png,one,47.png,thirteen,thirty,True,6,13,1,30
+0,two hundred six,0.png,three three thirty,1.png,two hundred sixty,two three three,False,0,0,0,0
+1,one hundred,2.png,two three,3.png,one thousand,three thirty,True,0,0,0,0
+2,sixty seven,4.png,nine nine,5.png,six hundred seventy,two two eight,True,0,0,0,0
+3,one thousand two,6.png,three three thirty,7.png,one thousand twenty,three three thirty,False,0,0,0,0
+4,twenty one,8.png,nine nine,9.png,two hundred one,three three three,True,0,0,0,0
+5,one hundred five,10.png,nine three thirty,11.png,one hundred twenty five,nine three eight eight,True,0,0,0,0
+6,three hundred five,12.png,nine nine nine,13.png,three hundred fifty,nine nine nine,False,0,0,0,0
+7,forty two,14.png,nine nine,15.png,four hundred two,nine nine eight,False,0,0,0,0
+8,five,16.png,nine,17.png,fifteen,nine,True,0,0,0,0
+9,eleven,18.png,nine,19.png,twenty four,nine nine,True,0,0,0,0
+10,two,20.png,three,21.png,eight,three,True,0,0,0,0
+11,twenty five,22.png,nine nine,23.png,four hundred five,nine nine thirty,True,0,0,0,0
+12,sixty two,24.png,nine three,25.png,six hundred two,sixty three thirty,True,0,0,0,0
+13,twenty one,26.png,nine nine,27.png,two hundred ten,two two eight,True,0,0,0,0
+14,twenty four,28.png,nine nine,29.png,two hundred four,nine three thirty,True,0,0,0,0
+15,seventeen,30.png,nine,31.png,twenty one,nine nine,True,0,0,0,0
+16,thirty five,32.png,nine nine,33.png,three hundred five,nine nine nine,False,0,0,0,0
+17,forty seven,34.png,nine nine,35.png,four hundred seventy,nine nine eight,False,0,0,0,0
+18,nineteen,36.png,nine,37.png,one hundred nine,nine nine thirty,True,0,0,0,0
+19,sixteen,38.png,nine,39.png,one hundred six,two three thirty,False,0,0,0,0
+20,fifty three,40.png,nine nine,41.png,eighty,three,False,0,0,0,0
+21,two hundred sixteen,42.png,two two eight,43.png,two hundred sixty one,nine three three three,True,0,0,0,0
+22,four hundred twelve,44.png,nine nine eight,45.png,four hundred twenty one,nine twenty twenty twenty,True,0,0,0,0
+23,six,46.png,three,47.png,thirteen,nine,False,0,0,0,0

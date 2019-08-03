@@ -68,7 +68,13 @@ def create_input_files(dataset, karpathy_json_path, image_folder, captions_per_i
     assert len(test_image_paths) == len(test_image_captions)
 
     # Create word map
-    words = [w for w in word_freq.keys() if word_freq[w] > min_word_freq]
+    #words = [w for w in word_freq.keys() if word_freq[w] > min_word_freq]
+    # All the number words should be included even if they are not in training set
+    words = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight',
+             'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 
+             'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 
+             'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 
+             'eighty', 'ninety', 'hundred', 'thousand']
     word_map = {k: v + 1 for v, k in enumerate(words)}
     word_map['<unk>'] = len(word_map) + 1
     word_map['<start>'] = len(word_map) + 1
