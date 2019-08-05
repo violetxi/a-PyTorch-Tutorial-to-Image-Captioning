@@ -17,4 +17,6 @@ inference_vis/
 results/
 *npy
 
-
+# Unwanted changes
+kid_combined_raw/
+kid_combined_normalized/
