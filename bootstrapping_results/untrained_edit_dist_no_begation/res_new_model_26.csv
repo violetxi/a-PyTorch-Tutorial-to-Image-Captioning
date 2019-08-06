@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,<pad> <unk>,12,1.png,eight hundred seven,four thousand thousand,20,1
+1,sixty four,2.png,<unk> <unk>,10,3.png,six hundred four,five <unk> thousand,15,1
+2,eighty five,4.png,<pad> <unk>,11,5.png,eight hundred fifty,four thousand thousand,20,1
+3,thirty six,6.png,<pad> <unk>,11,7.png,three hundred six,four thousand thousand,18,1
+4,twelve,8.png,<unk>,6,9.png,twenty two,seven <unk>,10,1
+5,four hundred,10.png,five <unk>,8,11.png,four thousand,two thousand,10,1
+6,seventy six,12.png,fifty <unk>,10,13.png,seven hundred sixty,fifty <unk> <unk>,15,1
+7,thirty one,14.png,<unk> <unk>,10,15.png,three hundred one,five <unk> <unk>,14,1
+8,eighty nine,16.png,<pad> thousand,12,17.png,eight hundred nine,four thousand thousand,19,1
+9,three hundred seven,18.png,fifty <unk> <unk>,15,19.png,three hundred sixty seven,<pad> <unk> <unk> <unk>,19,1
+10,thirteen,20.png,<unk>,8,21.png,forty two,<unk> <unk>,10,1
+11,five hundred eight,22.png,four thousand thousand,16,23.png,five hundred eighty,four thousand thousand,16,0
+12,two thousand three,24.png,four two eight,15,25.png,two thousand thirty,four <unk> <unk>,15,0
+13,three hundred six,26.png,four thousand thousand,17,27.png,three hundred sixty,four thousand thousand,17,0
+14,seven,28.png,<start>,6,29.png,eighteen,<unk>,5,0
+15,five,30.png,<pad>,5,31.png,eight,<pad>,5,0
+16,five hundred,32.png,five thousand,6,33.png,five thousand,four thousand,9,1
+17,thirty six,34.png,<pad> <unk>,11,35.png,five hundred nine,five thousand thousand,18,1
+18,forty two,36.png,<unk> <unk>,10,37.png,four hundred twenty,five <unk> <unk>,14,1
+19,twenty seven,38.png,fifty <unk>,9,39.png,two hundred seven,fifty two <unk>,12,1
+20,six hundred eight,40.png,four thousand thousand,17,41.png,six hundred fifty eight,four thousand thousand thousand,24,1
+21,seventeen,42.png,<unk>,8,43.png,twenty eight,five thousand,9,1
+22,five hundred sixty seven,44.png,four <unk> thousand thousand,22,45.png,five hundred seventy six,fifty <unk> <unk> <unk>,18,0
+23,one,46.png,<pad>,5,47.png,nine,<pad>,5,0

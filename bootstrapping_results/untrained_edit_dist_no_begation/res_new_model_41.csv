@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,nine nine,10,1.png,eight hundred seven,nine nine nineteen,13,1
+1,sixty four,2.png,nine nine,8,3.png,six hundred four,nine nine fifty,12,1
+2,eighty five,4.png,nine nineteen,11,5.png,eight hundred fifty,nine fifty fifty,10,0
+3,thirty six,6.png,nine fifty,9,7.png,three hundred six,nine nineteen fifty,15,1
+4,twelve,8.png,nine,5,9.png,twenty two,nine fifty,9,1
+5,four hundred,10.png,nine nine,9,11.png,four thousand,nine nine,9,0
+6,seventy six,12.png,nine nine,9,13.png,seven hundred sixty,nine nine four,11,1
+7,thirty one,14.png,nine nine,7,15.png,three hundred one,nine nine nineteen,15,1
+8,eighty nine,16.png,nine fifty,9,17.png,eight hundred nine,nine fifty fifty,11,1
+9,three hundred seven,18.png,nine nineteen eight,15,19.png,three hundred sixty seven,nine nine nineteen eight,18,1
+10,thirteen,20.png,nine,6,21.png,forty two,nine nine,8,1
+11,five hundred eight,22.png,nine fifty fifty,13,23.png,five hundred eighty,nine fifty fifty,13,0
+12,two thousand three,24.png,nine nine four,16,25.png,two thousand thirty,nine nine four,16,0
+13,three hundred six,26.png,nine nineteen fifty,14,27.png,three hundred sixty,nine nine fifty,13,0
+14,seven,28.png,nine,4,29.png,eighteen,nine,4,0
+15,five,30.png,forty,4,31.png,eight,seventy,5,1
+16,five hundred,32.png,nine four,8,33.png,five thousand,nine nine,7,0
+17,thirty six,34.png,nine fifty,9,35.png,five hundred nine,nine fifty fifty,11,1
+18,forty two,36.png,nine nine,9,37.png,four hundred twenty,nine nine nine,13,1
+19,twenty seven,38.png,nine nine,9,39.png,two hundred seven,nine four four,13,1
+20,six hundred eight,40.png,nine fifty fifty,14,41.png,six hundred fifty eight,nine fifty fifty fifty,18,1
+21,seventeen,42.png,nine,7,43.png,twenty eight,nine fifty,9,1
+22,five hundred sixty seven,44.png,nine nine nineteen fifty,18,45.png,five hundred seventy six,nine nine four four,17,0
+23,one,46.png,nine,2,47.png,nine,fifty,5,1

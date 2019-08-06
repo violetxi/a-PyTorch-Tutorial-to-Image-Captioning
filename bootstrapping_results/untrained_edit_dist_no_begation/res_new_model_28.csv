@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,sixteen sixteen,12,1.png,eight hundred seven,sixteen sixteen nine,15,1
+1,sixty four,2.png,sixteen sixteen,10,3.png,six hundred four,sixteen sixteen sixteen,18,1
+2,eighty five,4.png,one sixteen,11,5.png,eight hundred fifty,sixteen nine nine,13,1
+3,thirty six,6.png,sixteen nine,9,7.png,three hundred six,sixteen sixteen nine,15,1
+4,twelve,8.png,sixteen,6,9.png,twenty two,sixteen sixteen,12,1
+5,four hundred,10.png,sixteen sixteen,13,11.png,four thousand,sixteen sixteen,13,0
+6,seventy six,12.png,sixteen sixteen,10,13.png,seven hundred sixty,sixteen sixteen nine,14,1
+7,thirty one,14.png,sixteen sixteen,12,15.png,three hundred one,sixteen sixteen sixteen,18,1
+8,eighty nine,16.png,sixteen sixteen,11,17.png,eight hundred nine,sixteen nine nine,11,0
+9,three hundred seven,18.png,sixteen sixteen sixteen,15,19.png,three hundred sixty seven,sixteen sixteen sixteen sixteen,22,1
+10,thirteen,20.png,sixteen,3,21.png,forty two,sixteen sixteen,9,1
+11,five hundred eight,22.png,eight sixteen five,14,23.png,five hundred eighty,sixteen sixteen five,15,1
+12,two thousand three,24.png,sixteen sixteen sixteen,18,25.png,two thousand thirty,sixteen sixteen nine,17,0
+13,three hundred six,26.png,sixteen sixteen nine,14,27.png,three hundred sixty,sixteen sixteen nine,14,0
+14,seven,28.png,sixteen,4,29.png,eighteen,sixteen,4,0
+15,five,30.png,sixteen,5,31.png,eight,sixteen,5,0
+16,five hundred,32.png,sixteen sixteen,11,33.png,five thousand,sixteen sixteen,11,0
+17,thirty six,34.png,sixteen nine,9,35.png,five hundred nine,sixteen sixteen nine,15,1
+18,forty two,36.png,sixteen sixteen,12,37.png,four hundred twenty,sixteen sixteen sixteen,20,1
+19,twenty seven,38.png,sixteen sixteen,10,39.png,two hundred seven,sixteen sixteen nine,15,1
+20,six hundred eight,40.png,eight nine five,12,41.png,six hundred fifty eight,eight sixteen six six,16,1
+21,seventeen,42.png,sixteen,4,43.png,twenty eight,eight sixteen,9,1
+22,five hundred sixty seven,44.png,sixteen sixteen sixteen sixteen,18,45.png,five hundred seventy six,sixteen sixteen sixteen fifty,19,1
+23,one,46.png,sixteen,6,47.png,nine,sixteen,6,0
