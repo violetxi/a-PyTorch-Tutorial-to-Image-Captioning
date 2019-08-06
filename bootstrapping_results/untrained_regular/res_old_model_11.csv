@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,two hundred six,0.png,<unk> <unk> <unk>,1.png,two hundred sixty,<unk> <unk> <unk>,False,0,0,0,0
+1,one hundred,2.png,two <unk>,3.png,one thousand,<pad> two,True,0,0,0,0
+2,sixty seven,4.png,<unk> <unk>,5.png,six hundred seventy,two <unk> <unk>,True,0,0,0,0
+3,one thousand two,6.png,two two six,7.png,one thousand twenty,<pad> two six,False,0,0,0,0
+4,twenty one,8.png,two <unk>,9.png,two hundred one,<pad> <unk> <unk>,False,0,0,0,0
+5,one hundred five,10.png,<pad> <unk> six,11.png,one hundred twenty five,<pad> <unk> <unk> <unk>,False,0,0,0,0
+6,three hundred five,12.png,two <unk> <unk>,13.png,three hundred fifty,two <unk> <unk>,False,0,0,0,0
+7,forty two,14.png,<pad> <unk>,15.png,four hundred two,<pad> <unk> <unk>,False,0,0,0,0
+8,five,16.png,<unk>,17.png,fifteen,<pad>,False,0,0,0,0
+9,eleven,18.png,fifty,19.png,twenty four,<pad> <unk>,False,0,0,0,0
+10,two,20.png,<unk>,21.png,eight,two,False,0,0,0,0
+11,twenty five,22.png,two <unk>,23.png,four hundred five,<pad> <unk> <unk>,False,0,0,0,0
+12,sixty two,24.png,<unk> <unk>,25.png,six hundred two,nineteen <unk> six,True,0,0,0,0
+13,twenty one,26.png,two <unk>,27.png,two hundred ten,twenty <unk> six,False,0,0,0,0
+14,twenty four,28.png,<pad> <unk>,29.png,two hundred four,<pad> <unk> <unk>,False,0,0,0,0
+15,seventeen,30.png,<unk>,31.png,twenty one,two <unk>,False,0,0,0,0
+16,thirty five,32.png,<unk> <unk>,33.png,three hundred five,two <unk> <unk>,False,0,0,0,0
+17,forty seven,34.png,<unk> <unk>,35.png,four hundred seventy,<pad> <unk> <unk>,True,0,0,0,0
+18,nineteen,36.png,<pad>,37.png,one hundred nine,<pad> <unk> six,False,0,0,0,0
+19,sixteen,38.png,<pad>,39.png,one hundred six,<pad> <unk> six,False,0,0,0,0
+20,fifty three,40.png,two <unk>,41.png,eighty,nineteen,True,0,0,0,0
+21,two hundred sixteen,42.png,two <unk> six,43.png,two hundred sixty one,<pad> <unk> <unk> <unk>,False,0,0,0,0
+22,four hundred twelve,44.png,<pad> <unk> <unk>,45.png,four hundred twenty one,<pad> <unk> <unk> <unk>,False,0,0,0,0
+23,six,46.png,two,47.png,thirteen,<pad>,True,0,0,0,0

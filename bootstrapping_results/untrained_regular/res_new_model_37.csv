@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,four four,1.png,eight hundred seven,four four thousand,False,0,0,0,0
+1,sixty four,2.png,thirty thousand,3.png,six hundred four,<end> thousand thousand,False,0,0,0,0
+2,eighty five,4.png,four four,5.png,eight hundred fifty,four four thousand,True,0,0,0,0
+3,thirty six,6.png,four three,7.png,three hundred six,four four three,True,0,0,0,0
+4,twelve,8.png,thirty,9.png,twenty two,thirty thirty,True,0,0,0,0
+5,four hundred,10.png,<end> <end>,11.png,four thousand,hundred thousand,False,0,0,0,0
+6,seventy six,12.png,thirty thirty,13.png,seven hundred sixty,four ninety ninety,False,0,0,0,0
+7,thirty one,14.png,thirty thirty,15.png,three hundred one,<end> four three,False,0,0,0,0
+8,eighty nine,16.png,four four,17.png,eight hundred nine,four four thousand,False,0,0,0,0
+9,three hundred seven,18.png,<end> four ninety,19.png,three hundred sixty seven,four four four thousand,False,0,0,0,0
+10,thirteen,20.png,thirty,21.png,forty two,thirty thirty,False,0,0,0,0
+11,five hundred eight,22.png,four four thousand,23.png,five hundred eighty,four four thousand,True,0,0,0,0
+12,two thousand three,24.png,four ninety thousand,25.png,two thousand thirty,fifteen four ninety,True,0,0,0,0
+13,three hundred six,26.png,four four three,27.png,three hundred sixty,four four three,True,0,0,0,0
+14,seven,28.png,thirty,29.png,eighteen,<start>,True,0,0,0,0
+15,five,30.png,<start>,31.png,eight,<start>,True,0,0,0,0
+16,five hundred,32.png,four four,33.png,five thousand,four four,False,0,0,0,0
+17,thirty six,34.png,four three,35.png,five hundred nine,four four thousand,False,0,0,0,0
+18,forty two,36.png,thirty thirty,37.png,four hundred twenty,<end> <end> thousand,True,0,0,0,0
+19,twenty seven,38.png,thirty thirty,39.png,two hundred seven,<end> ninety ninety,True,0,0,0,0
+20,six hundred eight,40.png,four four thousand,41.png,six hundred fifty eight,four four thousand thousand,True,0,0,0,0
+21,seventeen,42.png,thirty,43.png,twenty eight,<start> four,False,0,0,0,0
+22,five hundred sixty seven,44.png,four four thousand thousand,45.png,five hundred seventy six,four four thousand thousand,False,0,0,0,0
+23,one,46.png,thirty,47.png,nine,four,True,0,0,0,0

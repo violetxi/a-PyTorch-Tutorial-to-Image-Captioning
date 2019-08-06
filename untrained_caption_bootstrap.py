@@ -316,7 +316,68 @@ def evaluate_single_trial(word_target, word_map,
     # Compare normalized mean probability
     return np.mean(t_probs) > np.mean(f_probs)
     
+"Using edit distance"
+def eval_trials_edit_distance(trial, img_caption, gt, model="model_1"):
+    # Set information and create directories
+    set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
+    set_name = set_info[ : set_info.find('/')]
+    set_type = set_info[set_info.find('/') + 1 : ]    
+    # Create directory to save trial output
+    trial_res_out = os.path.join(args.out_trial, set_name)
+    res_name = "res_{}_{}.csv".format(set_type[:-1], model)
+    try:
+        os.makedirs(trial_res_out)
+    except:
+        pass
 
+    # Load ground truth and trial info for testing set
+    trials = pd.DataFrame.from_csv(trial)    
+    gt_caption = json.load(open(gt, 'r'))
+    # Result dataframe
+    res_df = pd.DataFrame(columns=[ "desired_label", "target_image", "target_model_generated_label", 
+                                    "dis_target_predicted", "foil_image", "foil_word", 
+                                    "foil_model_generated_label", "dis_foil_predicted", "correct"], 
+                          index=trials.index.values.tolist())
+    # Load trials into desired format (img : target_number)
+    img_target = load_trials(trials)
+    # A trial is counted as correct if (in order):
+    # 1). one of the number is correctly predicted 
+    # 2). the edit_distance between target is less than foil
+    correct = 0
+    # Get result
+    for index, row in trials.iterrows():
+        target, foil = row["image_name"].split(' ')
+        word_target = img_target[target]
+        # Get net output for target and foil image
+        target_res, target_label = img_caption[target], gt_caption[target]
+        foil_res, foil_label = img_caption[foil], gt_caption[foil]
+        # Compute target
+        # A trial is counted as correct if and only if following conditions are met:
+        # -- dis_target_predicted or foil_predict_correct == 0
+        # else:
+        # 
+        dis_foil_predicted = edit_distance(word_target, foil_res)
+        dis_target_predicted = edit_distance(word_target, target_res)
+        # Record foil_predict_correct for evaluation (0 is correct prediciton)
+        foil_predict_correct = edit_distance(foil_label, foil_res)
+        is_correct = 0
+        if not foil_predict_correct or not dis_target_predicted:
+            is_correct = 1
+        else:
+            if dis_target_predicted < dis_foil_predicted:
+                is_correct = 1
+
+        res_df.loc[index] = [target_label, target, target_res, dis_target_predicted, 
+                             foil, foil_label, foil_res, dis_foil_predicted, is_correct]
+
+    print("Saving result to {}".format(os.path.join(trial_res_out, res_name)))
+    res_df.to_csv(os.path.join(trial_res_out, res_name))
+    # Compute the accuracy for the test set
+    total = res_df.count()["target_image"]
+    correct = res_df[res_df["correct"]==1].count()["target_image"]
+    incorrect = res_df[res_df["correct"]==0].count()["target_image"]    
+    print("{}'s accuracy for {} is {}".format(model, set_type, correct/total))
+    return "{}, {}, {} \n".format(model, set_type, correct/total)
 
 # Command line arguments    
 parser = argparse.ArgumentParser(description='Show, Attend, and Tell - Tutorial - Generate Caption')
@@ -376,6 +437,7 @@ if __name__ == '__main__':
             img_caption[img] = caption
             
         # Get model accuracy and save it into a csv file
-        model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
+        model_acc = eval_trials_edit_distance(args.trial, img_caption, args.gt, model=cur_model)
+        #model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
         res_acc_f.write(model_acc)
     res_acc_f.close()

@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,foil_image,foil_word,foil_model_generated_label,correct,true_target_numbers,true_foil_numbers,predicted_target_numbers,predicted_foil_numbers
+0,seventy eight,0.png,one eleven,1.png,eight hundred seven,eleven twenty twenty,False,0,0,0,0
+1,sixty four,2.png,four four,3.png,six hundred four,eleven twenty twenty,True,0,0,0,0
+2,eighty five,4.png,eleven eleven,5.png,eight hundred fifty,eleven twenty twenty,True,0,0,0,0
+3,thirty six,6.png,eleven eleven,7.png,three hundred six,eleven twenty twenty,False,0,0,0,0
+4,twelve,8.png,four,9.png,twenty two,eleven eleven,False,0,0,0,0
+5,four hundred,10.png,eleven twenty,11.png,four thousand,hundred twenty,True,0,0,0,0
+6,seventy six,12.png,eleven eleven,13.png,seven hundred sixty,eleven twenty twenty,False,0,0,0,0
+7,thirty one,14.png,eleven four,15.png,three hundred one,eleven twenty twenty,False,0,0,0,0
+8,eighty nine,16.png,eleven eleven,17.png,eight hundred nine,eleven twenty twenty,True,0,0,0,0
+9,three hundred seven,18.png,eleven twenty twenty,19.png,three hundred sixty seven,eleven twenty twenty twenty,True,0,0,0,0
+10,thirteen,20.png,eleven,21.png,forty two,hundred hundred,True,0,0,0,0
+11,five hundred eight,22.png,eleven twenty twenty,23.png,five hundred eighty,twenty twenty twenty,True,0,0,0,0
+12,two thousand three,24.png,eleven twenty twenty,25.png,two thousand thirty,eleven twenty twenty,False,0,0,0,0
+13,three hundred six,26.png,eleven twenty twenty,27.png,three hundred sixty,eleven twenty twenty,False,0,0,0,0
+14,seven,28.png,one,29.png,eighteen,one,True,0,0,0,0
+15,five,30.png,<unk>,31.png,eight,one,True,0,0,0,0
+16,five hundred,32.png,eleven twenty,33.png,five thousand,hundred twenty,False,0,0,0,0
+17,thirty six,34.png,eleven eleven,35.png,five hundred nine,eleven twenty twenty,True,0,0,0,0
+18,forty two,36.png,hundred hundred,37.png,four hundred twenty,hundred twenty twenty,False,0,0,0,0
+19,twenty seven,38.png,eleven eleven,39.png,two hundred seven,eleven twenty twenty,False,0,0,0,0
+20,six hundred eight,40.png,eleven twenty twenty,41.png,six hundred fifty eight,eleven eleven twenty twenty,True,0,0,0,0
+21,seventeen,42.png,hundred,43.png,twenty eight,eleven eleven,False,0,0,0,0
+22,five hundred sixty seven,44.png,eleven eleven twenty twenty,45.png,five hundred seventy six,eleven eleven twenty twenty,True,0,0,0,0
+23,one,46.png,one,47.png,nine,one,True,0,0,0,0
