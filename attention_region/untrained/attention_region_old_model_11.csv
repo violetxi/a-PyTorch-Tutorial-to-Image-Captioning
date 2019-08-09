@@ -1,0 +1,49 @@
+,Image,Label,Prediction,Word_1_attention_region,Word_2_attention_region,Word_3_attention_region,Word_4_attention_region,Word_5_attention_region,Word_6_attention_region
+0,0.png,two hundred six,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+1,1.png,two hundred sixty,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+2,2.png,one hundred,eleven thousand,4,4,N/A,N/A,N/A,N/A
+3,3.png,one thousand,eleven fifteen,1,4,N/A,N/A,N/A,N/A
+4,4.png,sixty seven,thousand thousand,3,3,N/A,N/A,N/A,N/A
+5,5.png,six hundred seventy,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+6,6.png,one thousand two,eleven fifteen fifteen,4,4,4,N/A,N/A,N/A
+7,7.png,one thousand twenty,eleven fifteen fifteen,4,4,4,N/A,N/A,N/A
+8,8.png,twenty one,thousand thousand,4,3,N/A,N/A,N/A,N/A
+9,9.png,two hundred one,eleven thousand thousand,3,3,3,N/A,N/A,N/A
+10,10.png,one hundred five,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+11,11.png,one hundred twenty five,thousand thousand thousand thousand,4,4,4,4,N/A,N/A
+12,12.png,three hundred five,thousand thousand thousand,3,3,3,N/A,N/A,N/A
+13,13.png,three hundred fifty,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+14,14.png,forty two,thousand thousand,4,4,N/A,N/A,N/A,N/A
+15,15.png,four hundred two,thousand thousand thousand,4,4,4,N/A,N/A,N/A
+16,16.png,five,thousand,4,N/A,N/A,N/A,N/A,N/A
+17,17.png,fifteen,thousand,4,N/A,N/A,N/A,N/A,N/A
+18,18.png,eleven,<end>,N/A,N/A,N/A,N/A,N/A,N/A
+19,19.png,twenty four,thousand thousand,3,3,N/A,N/A,N/A,N/A
+20,20.png,two,thousand,4,N/A,N/A,N/A,N/A,N/A
+21,21.png,eight,thousand,4,N/A,N/A,N/A,N/A,N/A
+22,22.png,twenty five,thousand thousand,4,4,N/A,N/A,N/A,N/A
+23,23.png,four hundred five,thousand thousand thousand,4,4,4,N/A,N/A,N/A
+24,24.png,sixty two,thousand thousand,3,4,N/A,N/A,N/A,N/A
+25,25.png,six hundred two,eleven thousand thousand,2,2,2,N/A,N/A,N/A
+26,26.png,twenty one,thousand thousand,4,3,N/A,N/A,N/A,N/A
+27,27.png,two hundred ten,eleven eleven thousand,4,4,4,N/A,N/A,N/A
+28,28.png,twenty four,thousand thousand,3,3,N/A,N/A,N/A,N/A
+29,29.png,two hundred four,thousand thousand thousand,3,3,3,N/A,N/A,N/A
+30,30.png,seventeen,<end>,N/A,N/A,N/A,N/A,N/A,N/A
+31,31.png,twenty one,thousand thousand,4,3,N/A,N/A,N/A,N/A
+32,32.png,thirty five,thousand thousand,3,3,N/A,N/A,N/A,N/A
+33,33.png,three hundred five,thousand thousand thousand,3,3,3,N/A,N/A,N/A
+34,34.png,forty seven,<end> <end>,N/A,N/A,N/A,N/A,N/A,N/A
+35,35.png,four hundred seventy,thousand thousand thousand,4,4,4,N/A,N/A,N/A
+36,36.png,nineteen,thousand,4,N/A,N/A,N/A,N/A,N/A
+37,37.png,one hundred nine,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+38,38.png,sixteen,thousand,4,N/A,N/A,N/A,N/A,N/A
+39,39.png,one hundred six,eleven thousand thousand,3,4,4,N/A,N/A,N/A
+40,40.png,fifty three,thousand thousand,4,4,N/A,N/A,N/A,N/A
+41,41.png,eighty,thousand,4,N/A,N/A,N/A,N/A,N/A
+42,42.png,two hundred sixteen,eleven thousand thousand,4,4,4,N/A,N/A,N/A
+43,43.png,two hundred sixty one,eleven thousand thousand thousand,3,3,3,3,N/A,N/A
+44,44.png,four hundred twelve,thousand thousand thousand,4,4,4,N/A,N/A,N/A
+45,45.png,four hundred twenty one,thousand thousand thousand thousand,3,3,3,3,N/A,N/A
+46,46.png,six,thousand,4,N/A,N/A,N/A,N/A,N/A
+47,47.png,thirteen,thousand,4,N/A,N/A,N/A,N/A,N/A

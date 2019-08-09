@@ -1,0 +1,49 @@
+,Image,Label,Prediction,Word_1_attention_region,Word_2_attention_region,Word_3_attention_region,Word_4_attention_region,Word_5_attention_region,Word_6_attention_region
+0,0.png,two hundred six,thirteen hundred hundred,2,2,2,N/A,N/A,N/A
+1,1.png,two hundred sixty,forty forty hundred,2,2,2,N/A,N/A,N/A
+2,2.png,one hundred,forty forty,2,2,N/A,N/A,N/A,N/A
+3,3.png,one thousand,forty forty,1,1,N/A,N/A,N/A,N/A
+4,4.png,sixty seven,forty hundred,4,4,N/A,N/A,N/A,N/A
+5,5.png,six hundred seventy,forty forty hundred,4,4,4,N/A,N/A,N/A
+6,6.png,one thousand two,forty forty forty,1,1,1,N/A,N/A,N/A
+7,7.png,one thousand twenty,forty forty forty,1,1,1,N/A,N/A,N/A
+8,8.png,twenty one,forty hundred,4,4,N/A,N/A,N/A,N/A
+9,9.png,two hundred one,forty forty hundred,4,4,4,N/A,N/A,N/A
+10,10.png,one hundred five,forty forty hundred,2,2,2,N/A,N/A,N/A
+11,11.png,one hundred twenty five,forty forty hundred hundred,2,2,2,2,N/A,N/A
+12,12.png,three hundred five,thirteen thirteen hundred,2,2,2,N/A,N/A,N/A
+13,13.png,three hundred fifty,thirteen thirteen hundred,4,4,4,N/A,N/A,N/A
+14,14.png,forty two,thousand thirteen,3,3,N/A,N/A,N/A,N/A
+15,15.png,four hundred two,forty forty hundred,2,2,2,N/A,N/A,N/A
+16,16.png,five,thousand,4,N/A,N/A,N/A,N/A,N/A
+17,17.png,fifteen,forty,3,N/A,N/A,N/A,N/A,N/A
+18,18.png,eleven,thirteen,4,N/A,N/A,N/A,N/A,N/A
+19,19.png,twenty four,thousand hundred,4,4,N/A,N/A,N/A,N/A
+20,20.png,two,sixty,4,N/A,N/A,N/A,N/A,N/A
+21,21.png,eight,eighty,4,N/A,N/A,N/A,N/A,N/A
+22,22.png,twenty five,forty hundred,3,3,N/A,N/A,N/A,N/A
+23,23.png,four hundred five,three thirteen thirteen,2,2,2,N/A,N/A,N/A
+24,24.png,sixty two,forty hundred,4,4,N/A,N/A,N/A,N/A
+25,25.png,six hundred two,forty hundred hundred,4,4,4,N/A,N/A,N/A
+26,26.png,twenty one,forty hundred,4,4,N/A,N/A,N/A,N/A
+27,27.png,two hundred ten,forty forty hundred,4,4,4,N/A,N/A,N/A
+28,28.png,twenty four,thousand hundred,4,4,N/A,N/A,N/A,N/A
+29,29.png,two hundred four,forty thirteen hundred,4,4,4,N/A,N/A,N/A
+30,30.png,seventeen,forty,3,N/A,N/A,N/A,N/A,N/A
+31,31.png,twenty one,forty hundred,4,4,N/A,N/A,N/A,N/A
+32,32.png,thirty five,forty hundred,3,3,N/A,N/A,N/A,N/A
+33,33.png,three hundred five,thirteen thirteen hundred,2,2,2,N/A,N/A,N/A
+34,34.png,forty seven,thousand hundred,4,3,N/A,N/A,N/A,N/A
+35,35.png,four hundred seventy,forty forty hundred,2,2,2,N/A,N/A,N/A
+36,36.png,nineteen,forty,3,N/A,N/A,N/A,N/A,N/A
+37,37.png,one hundred nine,forty forty hundred,2,2,2,N/A,N/A,N/A
+38,38.png,sixteen,forty,3,N/A,N/A,N/A,N/A,N/A
+39,39.png,one hundred six,forty forty hundred,2,2,2,N/A,N/A,N/A
+40,40.png,fifty three,forty hundred,4,4,N/A,N/A,N/A,N/A
+41,41.png,eighty,forty,4,N/A,N/A,N/A,N/A,N/A
+42,42.png,two hundred sixteen,forty forty hundred,4,4,4,N/A,N/A,N/A
+43,43.png,two hundred sixty one,forty hundred hundred hundred,2,2,2,2,N/A,N/A
+44,44.png,four hundred twelve,forty thirteen thirteen,2,2,2,N/A,N/A,N/A
+45,45.png,four hundred twenty one,forty forty thirteen thirteen,2,2,2,2,N/A,N/A
+46,46.png,six,forty,4,N/A,N/A,N/A,N/A,N/A
+47,47.png,thirteen,forty,3,N/A,N/A,N/A,N/A,N/A

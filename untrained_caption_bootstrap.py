@@ -361,11 +361,14 @@ def eval_trials_edit_distance(trial, img_caption, gt, model="model_1"):
         # Record foil_predict_correct for evaluation (0 is correct prediciton)
         foil_predict_correct = edit_distance(foil_label, foil_res)
         is_correct = 0
+        '''
+        # No need for negation
         if not foil_predict_correct or not dis_target_predicted:
             is_correct = 1
         else:
-            if dis_target_predicted < dis_foil_predicted:
-                is_correct = 1
+        '''
+        if dis_target_predicted < dis_foil_predicted:
+            is_correct = 1
 
         res_df.loc[index] = [target_label, target, target_res, dis_target_predicted, 
                              foil, foil_label, foil_res, dis_foil_predicted, is_correct]
