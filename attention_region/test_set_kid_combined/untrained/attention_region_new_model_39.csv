@@ -1,0 +1,448 @@
+,Image,Label,Prediction,Word,Thousand_score,Hundred_score,Ty/Teen_score,Unit_score
+0,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,0,0.0,0.0,0.5077362922466763,0.49226370775332356
+1,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,1,0.0,0.0,0.509693784070184,0.49030621592981605
+2,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,2,0.0,0.0,0.509693784070184,0.49030621592981605
+3,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,3,0.0,0.0,0.48914956642025287,0.5108504335797471
+4,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,4,0.0,0.0,0.48914956642025287,0.5108504335797471
+5,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,5,0.0,0.0,0.48914956642025287,0.5108504335797471
+6,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,6,0.0,0.0,0.4493356103221392,0.5506643896778609
+7,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,7,0.0,0.0,0.4493356103221392,0.5506643896778609
+8,0.png,seventy eight,two fourteen fourteen twelve twelve twelve <unk> <unk> <unk>,8,0.0,0.0,0.4493356103221392,0.5506643896778609
+9,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,0,0.0,0.34163961961608097,0.30681206612350015,0.35154831426041894
+10,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,1,0.0,0.34163961961608097,0.30681206612350015,0.35154831426041894
+11,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,2,0.0,0.34163961961608097,0.30681206612350015,0.35154831426041894
+12,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,3,0.0,0.34163961961608097,0.30681206612350015,0.35154831426041894
+13,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,4,0.0,0.34112070833698077,0.3149582191328145,0.34392107253020454
+14,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,5,0.0,0.3444219307351922,0.3148487222247796,0.3407293470400283
+15,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,6,0.0,0.3444219307351922,0.3148487222247796,0.3407293470400283
+16,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,7,0.0,0.3444219307351922,0.3148487222247796,0.3407293470400283
+17,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,8,0.0,0.3444219307351922,0.3148487222247796,0.3407293470400283
+18,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,9,0.0,0.3400956033040093,0.33511225604813616,0.32479214064785455
+19,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,10,0.0,0.3400956033040093,0.33511225604813616,0.32479214064785455
+20,1.png,eight hundred seven,two two two two twelve eleven eleven eleven eleven <unk> <unk> <unk>,11,0.0,0.3400956033040093,0.33511225604813616,0.32479214064785455
+21,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,0,0.0,0.3612215134147017,0.3214445353260281,0.31733395125927016
+22,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,1,0.0,0.3612215134147017,0.3214445353260281,0.31733395125927016
+23,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,2,0.0,0.3612215134147017,0.3214445353260281,0.31733395125927016
+24,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,3,0.0,0.3291631801009563,0.32970314698672404,0.34113367291231966
+25,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,4,0.0,0.3329939539837137,0.32687168899245894,0.3401343570238274
+26,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,5,0.0,0.3329939539837137,0.32687168899245894,0.3401343570238274
+27,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,6,0.0,0.30965241598273313,0.33854612915109167,0.3518014548661754
+28,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,7,0.0,0.30965241598273313,0.33854612915109167,0.3518014548661754
+29,10.png,four hundred,two two two twelve five five <unk> <unk> <unk>,8,0.0,0.30965241598273313,0.33854612915109167,0.3518014548661754
+30,11.png,four thousand,two two two seventeen five five eleven three three,0,0.27441615236308947,0.24854202091344196,0.23787737157714064,0.23916445514632806
+31,11.png,four thousand,two two two seventeen five five eleven three three,1,0.27441615236308947,0.24854202091344196,0.23787737157714064,0.23916445514632806
+32,11.png,four thousand,two two two seventeen five five eleven three three,2,0.27441615236308947,0.24854202091344196,0.23787737157714064,0.23916445514632806
+33,11.png,four thousand,two two two seventeen five five eleven three three,3,0.2577816849017239,0.24899053650524788,0.2447260443749657,0.24850173421806254
+34,11.png,four thousand,two two two seventeen five five eleven three three,4,0.25692944576777205,0.246691998342474,0.2469931889793864,0.24938536691036758
+35,11.png,four thousand,two two two seventeen five five eleven three three,5,0.25692944576777205,0.246691998342474,0.2469931889793864,0.24938536691036758
+36,11.png,four thousand,two two two seventeen five five eleven three three,6,0.2366058645865251,0.24979722284749134,0.2565478673108582,0.2570490452551256
+37,11.png,four thousand,two two two seventeen five five eleven three three,7,0.23492582792703823,0.2505572955470376,0.25851292560152545,0.25600395092439904
+38,11.png,four thousand,two two two seventeen five five eleven three three,8,0.23492582792703823,0.2505572955470376,0.25851292560152545,0.25600395092439904
+39,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,0,0.0,0.0,0.5322436694724073,0.4677563305275929
+40,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,1,0.0,0.0,0.5322436694724073,0.4677563305275929
+41,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,2,0.0,0.0,0.5322436694724073,0.4677563305275929
+42,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,3,0.0,0.0,0.5046468980536065,0.4953531019463934
+43,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,4,0.0,0.0,0.5046468980536065,0.4953531019463934
+44,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,5,0.0,0.0,0.5046468980536065,0.4953531019463934
+45,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,6,0.0,0.0,0.4945051083176611,0.5054948916823389
+46,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,7,0.0,0.0,0.4978746035607403,0.5021253964392596
+47,12.png,seventy six,two two two twelve twelve twelve eleven <unk> <unk>,8,0.0,0.0,0.4978746035607403,0.5021253964392596
+48,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,0,0.0,0.3615263176455836,0.31668384437853314,0.32178983797588334
+49,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,1,0.0,0.3615263176455836,0.31668384437853314,0.32178983797588334
+50,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,2,0.0,0.3615263176455836,0.31668384437853314,0.32178983797588334
+51,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,3,0.0,0.3615263176455836,0.31668384437853314,0.32178983797588334
+52,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,4,0.0,0.3486903939265277,0.3326559929347843,0.3186536131386881
+53,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,5,0.0,0.3486903939265277,0.3326559929347843,0.3186536131386881
+54,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,6,0.0,0.3486903939265277,0.3326559929347843,0.3186536131386881
+55,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,7,0.0,0.3486903939265277,0.3326559929347843,0.3186536131386881
+56,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,8,0.0,0.3247530690482377,0.3328647694999858,0.3423821614517766
+57,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,9,0.0,0.33064069040122085,0.3300147888787558,0.3393445207200234
+58,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,10,0.0,0.33064069040122085,0.3300147888787558,0.3393445207200234
+59,13.png,seven hundred sixty,two two two two twelve twelve twelve twelve eleven <unk> <unk> <unk>,11,0.0,0.33064069040122085,0.3300147888787558,0.3393445207200234
+60,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,0,0.0,0.0,0.46357957134048344,0.5364204286595163
+61,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,1,0.0,0.0,0.46357957134048344,0.5364204286595163
+62,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,2,0.0,0.0,0.46357957134048344,0.5364204286595163
+63,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,3,0.0,0.0,0.4841932826573825,0.5158067173426176
+64,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,4,0.0,0.0,0.4841932826573825,0.5158067173426176
+65,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,5,0.0,0.0,0.46931637553509625,0.5306836244649037
+66,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,6,0.0,0.0,0.46974688724059815,0.5302531127594018
+67,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,7,0.0,0.0,0.4695406726273621,0.5304593273726378
+68,14.png,thirty one,two two two twelve twelve five <unk> eleven eleven,8,0.0,0.0,0.4695406726273621,0.5304593273726378
+69,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,0,0.0,0.3198238849162553,0.3160453446529686,0.36413077043077613
+70,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,1,0.0,0.3198238849162553,0.3160453446529686,0.36413077043077613
+71,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,2,0.0,0.3198238849162553,0.3160453446529686,0.36413077043077613
+72,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,3,0.0,0.3198238849162553,0.3160453446529686,0.36413077043077613
+73,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,4,0.0,0.32853305828951573,0.33626108079456807,0.33520586091591614
+74,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,5,0.0,0.32853305828951573,0.33626108079456807,0.33520586091591614
+75,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,6,0.0,0.3251306773092339,0.33015820470895246,0.3447111179818135
+76,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,7,0.0,0.3251306773092339,0.33015820470895246,0.3447111179818135
+77,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,8,0.0,0.3114260915318597,0.3446276166754849,0.34394629179265546
+78,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,9,0.0,0.3099400342483192,0.3427412118019845,0.3473187539496963
+79,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,10,0.0,0.3099400342483192,0.3427412118019845,0.3473187539496963
+80,15.png,three hundred one,two two two two twelve twelve five five eleven <unk> <unk> <unk>,11,0.0,0.3099400342483192,0.3427412118019845,0.3473187539496963
+81,16.png,eighty nine,two two two eleven eleven eleven,0,0.0,0.0,0.511621710494519,0.48837828950548084
+82,16.png,eighty nine,two two two eleven eleven eleven,1,0.0,0.0,0.511621710494519,0.48837828950548084
+83,16.png,eighty nine,two two two eleven eleven eleven,2,0.0,0.0,0.511621710494519,0.48837828950548084
+84,16.png,eighty nine,two two two eleven eleven eleven,3,0.0,0.0,0.5302741435593019,0.4697258564406982
+85,16.png,eighty nine,two two two eleven eleven eleven,4,0.0,0.0,0.5302741435593019,0.4697258564406982
+86,16.png,eighty nine,two two two eleven eleven eleven,5,0.0,0.0,0.5302741435593019,0.4697258564406982
+87,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,0,0.0,0.3524654179672479,0.3217428230082016,0.3257917590245507
+88,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,1,0.0,0.3524654179672479,0.3217428230082016,0.3257917590245507
+89,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,2,0.0,0.3524654179672479,0.3217428230082016,0.3257917590245507
+90,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,3,0.0,0.3524654179672479,0.3217428230082016,0.3257917590245507
+91,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,4,0.0,0.3546848621826628,0.32168795592651306,0.323627181890824
+92,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,5,0.0,0.3546848621826628,0.32168795592651306,0.323627181890824
+93,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,6,0.0,0.34057987252216965,0.3333260669158474,0.32609406056198303
+94,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,7,0.0,0.34057987252216965,0.3333260669158474,0.32609406056198303
+95,17.png,eight hundred nine,two two two two eleven eleven <unk> <unk> hundred,8,0.0,0.34011659975540304,0.33437987951647924,0.32550352072811795
+96,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,0,0.0,0.3200029179956085,0.315354937997397,0.3646421440069945
+97,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,1,0.0,0.3200029179956085,0.315354937997397,0.3646421440069945
+98,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,2,0.0,0.3200029179956085,0.315354937997397,0.3646421440069945
+99,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,3,0.0,0.3200029179956085,0.315354937997397,0.3646421440069945
+100,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,4,0.0,0.3179098870081666,0.32422999417021336,0.35786011882162033
+101,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,5,0.0,0.31927123040452715,0.3253146840691338,0.35541408552633913
+102,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,6,0.0,0.31927123040452715,0.3253146840691338,0.35541408552633913
+103,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,7,0.0,0.31927123040452715,0.3253146840691338,0.35541408552633913
+104,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,8,0.0,0.3152416615645357,0.34563530697671124,0.33912303145875305
+105,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,9,0.0,0.3152416615645357,0.34563530697671124,0.33912303145875305
+106,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,10,0.0,0.3152416615645357,0.34563530697671124,0.33912303145875305
+107,18.png,three hundred seven,two two two two twelve five five five <unk> <unk> <unk> <unk>,11,0.0,0.3152416615645357,0.34563530697671124,0.33912303145875305
+108,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,0,0.0,0.32381047024747794,0.3114297115258928,0.3647598182266293
+109,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,1,0.0,0.32381047024747794,0.3114297115258928,0.3647598182266293
+110,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,2,0.0,0.32381047024747794,0.3114297115258928,0.3647598182266293
+111,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,3,0.0,0.32381047024747794,0.3114297115258928,0.3647598182266293
+112,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,4,0.0,0.32381047024747794,0.3114297115258928,0.3647598182266293
+113,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,5,0.0,0.31416737085941754,0.3248082588126317,0.3610243703279507
+114,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,6,0.0,0.31416737085941754,0.3248082588126317,0.3610243703279507
+115,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,7,0.0,0.3140962249818153,0.3266923560925655,0.3592114189256192
+116,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,8,0.0,0.3140962249818153,0.3266923560925655,0.3592114189256192
+117,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,9,0.0,0.3140962249818153,0.3266923560925655,0.3592114189256192
+118,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,10,0.0,0.32180674582208674,0.3363559422226595,0.3418373119552538
+119,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,11,0.0,0.32180674582208674,0.3363559422226595,0.3418373119552538
+120,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,12,0.0,0.32180674582208674,0.3363559422226595,0.3418373119552538
+121,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,13,0.0,0.32180674582208674,0.3363559422226595,0.3418373119552538
+122,19.png,three hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,14,0.0,0.32180674582208674,0.3363559422226595,0.3418373119552538
+123,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,0,0.0,0.0,0.49035234485015794,0.5096476551498421
+124,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,1,0.0,0.0,0.49035234485015794,0.5096476551498421
+125,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,2,0.0,0.0,0.4750883291525153,0.5249116708474845
+126,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,3,0.0,0.0,0.5043218592207285,0.49567814077927147
+127,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,4,0.0,0.0,0.5043218592207285,0.49567814077927147
+128,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,5,0.0,0.0,0.5043218592207285,0.49567814077927147
+129,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,6,0.0,0.0,0.5330205715351053,0.4669794284648949
+130,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,7,0.0,0.0,0.5330205715351053,0.4669794284648949
+131,2.png,sixty four,two two thousand twelve twelve twelve <unk> <unk> <unk>,8,0.0,0.0,0.5330205715351053,0.4669794284648949
+132,20.png,thirteen,eighty two twelve five eleven eleven,0,0.0,0.0,0.541838836906964,0.4581611630930359
+133,20.png,thirteen,eighty two twelve five eleven eleven,1,0.0,0.0,0.5396339170361044,0.4603660829638955
+134,20.png,thirteen,eighty two twelve five eleven eleven,2,0.0,0.0,0.5056593216183223,0.49434067838167817
+135,20.png,thirteen,eighty two twelve five eleven eleven,3,0.0,0.0,0.5233349215862219,0.47666507841377803
+136,20.png,thirteen,eighty two twelve five eleven eleven,4,0.0,0.0,0.5183892313983336,0.4816107686016662
+137,20.png,thirteen,eighty two twelve five eleven eleven,5,0.0,0.0,0.5183892313983336,0.4816107686016662
+138,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,0,0.0,0.0,0.4940687798845269,0.5059312201154731
+139,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,1,0.0,0.0,0.500252634438375,0.4997473655616252
+140,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,2,0.0,0.0,0.500252634438375,0.4997473655616252
+141,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,3,0.0,0.0,0.4986176985978375,0.5013823014021626
+142,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,4,0.0,0.0,0.4951275876264403,0.5048724123735596
+143,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,5,0.0,0.0,0.4951275876264403,0.5048724123735596
+144,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,6,0.0,0.0,0.49165711653240884,0.5083428834675912
+145,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,7,0.0,0.0,0.49165711653240884,0.5083428834675912
+146,21.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,8,0.0,0.0,0.49165711653240884,0.5083428834675912
+147,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,0,0.0,0.32102555827739704,0.3237864012216056,0.35518804050099734
+148,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,1,0.0,0.32102555827739704,0.3237864012216056,0.35518804050099734
+149,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,2,0.0,0.32102555827739704,0.3237864012216056,0.35518804050099734
+150,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,3,0.0,0.32102555827739704,0.3237864012216056,0.35518804050099734
+151,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,4,0.0,0.30833101457427997,0.33362870065757194,0.35804028476814814
+152,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,5,0.0,0.310520461327163,0.33305237143469174,0.35642716723814516
+153,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,6,0.0,0.310520461327163,0.33305237143469174,0.35642716723814516
+154,22.png,five hundred eight,two two two two eleven <unk> <unk> hundred,7,0.0,0.31026381759988175,0.3335463065800578,0.35618987582006056
+155,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,0,0.0,0.3251844592897723,0.33507665973957745,0.3397388809706502
+156,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,1,0.0,0.3251844592897723,0.33507665973957745,0.3397388809706502
+157,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,2,0.0,0.3251844592897723,0.33507665973957745,0.3397388809706502
+158,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,3,0.0,0.3251844592897723,0.33507665973957745,0.3397388809706502
+159,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,4,0.0,0.31519927222509087,0.34445315065385157,0.34034757712105734
+160,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,5,0.0,0.3169721170563839,0.34181663001711177,0.34121125292650434
+161,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,6,0.0,0.3169721170563839,0.34181663001711177,0.34121125292650434
+162,23.png,five hundred eighty,two two two two eleven <unk> <unk> <unk>,7,0.0,0.3169721170563839,0.34181663001711177,0.34121125292650434
+163,24.png,two thousand three,two two two two twelve five five five eleven three three three,0,0.25356907034685233,0.24742309949435853,0.2466701788957244,0.25233765126306484
+164,24.png,two thousand three,two two two two twelve five five five eleven three three three,1,0.25356907034685233,0.24742309949435853,0.2466701788957244,0.25233765126306484
+165,24.png,two thousand three,two two two two twelve five five five eleven three three three,2,0.25356907034685233,0.24742309949435853,0.2466701788957244,0.25233765126306484
+166,24.png,two thousand three,two two two two twelve five five five eleven three three three,3,0.25356907034685233,0.24742309949435853,0.2466701788957244,0.25233765126306484
+167,24.png,two thousand three,two two two two twelve five five five eleven three three three,4,0.240023142530631,0.2514769271010496,0.2517933073634203,0.25670662300489905
+168,24.png,two thousand three,two two two two twelve five five five eleven three three three,5,0.23875628626523335,0.2486186949557284,0.25360571341824034,0.25901930536079787
+169,24.png,two thousand three,two two two two twelve five five five eleven three three three,6,0.23875628626523335,0.2486186949557284,0.25360571341824034,0.25901930536079787
+170,24.png,two thousand three,two two two two twelve five five five eleven three three three,7,0.23875628626523335,0.2486186949557284,0.25360571341824034,0.25901930536079787
+171,24.png,two thousand three,two two two two twelve five five five eleven three three three,8,0.24744400247948956,0.26014110249542766,0.2532914106078526,0.2391234844172301
+172,24.png,two thousand three,two two two two twelve five five five eleven three three three,9,0.243863124713088,0.2606637286307865,0.255140938499678,0.24033220815644754
+173,24.png,two thousand three,two two two two twelve five five five eleven three three three,10,0.243863124713088,0.2606637286307865,0.255140938499678,0.24033220815644754
+174,24.png,two thousand three,two two two two twelve five five five eleven three three three,11,0.243863124713088,0.2606637286307865,0.255140938499678,0.24033220815644754
+175,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,0,0.2563612348394089,0.24966648463034322,0.24553880724882243,0.24843347328142537
+176,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,1,0.2563612348394089,0.24966648463034322,0.24553880724882243,0.24843347328142537
+177,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,2,0.2563612348394089,0.24966648463034322,0.24553880724882243,0.24843347328142537
+178,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,3,0.2563612348394089,0.24966648463034322,0.24553880724882243,0.24843347328142537
+179,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,4,0.23871065248173062,0.25137172896041776,0.25109488659200097,0.25882273196585065
+180,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,5,0.23871065248173062,0.25137172896041776,0.25109488659200097,0.25882273196585065
+181,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,6,0.23694478780959452,0.24810010360438225,0.25561049153397436,0.25934461705204886
+182,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,7,0.23694478780959452,0.24810010360438225,0.25561049153397436,0.25934461705204886
+183,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,8,0.24963179424734158,0.25913471457637244,0.23938776630575023,0.25184572487053575
+184,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,9,0.24575747717882712,0.25808070875383343,0.24497559392187895,0.25118622014546055
+185,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,10,0.24575747717882712,0.25808070875383343,0.24497559392187895,0.25118622014546055
+186,25.png,two thousand thirty,two two two two twelve twelve five five eleven three three three,11,0.24575747717882712,0.25808070875383343,0.24497559392187895,0.25118622014546055
+187,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,0,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+188,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,1,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+189,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,2,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+190,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,3,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+191,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,4,0.0,0.3262684695315698,0.33388577537042036,0.33984575509800985
+192,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,5,0.0,0.3262684695315698,0.33388577537042036,0.33984575509800985
+193,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,6,0.0,0.33039966064044607,0.33393541701262386,0.3356649223469301
+194,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,7,0.0,0.33039966064044607,0.33393541701262386,0.3356649223469301
+195,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,8,0.0,0.313495097671122,0.34413453501415303,0.342370367314725
+196,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,9,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+197,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,10,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+198,26.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,11,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+199,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,0,0.0,0.34417265545674686,0.31669180364957533,0.33913554089367787
+200,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,1,0.0,0.34417265545674686,0.31669180364957533,0.33913554089367787
+201,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,2,0.0,0.34417265545674686,0.31669180364957533,0.33913554089367787
+202,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,3,0.0,0.34417265545674686,0.31669180364957533,0.33913554089367787
+203,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,4,0.0,0.3244924795238033,0.33162950290238746,0.34387801757380915
+204,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,5,0.0,0.3244924795238033,0.33162950290238746,0.34387801757380915
+205,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,6,0.0,0.32557447914848947,0.33198617112579504,0.3424393497257155
+206,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,7,0.0,0.32557447914848947,0.33198617112579504,0.3424393497257155
+207,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,8,0.0,0.31571746706564247,0.33068243236297556,0.353600100571382
+208,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,9,0.0,0.313904976545079,0.3298878675057874,0.3562071559491334
+209,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,10,0.0,0.313904976545079,0.3298878675057874,0.3562071559491334
+210,27.png,three hundred sixty,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,11,0.0,0.313904976545079,0.3298878675057874,0.3562071559491334
+211,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,0,0.0,0.0,0.0,1.0
+212,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,1,0.0,0.0,0.0,1.0
+213,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,2,0.0,0.0,0.0,1.0
+214,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,3,0.0,0.0,0.0,1.0
+215,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,4,0.0,0.0,0.0,1.0
+216,28.png,seven,eighty thousand seventeen seventeen <unk> <unk>,5,0.0,0.0,0.0,1.0
+217,29.png,eighteen,eighty fourteen two five <unk> <unk>,0,0.0,0.0,0.5190765970042274,0.48092340299577274
+218,29.png,eighteen,eighty fourteen two five <unk> <unk>,1,0.0,0.0,0.5200575255964887,0.47994247440351145
+219,29.png,eighteen,eighty fourteen two five <unk> <unk>,2,0.0,0.0,0.46657006210000235,0.5334299378999975
+220,29.png,eighteen,eighty fourteen two five <unk> <unk>,3,0.0,0.0,0.4732981362192765,0.5267018637807234
+221,29.png,eighteen,eighty fourteen two five <unk> <unk>,4,0.0,0.0,0.4485347533853526,0.5514652466146472
+222,29.png,eighteen,eighty fourteen two five <unk> <unk>,5,0.0,0.0,0.4485347533853526,0.5514652466146472
+223,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,0,0.0,0.3433038126991158,0.3129643773612334,0.3437318099396507
+224,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,1,0.0,0.3433038126991158,0.3129643773612334,0.3437318099396507
+225,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,2,0.0,0.3433038126991158,0.3129643773612334,0.3437318099396507
+226,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,3,0.0,0.3433038126991158,0.3129643773612334,0.3437318099396507
+227,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,4,0.0,0.3406022226604643,0.32759762782507257,0.33180014951446335
+228,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,5,0.0,0.3406022226604643,0.32759762782507257,0.33180014951446335
+229,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,6,0.0,0.3400068426890199,0.32677546401866353,0.33321769329231665
+230,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,7,0.0,0.3400068426890199,0.32677546401866353,0.33321769329231665
+231,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,8,0.0,0.3394729421743147,0.3444888374893431,0.31603822033634227
+232,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,9,0.0,0.3372951347036678,0.3435859813148258,0.31911888398150645
+233,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,10,0.0,0.3372951347036678,0.3435859813148258,0.31911888398150645
+234,3.png,six hundred four,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,11,0.0,0.3372951347036678,0.3435859813148258,0.31911888398150645
+235,30.png,five,two two twelve twelve <unk> <unk>,0,0.0,0.0,0.0,1.0
+236,30.png,five,two two twelve twelve <unk> <unk>,1,0.0,0.0,0.0,1.0
+237,30.png,five,two two twelve twelve <unk> <unk>,2,0.0,0.0,0.0,1.0
+238,30.png,five,two two twelve twelve <unk> <unk>,3,0.0,0.0,0.0,1.0
+239,30.png,five,two two twelve twelve <unk> <unk>,4,0.0,0.0,0.0,1.0
+240,30.png,five,two two twelve twelve <unk> <unk>,5,0.0,0.0,0.0,1.0
+241,31.png,eight,two two sixty <unk> <unk>,0,0.0,0.0,0.0,1.0
+242,31.png,eight,two two sixty <unk> <unk>,1,0.0,0.0,0.0,1.0
+243,31.png,eight,two two sixty <unk> <unk>,2,0.0,0.0,0.0,1.0
+244,31.png,eight,two two sixty <unk> <unk>,3,0.0,0.0,0.0,1.0
+245,31.png,eight,two two sixty <unk> <unk>,4,0.0,0.0,0.0,1.0
+246,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,0,0.0,0.34284810467059135,0.3207975134672614,0.3363543818621472
+247,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,1,0.0,0.34284810467059135,0.3207975134672614,0.3363543818621472
+248,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,2,0.0,0.34284810467059135,0.3207975134672614,0.3363543818621472
+249,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,3,0.0,0.3296552648516439,0.32940527693338495,0.3409394582149711
+250,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,4,0.0,0.32980530561606924,0.3297924207781607,0.34040227360577013
+251,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,5,0.0,0.31897439280370204,0.33636094357210844,0.34466466362418957
+252,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,6,0.0,0.3193110235842469,0.3333415088491259,0.3473474675666272
+253,32.png,five hundred,two two two twelve <pad> eleven <unk> <unk>,7,0.0,0.3193110235842469,0.3333415088491259,0.3473474675666272
+254,33.png,five thousand,two two two seventeen eleven eleven three three,0,0.25115560180927,0.24824257256169263,0.2498986546237487,0.2507031710052887
+255,33.png,five thousand,two two two seventeen eleven eleven three three,1,0.25115560180927,0.24824257256169263,0.2498986546237487,0.2507031710052887
+256,33.png,five thousand,two two two seventeen eleven eleven three three,2,0.25115560180927,0.24824257256169263,0.2498986546237487,0.2507031710052887
+257,33.png,five thousand,two two two seventeen eleven eleven three three,3,0.24247684512367232,0.24966138658439763,0.2527795399174799,0.25508222837445016
+258,33.png,five thousand,two two two seventeen eleven eleven three three,4,0.24280525194790817,0.2474280197659388,0.2543906473961858,0.2553760808899673
+259,33.png,five thousand,two two two seventeen eleven eleven three three,5,0.24280525194790817,0.2474280197659388,0.2543906473961858,0.2553760808899673
+260,33.png,five thousand,two two two seventeen eleven eleven three three,6,0.2429444014973289,0.2486861999885345,0.25567160179773646,0.25269779671640014
+261,33.png,five thousand,two two two seventeen eleven eleven three three,7,0.2429444014973289,0.2486861999885345,0.25567160179773646,0.25269779671640014
+262,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,0,0.0,0.0,0.5110393536493862,0.4889606463506137
+263,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,1,0.0,0.0,0.5110393536493862,0.4889606463506137
+264,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,2,0.0,0.0,0.5110393536493862,0.4889606463506137
+265,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,3,0.0,0.0,0.47418803697268946,0.5258119630273105
+266,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,4,0.0,0.0,0.47418803697268946,0.5258119630273105
+267,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,5,0.0,0.0,0.47418803697268946,0.5258119630273105
+268,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,6,0.0,0.0,0.4883420722840467,0.5116579277159531
+269,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,7,0.0,0.0,0.4883420722840467,0.5116579277159531
+270,34.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,8,0.0,0.0,0.4883420722840467,0.5116579277159531
+271,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,0,0.0,0.3378715239094376,0.319720061213973,0.3424084148765895
+272,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,1,0.0,0.3378715239094376,0.319720061213973,0.3424084148765895
+273,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,2,0.0,0.3378715239094376,0.319720061213973,0.3424084148765895
+274,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,3,0.0,0.3378715239094376,0.319720061213973,0.3424084148765895
+275,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,4,0.0,0.33433400601958474,0.3294773266986139,0.3361886672818014
+276,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,5,0.0,0.3237002736766957,0.3392429283378663,0.33705679798543803
+277,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,6,0.0,0.322452195934546,0.33914991679301365,0.3383978872724401
+278,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,7,0.0,0.322452195934546,0.33914991679301365,0.3383978872724401
+279,35.png,five hundred nine,two two two two twelve eleven <unk> <unk> <unk>,8,0.0,0.322452195934546,0.33914991679301365,0.3383978872724401
+280,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,0,0.0,0.0,0.4940687798845269,0.5059312201154731
+281,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,1,0.0,0.0,0.500252634438375,0.4997473655616252
+282,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,2,0.0,0.0,0.500252634438375,0.4997473655616252
+283,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,3,0.0,0.0,0.4986176985978375,0.5013823014021626
+284,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,4,0.0,0.0,0.4951275876264403,0.5048724123735596
+285,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,5,0.0,0.0,0.4951275876264403,0.5048724123735596
+286,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,6,0.0,0.0,0.49165711653240884,0.5083428834675912
+287,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,7,0.0,0.0,0.49165711653240884,0.5083428834675912
+288,36.png,forty two,eighty thousand thousand seventeen five five <unk> <unk> <unk>,8,0.0,0.0,0.49165711653240884,0.5083428834675912
+289,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,0,0.0,0.35779867136237153,0.32375901591086803,0.31844231272676043
+290,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,1,0.0,0.35779867136237153,0.32375901591086803,0.31844231272676043
+291,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,2,0.0,0.35779867136237153,0.32375901591086803,0.31844231272676043
+292,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,3,0.0,0.3715603730049877,0.3193079466587498,0.30913168033626287
+293,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,4,0.0,0.33035080906033837,0.3244256999681049,0.34522349097155675
+294,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,5,0.0,0.33273988691080186,0.32331069515169814,0.3439494179375
+295,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,6,0.0,0.33273988691080186,0.32331069515169814,0.3439494179375
+296,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,7,0.0,0.33273988691080186,0.32331069515169814,0.3439494179375
+297,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,8,0.0,0.31206430007848635,0.3209216102923849,0.3670140896291287
+298,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,9,0.0,0.31206430007848635,0.3209216102923849,0.3670140896291287
+299,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,10,0.0,0.31206430007848635,0.3209216102923849,0.3670140896291287
+300,37.png,four hundred twenty,two two two thousand twelve five five five <unk> <unk> <unk> <unk>,11,0.0,0.31206430007848635,0.3209216102923849,0.3670140896291287
+301,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,0,0.0,0.0,0.4832584226103759,0.5167415773896243
+302,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,1,0.0,0.0,0.4832584226103759,0.5167415773896243
+303,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,2,0.0,0.0,0.48173272740696693,0.5182672725930333
+304,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,3,0.0,0.0,0.4490902212447414,0.5509097787552588
+305,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,4,0.0,0.0,0.4490902212447414,0.5509097787552588
+306,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,5,0.0,0.0,0.4490902212447414,0.5509097787552588
+307,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,6,0.0,0.0,0.5079488746637931,0.49205112533620676
+308,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,7,0.0,0.0,0.5079488746637931,0.49205112533620676
+309,38.png,twenty seven,two two thousand seventeen seventeen seventeen <unk> <unk> <unk>,8,0.0,0.0,0.5079488746637931,0.49205112533620676
+310,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,0,0.0,0.3305806310529327,0.3185140299751314,0.3509053389719359
+311,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,1,0.0,0.3305806310529327,0.3185140299751314,0.3509053389719359
+312,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,2,0.0,0.3305806310529327,0.3185140299751314,0.3509053389719359
+313,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,3,0.0,0.3305806310529327,0.3185140299751314,0.3509053389719359
+314,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,4,0.0,0.3088785694153725,0.3297112297335909,0.3614102008510366
+315,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,5,0.0,0.31286905851833907,0.3295747819606185,0.35755615952104225
+316,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,6,0.0,0.31286905851833907,0.3295747819606185,0.35755615952104225
+317,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,7,0.0,0.31286905851833907,0.3295747819606185,0.35755615952104225
+318,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,8,0.0,0.32074609351526595,0.3483978953117147,0.33085601117301927
+319,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,9,0.0,0.3170122839631784,0.34663159542693966,0.33635612060988174
+320,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,10,0.0,0.3170122839631784,0.34663159542693966,0.33635612060988174
+321,39.png,two hundred seven,two two two two twelve five five five eleven <unk> <unk> <unk>,11,0.0,0.3170122839631784,0.34663159542693966,0.33635612060988174
+322,4.png,eighty five,two two two sixty eleven <unk> <unk>,0,0.0,0.0,0.5186134280355297,0.4813865719644702
+323,4.png,eighty five,two two two sixty eleven <unk> <unk>,1,0.0,0.0,0.5186134280355297,0.4813865719644702
+324,4.png,eighty five,two two two sixty eleven <unk> <unk>,2,0.0,0.0,0.5186134280355297,0.4813865719644702
+325,4.png,eighty five,two two two sixty eleven <unk> <unk>,3,0.0,0.0,0.5113242179881977,0.4886757820118022
+326,4.png,eighty five,two two two sixty eleven <unk> <unk>,4,0.0,0.0,0.5365810907087072,0.463418909291293
+327,4.png,eighty five,two two two sixty eleven <unk> <unk>,5,0.0,0.0,0.5275165519610842,0.4724834480389158
+328,4.png,eighty five,two two two sixty eleven <unk> <unk>,6,0.0,0.0,0.5275165519610842,0.4724834480389158
+329,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,0,0.0,0.3260368533062844,0.3211992134279879,0.3527639332657277
+330,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,1,0.0,0.3260368533062844,0.3211992134279879,0.3527639332657277
+331,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,2,0.0,0.3260368533062844,0.3211992134279879,0.3527639332657277
+332,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,3,0.0,0.3260368533062844,0.3211992134279879,0.3527639332657277
+333,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,4,0.0,0.3226294541878266,0.3193145747828583,0.3580559710293153
+334,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,5,0.0,0.3226294541878266,0.3193145747828583,0.3580559710293153
+335,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,6,0.0,0.3154808195965426,0.33097077792799146,0.3535484024754657
+336,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,7,0.0,0.3154808195965426,0.33097077792799146,0.3535484024754657
+337,40.png,six hundred eight,two two two two eleven eleven <unk> <unk> hundred,8,0.0,0.31538638158334403,0.3320144549803551,0.352599163436301
+338,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,0,0.0,0.34571096774948035,0.3150718892652273,0.33921714298529243
+339,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,1,0.0,0.34571096774948035,0.3150718892652273,0.33921714298529243
+340,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,2,0.0,0.34571096774948035,0.3150718892652273,0.33921714298529243
+341,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,3,0.0,0.34571096774948035,0.3150718892652273,0.33921714298529243
+342,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,4,0.0,0.34571096774948035,0.3150718892652273,0.33921714298529243
+343,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,5,0.0,0.3258108286532646,0.32261393709280844,0.35157523425392695
+344,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,6,0.0,0.3160028365217746,0.3171998346851486,0.36679732879307675
+345,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,7,0.0,0.3150608401608012,0.32447235333713925,0.3604668065020595
+346,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,8,0.0,0.3150608401608012,0.32447235333713925,0.3604668065020595
+347,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,9,0.0,0.31516102211980246,0.3252132932082011,0.35962568467199646
+348,41.png,six hundred fifty eight,two two two two two twelve eleven <unk> <unk> hundred hundred,10,0.0,0.31516102211980246,0.3252132932082011,0.35962568467199646
+349,42.png,seventeen,eighty seventeen seventeen <unk> <unk>,0,0.0,0.0,0.4892150735203032,0.5107849264796968
+350,42.png,seventeen,eighty seventeen seventeen <unk> <unk>,1,0.0,0.0,0.46105691364364937,0.5389430863563506
+351,42.png,seventeen,eighty seventeen seventeen <unk> <unk>,2,0.0,0.0,0.46105691364364937,0.5389430863563506
+352,42.png,seventeen,eighty seventeen seventeen <unk> <unk>,3,0.0,0.0,0.5031469791317047,0.49685302086829525
+353,42.png,seventeen,eighty seventeen seventeen <unk> <unk>,4,0.0,0.0,0.5031469791317047,0.49685302086829525
+354,43.png,twenty eight,two two fourteen two eleven eleven <unk>,0,0.0,0.0,0.4670755644536495,0.5329244355463504
+355,43.png,twenty eight,two two fourteen two eleven eleven <unk>,1,0.0,0.0,0.4670755644536495,0.5329244355463504
+356,43.png,twenty eight,two two fourteen two eleven eleven <unk>,2,0.0,0.0,0.492475081663235,0.5075249183367649
+357,43.png,twenty eight,two two fourteen two eleven eleven <unk>,3,0.0,0.0,0.4670755644536495,0.5329244355463504
+358,43.png,twenty eight,two two fourteen two eleven eleven <unk>,4,0.0,0.0,0.46822426612446977,0.5317757338755303
+359,43.png,twenty eight,two two fourteen two eleven eleven <unk>,5,0.0,0.0,0.46822426612446977,0.5317757338755303
+360,43.png,twenty eight,two two fourteen two eleven eleven <unk>,6,0.0,0.0,0.468001092756029,0.5319989072439709
+361,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,0,0.0,0.3260903790649375,0.3131222314319735,0.3607873895030891
+362,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,1,0.0,0.3260903790649375,0.3131222314319735,0.3607873895030891
+363,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,2,0.0,0.3260903790649375,0.3131222314319735,0.3607873895030891
+364,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,3,0.0,0.3260903790649375,0.3131222314319735,0.3607873895030891
+365,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,4,0.0,0.3260903790649375,0.3131222314319735,0.3607873895030891
+366,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,5,0.0,0.3180012026004532,0.323536993777449,0.3584618036220978
+367,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,6,0.0,0.3180012026004532,0.323536993777449,0.3584618036220978
+368,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,7,0.0,0.31761897506354375,0.32462017943466076,0.3577608455017955
+369,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,8,0.0,0.31761897506354375,0.32462017943466076,0.3577608455017955
+370,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,9,0.0,0.31761897506354375,0.32462017943466076,0.3577608455017955
+371,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,10,0.0,0.32867474552491405,0.33696307663675634,0.33436217783832967
+372,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,11,0.0,0.32867474552491405,0.33696307663675634,0.33436217783832967
+373,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,12,0.0,0.32867474552491405,0.33696307663675634,0.33436217783832967
+374,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,13,0.0,0.32867474552491405,0.33696307663675634,0.33436217783832967
+375,44.png,five hundred sixty seven,two two two two two twelve twelve five five five <unk> <unk> <unk> <unk> <unk>,14,0.0,0.32867474552491405,0.33696307663675634,0.33436217783832967
+376,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,0,0.0,0.3326114405884722,0.3507709327018992,0.3166176267096287
+377,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,1,0.0,0.3326114405884722,0.3507709327018992,0.3166176267096287
+378,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,2,0.0,0.3326114405884722,0.3507709327018992,0.3166176267096287
+379,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,3,0.0,0.3326114405884722,0.3507709327018992,0.3166176267096287
+380,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,4,0.0,0.3326114405884722,0.3507709327018992,0.3166176267096287
+381,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,5,0.0,0.32121828819415416,0.3482463632215205,0.3305353485843254
+382,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,6,0.0,0.32121828819415416,0.3482463632215205,0.3305353485843254
+383,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,7,0.0,0.32121828819415416,0.3482463632215205,0.3305353485843254
+384,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,8,0.0,0.32121828819415416,0.3482463632215205,0.3305353485843254
+385,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,9,0.0,0.32121828819415416,0.3482463632215205,0.3305353485843254
+386,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,10,0.0,0.3256030124461221,0.33757131102830645,0.3368256765255712
+387,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,11,0.0,0.3273636856800087,0.3383278216232179,0.3343084926967733
+388,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,12,0.0,0.3273636856800087,0.3383278216232179,0.3343084926967733
+389,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,13,0.0,0.3273636856800087,0.3383278216232179,0.3343084926967733
+390,45.png,five hundred seventy six,two two two two two twelve twelve twelve twelve twelve eleven <unk> <unk> <unk> <unk>,14,0.0,0.3273636856800087,0.3383278216232179,0.3343084926967733
+391,46.png,one,hundred twelve seventeen <unk> eleven,0,0.0,0.0,0.0,1.0
+392,46.png,one,hundred twelve seventeen <unk> eleven,1,0.0,0.0,0.0,1.0
+393,46.png,one,hundred twelve seventeen <unk> eleven,2,0.0,0.0,0.0,1.0
+394,46.png,one,hundred twelve seventeen <unk> eleven,3,0.0,0.0,0.0,1.0
+395,46.png,one,hundred twelve seventeen <unk> eleven,4,0.0,0.0,0.0,1.0
+396,47.png,nine,two two twelve eleven eleven,0,0.0,0.0,0.0,1.0
+397,47.png,nine,two two twelve eleven eleven,1,0.0,0.0,0.0,1.0
+398,47.png,nine,two two twelve eleven eleven,2,0.0,0.0,0.0,1.0
+399,47.png,nine,two two twelve eleven eleven,3,0.0,0.0,0.0,1.0
+400,47.png,nine,two two twelve eleven eleven,4,0.0,0.0,0.0,1.0
+401,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,0,0.0,0.35550270393822353,0.3212597564354396,0.3232375396263367
+402,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,1,0.0,0.35550270393822353,0.3212597564354396,0.3232375396263367
+403,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,2,0.0,0.35550270393822353,0.3212597564354396,0.3232375396263367
+404,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,3,0.0,0.35550270393822353,0.3212597564354396,0.3232375396263367
+405,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,4,0.0,0.34446403549456106,0.32410498535025234,0.33143097915518666
+406,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,5,0.0,0.34446403549456106,0.32410498535025234,0.33143097915518666
+407,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,6,0.0,0.345690663480825,0.3217481386397192,0.3325611978794559
+408,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,7,0.0,0.345690663480825,0.3217481386397192,0.3325611978794559
+409,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,8,0.0,0.3420031612988014,0.3247819749796997,0.33321486372149894
+410,5.png,eight hundred fifty,two two two two twelve twelve eleven eleven <unk> hundred,9,0.0,0.3423667036156104,0.32489168624817044,0.33274161013621906
+411,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,0,0.0,0.0,0.5110393536493862,0.4889606463506137
+412,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,1,0.0,0.0,0.5110393536493862,0.4889606463506137
+413,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,2,0.0,0.0,0.5110393536493862,0.4889606463506137
+414,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,3,0.0,0.0,0.47418803697268946,0.5258119630273105
+415,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,4,0.0,0.0,0.47418803697268946,0.5258119630273105
+416,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,5,0.0,0.0,0.47418803697268946,0.5258119630273105
+417,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,6,0.0,0.0,0.4883420722840467,0.5116579277159531
+418,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,7,0.0,0.0,0.4883420722840467,0.5116579277159531
+419,6.png,thirty six,two two two twelve twelve twelve eleven eleven eleven,8,0.0,0.0,0.4883420722840467,0.5116579277159531
+420,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,0,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+421,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,1,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+422,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,2,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+423,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,3,0.0,0.3455604208468199,0.32548853849146503,0.32895104066171504
+424,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,4,0.0,0.3262684695315698,0.33388577537042036,0.33984575509800985
+425,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,5,0.0,0.3262684695315698,0.33388577537042036,0.33984575509800985
+426,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,6,0.0,0.33039966064044607,0.33393541701262386,0.3356649223469301
+427,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,7,0.0,0.33039966064044607,0.33393541701262386,0.3356649223469301
+428,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,8,0.0,0.313495097671122,0.34413453501415303,0.342370367314725
+429,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,9,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+430,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,10,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+431,7.png,three hundred six,two two two two twelve twelve <pad> <pad> eleven <unk> <unk> <unk>,11,0.0,0.31517666767586944,0.3447375175816401,0.34008581474249056
+432,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,0,0.0,0.0,0.0,1.0
+433,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,1,0.0,0.0,0.0,1.0
+434,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,2,0.0,0.0,0.0,1.0
+435,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,3,0.0,0.0,0.0,1.0
+436,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,4,0.0,0.0,0.0,1.0
+437,8.png,twelve,eighty fourteen seventeen seventeen eleven eleven,5,0.0,0.0,0.0,1.0
+438,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,0,0.0,0.0,0.48773705501830106,0.5122629449816989
+439,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,1,0.0,0.0,0.48773705501830106,0.5122629449816989
+440,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,2,0.0,0.0,0.48773705501830106,0.5122629449816989
+441,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,3,0.0,0.0,0.49026449998446764,0.5097355000155324
+442,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,4,0.0,0.0,0.49026449998446764,0.5097355000155324
+443,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,5,0.0,0.0,0.49026449998446764,0.5097355000155324
+444,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,6,0.0,0.0,0.5001075975419748,0.4998924024580253
+445,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,7,0.0,0.0,0.5001075975419748,0.4998924024580253
+446,9.png,twenty two,two two two seventeen seventeen seventeen eleven eleven <unk>,8,0.0,0.0,0.4989109442367435,0.5010890557632566

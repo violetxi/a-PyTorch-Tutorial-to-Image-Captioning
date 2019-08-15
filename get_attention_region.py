@@ -120,18 +120,13 @@ def get_attention_region(res_dir):
         out = os.path.join(out_dir,
                            "attention_region_{}_{}.csv".format(args.type, model))
         print("Saving to {}".format(out))
-        att_region_df.to_csv(out)
-
-
-
-
-
+        #att_region_df.to_csv(out)
 
 
 
 
 parser = argparse.ArgumentParser(description='Show, Attend, and Tell - Tutorial - Generate Caption.')
-parser.add_argument('--res_dir', '-r', help='Directory where all the results were saved.')
+parser.add_argument('--res_dir', '-r', help='Directory where all the results were saved.')    
 parser.add_argument('--attention_region_map', '-a', help='Attention region map file.')
 parser.add_argument('--raw_attention', '-ra', help="Path to raw attention map directories.")
 parser.add_argument('--num_of_models', '-n', type=int, help="Number of models.")

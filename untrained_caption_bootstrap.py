@@ -403,7 +403,7 @@ args = parser.parse_args()
 
 if __name__ == '__main__':
     # File to save overall accuracy of a model
-    res_acc_f = open(args.res_acc, 'a')
+    #res_acc_f = open(args.res_acc, 'a')
     # Load ground truth
     gt = json.load(open(args.gt))
     for n in range(1, args.num_models+1):
@@ -440,7 +440,7 @@ if __name__ == '__main__':
             img_caption[img] = caption
             
         # Get model accuracy and save it into a csv file
-        model_acc = eval_trials_edit_distance(args.trial, img_caption, args.gt, model=cur_model)
+        #model_acc = eval_trials_edit_distance(args.trial, img_caption, args.gt, model=cur_model)
         #model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
-        res_acc_f.write(model_acc)
-    res_acc_f.close()
+        #res_acc_f.write(model_acc)
+    #res_acc_f.close()
