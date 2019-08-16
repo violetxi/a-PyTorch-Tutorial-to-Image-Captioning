@@ -1,0 +1,362 @@
+,Image,Label,Prediction,Word_num,Left_score,Right_score
+0,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,0,0.48309331215678447,0.5169066878432155
+1,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,1,0.48309331215678447,0.5169066878432155
+2,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,2,0.4824905969970168,0.5175094030029834
+3,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,3,0.47369805552540617,0.5263019444745939
+4,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,4,0.47369805552540617,0.5263019444745939
+5,0.png,seventy eight,thirteen thirteen five eleven eleven eleven,5,0.47369805552540617,0.5263019444745939
+6,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,0,0.49219388119394875,0.5078061188060513
+7,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,1,0.49219388119394875,0.5078061188060513
+8,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,2,0.49219388119394875,0.5078061188060513
+9,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,3,0.4950612254442882,0.5049387745557117
+10,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,4,0.5269310331174828,0.4730689668825173
+11,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,5,0.5269310331174828,0.4730689668825173
+12,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,6,0.5269310331174828,0.4730689668825173
+13,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,7,0.5269310331174828,0.4730689668825173
+14,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,8,0.5156852216338715,0.48431477836612846
+15,1.png,eight hundred seven,thirteen thirteen thirteen eight eleven eleven eleven eleven nineteen nineteen,9,0.5156852216338715,0.48431477836612846
+16,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,0,0.5023099295531442,0.4976900704468558
+17,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,1,0.5023099295531442,0.4976900704468558
+18,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,2,0.5023099295531442,0.4976900704468558
+19,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,3,0.5085251481103716,0.49147485188962836
+20,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,4,0.502915482146357,0.497084517853643
+21,10.png,four hundred,thirteen thirteen thirteen fifty eleven eleven,5,0.502915482146357,0.497084517853643
+22,11.png,four thousand,thirteen thirteen eight eleven eleven,0,0.5031400374746113,0.49685996252538867
+23,11.png,four thousand,thirteen thirteen eight eleven eleven,1,0.5031400374746113,0.49685996252538867
+24,11.png,four thousand,thirteen thirteen eight eleven eleven,2,0.5022323523299437,0.49776764767005666
+25,11.png,four thousand,thirteen thirteen eight eleven eleven,3,0.49407984068720284,0.5059201593127973
+26,11.png,four thousand,thirteen thirteen eight eleven eleven,4,0.49407984068720284,0.5059201593127973
+27,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,0,0.478273132211128,0.521726867788872
+28,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,1,0.478273132211128,0.521726867788872
+29,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,2,0.478273132211128,0.521726867788872
+30,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,3,0.5037016868468007,0.4962983131531992
+31,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,4,0.5037016868468007,0.4962983131531992
+32,12.png,seventy six,thirteen thirteen thirteen eleven eleven fourteen,5,0.5056921981403043,0.4943078018596955
+33,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,0,0.5178900528129756,0.4821099471870243
+34,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,1,0.5178900528129756,0.4821099471870243
+35,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,2,0.5178900528129756,0.4821099471870243
+36,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,3,0.5115470253034731,0.48845297469652715
+37,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,4,0.47905332188915845,0.5209466781108414
+38,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,5,0.47905332188915845,0.5209466781108414
+39,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,6,0.47905332188915845,0.5209466781108414
+40,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,7,0.5006450736777383,0.4993549263222617
+41,13.png,seven hundred sixty,thirteen thirteen thirteen eight eleven eleven eleven nineteen nineteen,8,0.5006450736777383,0.4993549263222617
+42,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,0,0.4990983923178859,0.5009016076821141
+43,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,1,0.504552009960001,0.4954479900399989
+44,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,2,0.504552009960001,0.4954479900399989
+45,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,3,0.4954766750034741,0.504523324996526
+46,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,4,0.4954766750034741,0.504523324996526
+47,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,5,0.4847524795575017,0.5152475204424982
+48,14.png,thirty one,twenty eight eight eleven eleven eighty fourteen,6,0.4835580027814374,0.5164419972185624
+49,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,0,0.48653199649493384,0.513468003505066
+50,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,1,0.49195689396260917,0.5080431060373908
+51,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,2,0.49195689396260917,0.5080431060373908
+52,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,3,0.49195689396260917,0.5080431060373908
+53,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,4,0.5342506380278599,0.4657493619721401
+54,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,5,0.5384750589958099,0.46152494100419017
+55,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,6,0.5384750589958099,0.46152494100419017
+56,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,7,0.5384750589958099,0.46152494100419017
+57,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,8,0.5028967108435994,0.4971032891564007
+58,15.png,three hundred one,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen,9,0.5028967108435994,0.4971032891564007
+59,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,0,0.5004236558179931,0.4995763441820072
+60,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,1,0.5003854345189243,0.49961456548107586
+61,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,2,0.5003854345189243,0.49961456548107586
+62,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,3,0.49741645324134487,0.5025835467586552
+63,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,4,0.49741645324134487,0.5025835467586552
+64,16.png,eighty nine,ten thirteen thirteen eleven eleven eleven,5,0.49741645324134487,0.5025835467586552
+65,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,0,0.5030540734642178,0.4969459265357823
+66,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,1,0.5030540734642178,0.4969459265357823
+67,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,2,0.5044268970268011,0.4955731029731987
+68,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,3,0.5044268970268011,0.4955731029731987
+69,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,4,0.4987021949210797,0.5012978050789203
+70,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,5,0.4987021949210797,0.5012978050789203
+71,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,6,0.4987021949210797,0.5012978050789203
+72,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,7,0.4987021949210797,0.5012978050789203
+73,17.png,eight hundred nine,thirteen thirteen eight eight eleven eleven eleven eleven nineteen,8,0.5144312574153856,0.48556874258461435
+74,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,0,0.473506233096902,0.5264937669030979
+75,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,1,0.4855484991388339,0.5144515008611662
+76,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,2,0.4855484991388339,0.5144515008611662
+77,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,3,0.4855484991388339,0.5144515008611662
+78,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,4,0.5251991358043572,0.4748008641956429
+79,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,5,0.5270986630518099,0.47290133694819014
+80,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,6,0.5270986630518099,0.47290133694819014
+81,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,7,0.5270986630518099,0.47290133694819014
+82,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,8,0.48859852540370396,0.5114014745962959
+83,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,9,0.48859852540370396,0.5114014745962959
+84,18.png,three hundred seven,thirteen eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,10,0.48859852540370396,0.5114014745962959
+85,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,0,0.46992620904814275,0.5300737909518575
+86,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,1,0.46992620904814275,0.5300737909518575
+87,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,2,0.4831283606521556,0.5168716393478443
+88,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,3,0.4831283606521556,0.5168716393478443
+89,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,4,0.4831283606521556,0.5168716393478443
+90,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,5,0.5231598480413324,0.4768401519586677
+91,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,6,0.5231598480413324,0.4768401519586677
+92,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,7,0.5231598480413324,0.4768401519586677
+93,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,8,0.5231598480413324,0.4768401519586677
+94,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,9,0.5231598480413324,0.4768401519586677
+95,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,10,0.49395888832600254,0.5060411116739975
+96,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,11,0.4842116998919754,0.5157883001080246
+97,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,12,0.4842116998919754,0.5157883001080246
+98,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,13,0.4842116998919754,0.5157883001080246
+99,19.png,three hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven eighty nineteen nineteen nineteen nineteen,14,0.4842116998919754,0.5157883001080246
+100,2.png,sixty four,thirteen thirteen five eleven eleven,0,0.5259879482682216,0.4740120517317782
+101,2.png,sixty four,thirteen thirteen five eleven eleven,1,0.5259879482682216,0.4740120517317782
+102,2.png,sixty four,thirteen thirteen five eleven eleven,2,0.5237922293470213,0.47620777065297865
+103,2.png,sixty four,thirteen thirteen five eleven eleven,3,0.46902583283829713,0.5309741671617028
+104,2.png,sixty four,thirteen thirteen five eleven eleven,4,0.46902583283829713,0.5309741671617028
+105,20.png,thirteen,twenty eight eleven eighty,0,0.4887434114238645,0.5112565885761355
+106,20.png,thirteen,twenty eight eleven eighty,1,0.4881503923147565,0.5118496076852436
+107,20.png,thirteen,twenty eight eleven eighty,2,0.5100629566857563,0.48993704331424365
+108,20.png,thirteen,twenty eight eleven eighty,3,0.5187992779848648,0.481200722015135
+109,21.png,forty two,twenty five five fifty eleven eleven seventeen,0,0.4823345858591529,0.5176654141408471
+110,21.png,forty two,twenty five five fifty eleven eleven seventeen,1,0.48520868423413166,0.5147913157658685
+111,21.png,forty two,twenty five five fifty eleven eleven seventeen,2,0.48520868423413166,0.5147913157658685
+112,21.png,forty two,twenty five five fifty eleven eleven seventeen,3,0.5329414041272215,0.4670585958727785
+113,21.png,forty two,twenty five five fifty eleven eleven seventeen,4,0.534415481213494,0.4655845187865062
+114,21.png,forty two,twenty five five fifty eleven eleven seventeen,5,0.534415481213494,0.4655845187865062
+115,21.png,forty two,twenty five five fifty eleven eleven seventeen,6,0.522966075463402,0.477033924536598
+116,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,0,0.4879378807999724,0.5120621192000275
+117,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,1,0.4947688918024073,0.5052311081975928
+118,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,2,0.49517106017135737,0.5048289398286427
+119,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,3,0.49517106017135737,0.5048289398286427
+120,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,4,0.48474014830615214,0.5152598516938478
+121,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,5,0.48474014830615214,0.5152598516938478
+122,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,6,0.48474014830615214,0.5152598516938478
+123,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,7,0.48474014830615214,0.5152598516938478
+124,22.png,five hundred eight,four thirteen eight eight eleven eleven eleven eleven nineteen,8,0.4796873408561331,0.5203126591438668
+125,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,0,0.5010032243299054,0.49899677567009454
+126,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,1,0.5083255488039168,0.49167445119608366
+127,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,2,0.5084632932777468,0.4915367067222533
+128,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,3,0.5084632932777468,0.4915367067222533
+129,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,4,0.508898357710463,0.49110164228953695
+130,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,5,0.508898357710463,0.49110164228953695
+131,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,6,0.508898357710463,0.49110164228953695
+132,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,7,0.508898357710463,0.49110164228953695
+133,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,8,0.4935242571044103,0.5064757428955898
+134,23.png,five hundred eighty,four thirteen eight eight eleven eleven eleven eleven nineteen nineteen,9,0.4935242571044103,0.5064757428955898
+135,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,0,0.4988200924665659,0.501179907533434
+136,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,1,0.4988200924665659,0.501179907533434
+137,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,2,0.5042708614787408,0.4957291385212594
+138,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,3,0.5042708614787408,0.4957291385212594
+139,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,4,0.47949938002232034,0.5205006199776798
+140,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,5,0.47949938002232034,0.5205006199776798
+141,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,6,0.47949938002232034,0.5205006199776798
+142,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,7,0.48886577108727314,0.5111342289127269
+143,24.png,two thousand three,thirteen thirteen eight eight eleven eleven eleven nineteen nineteen,8,0.48886577108727314,0.5111342289127269
+144,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,0,0.500355928363419,0.4996440716365811
+145,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,1,0.500355928363419,0.4996440716365811
+146,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,2,0.500355928363419,0.4996440716365811
+147,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,3,0.5023215179979554,0.4976784820020447
+148,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,4,0.4888891111101779,0.5111108888898221
+149,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,5,0.4888891111101779,0.5111108888898221
+150,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,6,0.48815133803513944,0.5118486619648607
+151,25.png,two thousand thirty,thirteen thirteen thirteen eight eleven eleven nineteen nineteen,7,0.48815133803513944,0.5118486619648607
+152,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,0,0.4947611047193739,0.5052388952806262
+153,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,1,0.5037042339302278,0.4962957660697725
+154,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,2,0.5037042339302278,0.4962957660697725
+155,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,3,0.5037042339302278,0.4962957660697725
+156,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,4,0.513742366234622,0.4862576337653782
+157,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,5,0.5178561382412978,0.4821438617587024
+158,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,6,0.5178561382412978,0.4821438617587024
+159,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,7,0.5178561382412978,0.4821438617587024
+160,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,8,0.4901034668398144,0.5098965331601858
+161,26.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,9,0.4901034668398144,0.5098965331601858
+162,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,0,0.4984011186874043,0.5015988813125958
+163,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,1,0.5070696554123615,0.4929303445876385
+164,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,2,0.5070696554123615,0.4929303445876385
+165,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,3,0.5070696554123615,0.4929303445876385
+166,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,4,0.5097831549803629,0.4902168450196372
+167,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,5,0.5144966767708,0.4855033232292
+168,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,6,0.5144966767708,0.4855033232292
+169,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,7,0.5144966767708,0.4855033232292
+170,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,8,0.48943630126118004,0.5105636987388199
+171,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,9,0.48943630126118004,0.5105636987388199
+172,27.png,three hundred sixty,four eight eight eight hundred eleven eleven eleven nineteen nineteen nineteen,10,0.48943630126118004,0.5105636987388199
+173,28.png,seven,twenty five eleven eleven eighty,0,0.5047314417562687,0.4952685582437311
+174,28.png,seven,twenty five eleven eleven eighty,1,0.5046805805545185,0.4953194194454815
+175,28.png,seven,twenty five eleven eleven eighty,2,0.4613084872742076,0.5386915127257924
+176,28.png,seven,twenty five eleven eleven eighty,3,0.4613084872742076,0.5386915127257924
+177,28.png,seven,twenty five eleven eleven eighty,4,0.4963688111177698,0.5036311888822304
+178,29.png,eighteen,twenty thirteen fifty eleven,0,0.47663334959180803,0.5233666504081917
+179,29.png,eighteen,twenty thirteen fifty eleven,1,0.4723259354400559,0.527674064559944
+180,29.png,eighteen,twenty thirteen fifty eleven,2,0.49456617984615375,0.5054338201538463
+181,29.png,eighteen,twenty thirteen fifty eleven,3,0.4869262951219462,0.5130737048780536
+182,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,0,0.49703535197784976,0.5029646480221502
+183,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,1,0.49703535197784976,0.5029646480221502
+184,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,2,0.49887618425077834,0.5011238157492218
+185,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,3,0.49887618425077834,0.5011238157492218
+186,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,4,0.4910903256005546,0.5089096743994456
+187,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,5,0.4910903256005546,0.5089096743994456
+188,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,6,0.4910903256005546,0.5089096743994456
+189,3.png,six hundred four,thirteen thirteen eight eight eleven eleven eleven fourteen,7,0.5022992703149228,0.4977007296850772
+190,30.png,five,twenty twenty eleven fourteen,0,0.5240355682099397,0.4759644317900601
+191,30.png,five,twenty twenty eleven fourteen,1,0.5240355682099397,0.4759644317900601
+192,30.png,five,twenty twenty eleven fourteen,2,0.5181999867045193,0.48180001329548083
+193,30.png,five,twenty twenty eleven fourteen,3,0.4933702021507643,0.5066297978492358
+194,31.png,eight,twenty twenty three eleven,0,0.5033601944735098,0.4966398055264902
+195,31.png,eight,twenty twenty three eleven,1,0.5033601944735098,0.4966398055264902
+196,31.png,eight,twenty twenty three eleven,2,0.49841131724082033,0.5015886827591796
+197,31.png,eight,twenty twenty three eleven,3,0.49744617277403513,0.5025538272259649
+198,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,0,0.5034513954734434,0.49654860452655664
+199,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,1,0.5034513954734434,0.49654860452655664
+200,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,2,0.50772501944882,0.49227498055118024
+201,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,3,0.5091749517415634,0.4908250482584365
+202,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,4,0.5056780083088176,0.4943219916911824
+203,32.png,five hundred,thirteen thirteen eight hundred eleven eleven,5,0.5056780083088176,0.4943219916911824
+204,33.png,five thousand,ten thirteen eight eleven eleven,0,0.4955728122425422,0.5044271877574578
+205,33.png,five thousand,ten thirteen eight eleven eleven,1,0.5002946985836662,0.4997053014163338
+206,33.png,five thousand,ten thirteen eight eleven eleven,2,0.5004658214205094,0.49953417857949073
+207,33.png,five thousand,ten thirteen eight eleven eleven,3,0.4807316591350115,0.5192683408649884
+208,33.png,five thousand,ten thirteen eight eleven eleven,4,0.4807316591350115,0.5192683408649884
+209,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,0,0.49567867919549624,0.5043213208045036
+210,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,1,0.49567867919549624,0.5043213208045036
+211,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,2,0.5022770352598976,0.49772296474010236
+212,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,3,0.5094541846570131,0.49054581534298675
+213,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,4,0.5094541846570131,0.49054581534298675
+214,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,5,0.5094541846570131,0.49054581534298675
+215,34.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,6,0.48968382928329396,0.510316170716706
+216,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,0,0.49459257541535345,0.5054074245846465
+217,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,1,0.4979640070659383,0.5020359929340618
+218,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,2,0.4987002425631456,0.5012997574368545
+219,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,3,0.4987002425631456,0.5012997574368545
+220,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,4,0.4948420666758796,0.5051579333241203
+221,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,5,0.49433950621579953,0.5056604937842005
+222,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,6,0.49433950621579953,0.5056604937842005
+223,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,7,0.49433950621579953,0.5056604937842005
+224,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,8,0.4906219577977667,0.5093780422022334
+225,35.png,five hundred nine,ten thirteen eight eight hundred eleven eleven eleven nineteen nineteen,9,0.4906219577977667,0.5093780422022334
+226,36.png,forty two,twenty five five fifty eleven eleven seventeen,0,0.4823345858591529,0.5176654141408471
+227,36.png,forty two,twenty five five fifty eleven eleven seventeen,1,0.48520868423413166,0.5147913157658685
+228,36.png,forty two,twenty five five fifty eleven eleven seventeen,2,0.48520868423413166,0.5147913157658685
+229,36.png,forty two,twenty five five fifty eleven eleven seventeen,3,0.5329414041272215,0.4670585958727785
+230,36.png,forty two,twenty five five fifty eleven eleven seventeen,4,0.534415481213494,0.4655845187865062
+231,36.png,forty two,twenty five five fifty eleven eleven seventeen,5,0.534415481213494,0.4655845187865062
+232,36.png,forty two,twenty five five fifty eleven eleven seventeen,6,0.522966075463402,0.477033924536598
+233,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,0,0.5026585765402422,0.4973414234597579
+234,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,1,0.5026585765402422,0.4973414234597579
+235,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,2,0.5026585765402422,0.4973414234597579
+236,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,3,0.4986950258851521,0.501304974114848
+237,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,4,0.512107562874202,0.48789243712579766
+238,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,5,0.512107562874202,0.48789243712579766
+239,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,6,0.512107562874202,0.48789243712579766
+240,37.png,four hundred twenty,thirteen thirteen thirteen eight eleven eleven eleven fourteen,7,0.5097980229791691,0.4902019770208309
+241,38.png,twenty seven,thirteen thirteen eight eleven eleven,0,0.49653659714317855,0.5034634028568216
+242,38.png,twenty seven,thirteen thirteen eight eleven eleven,1,0.49653659714317855,0.5034634028568216
+243,38.png,twenty seven,thirteen thirteen eight eleven eleven,2,0.4981295050276232,0.5018704949723768
+244,38.png,twenty seven,thirteen thirteen eight eleven eleven,3,0.4825606778159154,0.5174393221840846
+245,38.png,twenty seven,thirteen thirteen eight eleven eleven,4,0.4825606778159154,0.5174393221840846
+246,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,0,0.4824031354115011,0.5175968645884991
+247,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,1,0.4824031354115011,0.5175968645884991
+248,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,2,0.4824031354115011,0.5175968645884991
+249,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,3,0.48501142068174413,0.5149885793182558
+250,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,4,0.4937127588591646,0.5062872411408355
+251,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,5,0.4937127588591646,0.5062872411408355
+252,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,6,0.4937127588591646,0.5062872411408355
+253,39.png,two hundred seven,thirteen thirteen thirteen eight eleven eleven eleven fourteen,7,0.4847339699164447,0.5152660300835554
+254,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,0,0.49968673797074703,0.5003132620292531
+255,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,1,0.49646908274952767,0.5035309172504723
+256,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,2,0.49646908274952767,0.5035309172504723
+257,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,3,0.5135843316888661,0.48641566831113414
+258,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,4,0.5135843316888661,0.48641566831113414
+259,4.png,eighty five,twenty thirteen thirteen eleven eleven eleven,5,0.5135843316888661,0.48641566831113414
+260,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,0,0.49243123025703733,0.5075687697429625
+261,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,1,0.49243123025703733,0.5075687697429625
+262,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,2,0.49583206382283695,0.5041679361771628
+263,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,3,0.49583206382283695,0.5041679361771628
+264,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,4,0.47276902740767324,0.5272309725923269
+265,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,5,0.47276902740767324,0.5272309725923269
+266,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,6,0.47276902740767324,0.5272309725923269
+267,40.png,six hundred eight,thirteen thirteen eight eight eleven eleven eleven eleven,7,0.47276902740767324,0.5272309725923269
+268,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,0,0.49490521254944103,0.505094787450559
+269,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,1,0.49490521254944103,0.505094787450559
+270,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,2,0.49490521254944103,0.505094787450559
+271,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,3,0.4987557600908893,0.5012442399091107
+272,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,4,0.4987557600908893,0.5012442399091107
+273,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,5,0.4787752690366538,0.5212247309633463
+274,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,6,0.4787752690366538,0.5212247309633463
+275,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,7,0.4787752690366538,0.5212247309633463
+276,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,8,0.4787752690366538,0.5212247309633463
+277,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,9,0.4787752690366538,0.5212247309633463
+278,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,10,0.4863028283659996,0.5136971716340004
+279,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,11,0.4863028283659996,0.5136971716340004
+280,41.png,six hundred fifty eight,thirteen thirteen thirteen eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen,12,0.4863028283659996,0.5136971716340004
+281,42.png,seventeen,eight eight eleven eighty,0,0.48548884470019227,0.5145111552998076
+282,42.png,seventeen,eight eight eleven eighty,1,0.48548884470019227,0.5145111552998076
+283,42.png,seventeen,eight eight eleven eighty,2,0.5028855713821487,0.49711442861785127
+284,42.png,seventeen,eight eight eleven eighty,3,0.49018279606331716,0.5098172039366828
+285,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,0,0.4920509636424531,0.5079490363575467
+286,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,1,0.4920509636424531,0.5079490363575467
+287,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,2,0.48383084360803486,0.5161691563919651
+288,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,3,0.47554143157472667,0.5244585684252734
+289,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,4,0.47554143157472667,0.5244585684252734
+290,43.png,twenty eight,thirteen thirteen five eleven eleven eleven,5,0.47554143157472667,0.5244585684252734
+291,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,0,0.4723020668829956,0.5276979331170043
+292,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,1,0.4723020668829956,0.5276979331170043
+293,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,2,0.48424509633852253,0.5157549036614772
+294,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,3,0.48424509633852253,0.5157549036614772
+295,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,4,0.48424509633852253,0.5157549036614772
+296,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,5,0.5154565906011371,0.4845434093988629
+297,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,6,0.5154565906011371,0.4845434093988629
+298,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,7,0.5154565906011371,0.4845434093988629
+299,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,8,0.5154565906011371,0.4845434093988629
+300,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,9,0.5154565906011371,0.4845434093988629
+301,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,10,0.48789577396302464,0.5121042260369753
+302,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,11,0.48789577396302464,0.5121042260369753
+303,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,12,0.48789577396302464,0.5121042260369753
+304,44.png,five hundred sixty seven,thirteen thirteen eight eight eight eleven eleven eleven eleven eleven nineteen nineteen nineteen nineteen,13,0.48789577396302464,0.5121042260369753
+305,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,0,0.49554412958129246,0.5044558704187077
+306,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,1,0.49554412958129246,0.5044558704187077
+307,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,2,0.5011695891687299,0.4988304108312703
+308,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,3,0.5011695891687299,0.4988304108312703
+309,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,4,0.5011695891687299,0.4988304108312703
+310,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,5,0.5342548355202399,0.4657451644797601
+311,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,6,0.5342548355202399,0.4657451644797601
+312,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,7,0.5342548355202399,0.4657451644797601
+313,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,8,0.5342548355202399,0.4657451644797601
+314,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,9,0.492910020375605,0.5070899796243951
+315,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,10,0.492910020375605,0.5070899796243951
+316,45.png,five hundred seventy six,thirteen thirteen eight eight eight eleven eleven eleven eleven nineteen nineteen fourteen,11,0.493360587248504,0.5066394127514962
+317,46.png,one,twenty twenty nineteen forty eighty,0,0.5009786655994065,0.49902133440059343
+318,46.png,one,twenty twenty nineteen forty eighty,1,0.5009786655994065,0.49902133440059343
+319,46.png,one,twenty twenty nineteen forty eighty,2,0.49179077467607857,0.5082092253239215
+320,46.png,one,twenty twenty nineteen forty eighty,3,0.4865136446785558,0.5134863553214443
+321,46.png,one,twenty twenty nineteen forty eighty,4,0.4927001282657944,0.5072998717342057
+322,47.png,nine,ten ten eleven,0,0.5194290030018939,0.4805709969981062
+323,47.png,nine,ten ten eleven,1,0.5194290030018939,0.4805709969981062
+324,47.png,nine,ten ten eleven,2,0.49267437391492513,0.5073256260850749
+325,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,0,0.5105809195916722,0.48941908040832777
+326,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,1,0.5105809195916722,0.48941908040832777
+327,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,2,0.5105809195916722,0.48941908040832777
+328,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,3,0.5105809195916722,0.48941908040832777
+329,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,4,0.5194409215823916,0.48055907841760825
+330,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,5,0.5194409215823916,0.48055907841760825
+331,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,6,0.5194409215823916,0.48055907841760825
+332,5.png,eight hundred fifty,thirteen thirteen thirteen thirteen eleven eleven eleven eleven,7,0.5194409215823916,0.48055907841760825
+333,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,0,0.49567867919549624,0.5043213208045036
+334,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,1,0.49567867919549624,0.5043213208045036
+335,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,2,0.5022770352598976,0.49772296474010236
+336,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,3,0.5094541846570131,0.49054581534298675
+337,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,4,0.5094541846570131,0.49054581534298675
+338,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,5,0.5094541846570131,0.49054581534298675
+339,6.png,thirty six,thirteen thirteen eight eleven eleven eleven fourteen,6,0.48968382928329396,0.510316170716706
+340,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,0,0.4947611047193739,0.5052388952806262
+341,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,1,0.5037042339302278,0.4962957660697725
+342,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,2,0.5037042339302278,0.4962957660697725
+343,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,3,0.5037042339302278,0.4962957660697725
+344,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,4,0.513742366234622,0.4862576337653782
+345,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,5,0.5178561382412978,0.4821438617587024
+346,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,6,0.5178561382412978,0.4821438617587024
+347,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,7,0.5178561382412978,0.4821438617587024
+348,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,8,0.4901034668398144,0.5098965331601858
+349,7.png,three hundred six,four eight eight eight hundred eleven eleven eleven nineteen nineteen,9,0.4901034668398144,0.5098965331601858
+350,8.png,twelve,twenty eight fifty eleven seventeen,0,0.4805068217842846,0.5194931782157153
+351,8.png,twelve,twenty eight fifty eleven seventeen,1,0.4885365612050295,0.5114634387949704
+352,8.png,twelve,twenty eight fifty eleven seventeen,2,0.5244832081666755,0.4755167918333245
+353,8.png,twelve,twenty eight fifty eleven seventeen,3,0.5219940920975499,0.4780059079024501
+354,8.png,twelve,twenty eight fifty eleven seventeen,4,0.5177243121532917,0.48227568784670805
+355,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,0,0.49452096451538535,0.5054790354846145
+356,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,1,0.49452096451538535,0.5054790354846145
+357,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,2,0.49292310445733556,0.5070768955426646
+358,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,3,0.5017270359513708,0.49827296404862925
+359,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,4,0.5017270359513708,0.49827296404862925
+360,9.png,twenty two,thirteen thirteen eight eleven eleven fourteen,5,0.49796259488133776,0.5020374051186622

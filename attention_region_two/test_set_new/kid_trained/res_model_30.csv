@@ -1,0 +1,27 @@
+,Image,Label,Prediction,Word_num,Left_score,Right_score
+0,0.png,six thousand one hundred sixty two,four hundred twenty,0,0.8284677586018662,0.17153224139813383
+1,0.png,six thousand one hundred sixty two,four hundred twenty,1,0.9706822925904107,0.029317707409589323
+2,0.png,six thousand one hundred sixty two,four hundred twenty,2,0.9767544010931156,0.02324559890688437
+3,1.png,three thousand three hundred forty five,three hundred twenty,0,0.21254937103689275,0.787450628963107
+4,1.png,three thousand three hundred forty five,three hundred twenty,1,0.009049989117138795,0.9909500108828614
+5,1.png,three thousand three hundred forty five,three hundred twenty,2,0.009838486546717554,0.9901615134532827
+6,2.png,one thousand nine hundred ninety one,one hundred twenty,0,0.8240238459472143,0.17597615405278602
+7,2.png,one thousand nine hundred ninety one,one hundred twenty,1,0.8724889776853779,0.12751102231462208
+8,2.png,one thousand nine hundred ninety one,one hundred twenty,2,0.8575730163634171,0.14242698363658302
+9,3.png,two thousand seven hundred eighty seven,three hundred,0,0.07333411108357045,0.9266658889164295
+10,3.png,two thousand seven hundred eighty seven,three hundred,1,0.027214044701866728,0.9727859552981333
+11,4.png,five thousand four hundred sixty five,four hundred five,0,0.02440791790852215,0.9755920820914781
+12,4.png,five thousand four hundred sixty five,four hundred five,1,0.004818784833813994,0.9951812151661861
+13,4.png,five thousand four hundred sixty five,four hundred five,2,0.005226693142774103,0.9947733068572256
+14,5.png,seven hundred eighty seven,two hundred,0,0.7582605672612318,0.24173943273876794
+15,5.png,seven hundred eighty seven,two hundred,1,0.629927699999241,0.3700723000007591
+16,6.png,five hundred fifty four,three hundred twenty,0,0.5095882948411321,0.49041170515886795
+17,6.png,five hundred fifty four,three hundred twenty,1,0.1430303404386828,0.8569696595613174
+18,6.png,five hundred fifty four,three hundred twenty,2,0.09400566110923864,0.9059943388907613
+19,7.png,nine hundred thirty nine,three hundred,0,0.020365811385868477,0.9796341886141317
+20,7.png,nine hundred thirty nine,three hundred,1,0.007385097051671574,0.9926149029483285
+21,8.png,four hundred eighty eight,two hundred,0,0.01996265719777475,0.9800373428022253
+22,8.png,four hundred eighty eight,two hundred,1,0.011631803622782039,0.9883681963772177
+23,9.png,six hundred forty four,four hundred twenty,0,0.3459075301004599,0.6540924698995402
+24,9.png,six hundred forty four,four hundred twenty,1,0.5185809514346811,0.4814190485653187
+25,9.png,six hundred forty four,four hundred twenty,2,0.5208391967286625,0.4791608032713374

@@ -1,0 +1,61 @@
+,Image,Label,Prediction,Word_num,Left_score,Right_score
+0,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,0,0.5052470017236461,0.49475299827635394
+1,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,1,0.5047895931482718,0.4952104068517282
+2,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,2,0.5047895931482718,0.4952104068517282
+3,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,3,0.5047895931482718,0.4952104068517282
+4,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,4,0.5047895931482718,0.4952104068517282
+5,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,5,0.5047895931482718,0.4952104068517282
+6,0.png,six thousand one hundred sixty two,four <unk> <unk> <unk> <unk> <unk> <unk>,6,0.5047895931482718,0.4952104068517282
+7,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,0,0.49344020902001057,0.5065597909799894
+8,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,1,0.4948428613727358,0.5051571386272642
+9,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,2,0.4948428613727358,0.5051571386272642
+10,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,3,0.4948428613727358,0.5051571386272642
+11,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,4,0.4948428613727358,0.5051571386272642
+12,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,5,0.4948428613727358,0.5051571386272642
+13,1.png,three thousand three hundred forty five,seven <unk> <unk> <unk> <unk> <unk> <unk>,6,0.4948428613727358,0.5051571386272642
+14,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,0,0.49842647566027454,0.5015735243397255
+15,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,1,0.49303052627653443,0.5069694737234653
+16,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,2,0.49303052627653443,0.5069694737234653
+17,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,3,0.49303052627653443,0.5069694737234653
+18,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,4,0.49303052627653443,0.5069694737234653
+19,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,5,0.49303052627653443,0.5069694737234653
+20,2.png,one thousand nine hundred ninety one,four <unk> <unk> <unk> <unk> <unk> <unk>,6,0.49303052627653443,0.5069694737234653
+21,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,0,0.5276569533267685,0.47234304667323135
+22,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,1,0.5276569533267685,0.47234304667323135
+23,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,2,0.5264194595381118,0.4735805404618883
+24,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,3,0.5264194595381118,0.4735805404618883
+25,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,4,0.5264194595381118,0.4735805404618883
+26,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,5,0.5264194595381118,0.4735805404618883
+27,3.png,two thousand seven hundred eighty seven,four four <unk> <unk> <unk> <unk> <unk>,6,0.5264194595381118,0.4735805404618883
+28,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,0,0.514171053563103,0.48582894643689684
+29,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,1,0.514171053563103,0.48582894643689684
+30,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,2,0.5157250626201116,0.4842749373798883
+31,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,3,0.5157250626201116,0.4842749373798883
+32,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,4,0.5157250626201116,0.4842749373798883
+33,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,5,0.5157250626201116,0.4842749373798883
+34,4.png,five thousand four hundred sixty five,four four <unk> <unk> <unk> <unk> <unk>,6,0.5157250626201116,0.4842749373798883
+35,5.png,seven hundred eighty seven,four four <unk> <unk> <unk>,0,0.5102592682884464,0.4897407317115535
+36,5.png,seven hundred eighty seven,four four <unk> <unk> <unk>,1,0.5102592682884464,0.4897407317115535
+37,5.png,seven hundred eighty seven,four four <unk> <unk> <unk>,2,0.5048746692645334,0.49512533073546666
+38,5.png,seven hundred eighty seven,four four <unk> <unk> <unk>,3,0.5048746692645334,0.49512533073546666
+39,5.png,seven hundred eighty seven,four four <unk> <unk> <unk>,4,0.5048746692645334,0.49512533073546666
+40,6.png,five hundred fifty four,four four four <unk> <unk>,0,0.5234564253557866,0.4765435746442134
+41,6.png,five hundred fifty four,four four four <unk> <unk>,1,0.5234564253557866,0.4765435746442134
+42,6.png,five hundred fifty four,four four four <unk> <unk>,2,0.5234564253557866,0.4765435746442134
+43,6.png,five hundred fifty four,four four four <unk> <unk>,3,0.5322158998955872,0.4677841001044128
+44,6.png,five hundred fifty four,four four four <unk> <unk>,4,0.5322158998955872,0.4677841001044128
+45,7.png,nine hundred thirty nine,four four four four <unk>,0,0.51049728797982,0.48950271202018014
+46,7.png,nine hundred thirty nine,four four four four <unk>,1,0.51049728797982,0.48950271202018014
+47,7.png,nine hundred thirty nine,four four four four <unk>,2,0.51049728797982,0.48950271202018014
+48,7.png,nine hundred thirty nine,four four four four <unk>,3,0.51049728797982,0.48950271202018014
+49,7.png,nine hundred thirty nine,four four four four <unk>,4,0.508625504514737,0.49137449548526285
+50,8.png,four hundred eighty eight,four four four four four,0,0.5145016109660943,0.48549838903390563
+51,8.png,four hundred eighty eight,four four four four four,1,0.5145016109660943,0.48549838903390563
+52,8.png,four hundred eighty eight,four four four four four,2,0.5145016109660943,0.48549838903390563
+53,8.png,four hundred eighty eight,four four four four four,3,0.5145016109660943,0.48549838903390563
+54,8.png,four hundred eighty eight,four four four four four,4,0.5145016109660943,0.48549838903390563
+55,9.png,six hundred forty four,eighteen four <unk> <unk> <unk>,0,0.5011143434335964,0.49888565656640355
+56,9.png,six hundred forty four,eighteen four <unk> <unk> <unk>,1,0.5012563791422708,0.4987436208577292
+57,9.png,six hundred forty four,eighteen four <unk> <unk> <unk>,2,0.5027741899114966,0.49722581008850353
+58,9.png,six hundred forty four,eighteen four <unk> <unk> <unk>,3,0.5027741899114966,0.49722581008850353
+59,9.png,six hundred forty four,eighteen four <unk> <unk> <unk>,4,0.5027741899114966,0.49722581008850353
