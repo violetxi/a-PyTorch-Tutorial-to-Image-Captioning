@@ -1,24 +1,11 @@
-,Image,Label,Prediction,Word_num,Left_score,Right_score
-0,0.png,six thousand one hundred sixty two,one hundred twenty,0,0.9467929676536561,0.053207032346343615
-1,0.png,six thousand one hundred sixty two,one hundred twenty,1,0.9532921283270022,0.046707871672997836
-2,0.png,six thousand one hundred sixty two,one hundred twenty,2,0.9500549090857904,0.049945090914209594
-3,1.png,three thousand three hundred forty five,three hundred five,0,0.9723487133340435,0.027651286665956624
-4,1.png,three thousand three hundred forty five,three hundred five,1,0.016013609512837878,0.9839863904871621
-5,1.png,three thousand three hundred forty five,three hundred five,2,0.020432286942834717,0.9795677130571654
-6,2.png,one thousand nine hundred ninety one,one hundred,0,0.6829545005521492,0.317045499447851
-7,2.png,one thousand nine hundred ninety one,one hundred,1,0.7004222331513058,0.29957776684869425
-8,3.png,two thousand seven hundred eighty seven,two,0,0.018939530270317622,0.9810604697296819
-9,4.png,five thousand four hundred sixty five,three hundred five,0,0.9975564730461579,0.00244352695384207
-10,4.png,five thousand four hundred sixty five,three hundred five,1,0.04270679966622909,0.9572932003337707
-11,4.png,five thousand four hundred sixty five,three hundred five,2,0.035023870592827244,0.9649761294071727
-12,5.png,seven hundred eighty seven,six hundred,0,0.580939647536146,0.419060352463854
-13,5.png,seven hundred eighty seven,six hundred,1,0.5018209831222205,0.4981790168777795
-14,6.png,five hundred fifty four,four hundred twenty,0,0.03244321849767808,0.9675567815023218
-15,6.png,five hundred fifty four,four hundred twenty,1,0.002155716011933582,0.9978442839880666
-16,6.png,five hundred fifty four,four hundred twenty,2,0.0020296026943614305,0.9979703973056387
-17,7.png,nine hundred thirty nine,two hundred,0,0.7942955343768836,0.2057044656231164
-18,7.png,nine hundred thirty nine,two hundred,1,0.24598828116014373,0.7540117188398561
-19,8.png,four hundred eighty eight,four hundred,0,0.03551949404477003,0.9644805059552304
-20,8.png,four hundred eighty eight,four hundred,1,0.013568173802899588,0.9864318261971005
-21,9.png,six hundred forty four,six hundred,0,0.9984177686322683,0.001582231367731595
-22,9.png,six hundred forty four,six hundred,1,0.9297030736321724,0.07029692636782754
+,Image,Label,Prediction,Word_1_Left_score,Word_1_Left_score,Word_2_Left_score,Word_2_Left_score,Word_3_Left_score,Word_3_Left_score,Word_4_Left_score,Word_4_Left_score,Word_5_Left_score,Word_5_Left_score,Word_6_Left_score,Word_6_Left_score
+0,0.png,six thousand one hundred sixty two,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+1,1.png,three thousand three hundred forty five,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+2,2.png,one thousand nine hundred ninety one,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+3,3.png,two thousand seven hundred eighty seven,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+4,4.png,five thousand four hundred sixty five,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+5,5.png,seven hundred eighty seven,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+6,6.png,five hundred fifty four,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+7,7.png,nine hundred thirty nine,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+8,8.png,four hundred eighty eight,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+9,9.png,six hundred forty four,,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A

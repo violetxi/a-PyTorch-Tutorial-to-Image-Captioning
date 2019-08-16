@@ -59,6 +59,10 @@ def get_region_scores(att_map, num_digit):
 def get_attention_region_single(res):
     # Get all attention files for the model
     att_files = glob.glob("{}/*npy".format(res))
+    # Row and cols in the ouput
+    word_region_col = [["Word_{}_Left_score".format(i), "Word_{}_Left_score".format(i)] for i in range(1, 7)]
+    word_region_col = [t for tp in word_region_col for t in tp]
+    out_cols = ["Image", "Label", "Prediction"] + word_region_col
     rows = []
     for im in sorted(gt.keys()):
         # retrieve attention files related to current images
@@ -68,14 +72,12 @@ def get_attention_region_single(res):
                 
         # In the format of {word_i : {left : score, right : score}}
         att_region_scores = get_raw_att_file(prediction, label, im_att_files)
+        row = [im, label, " ".join(prediction)]
         for word in att_region_scores.keys():
-            row = [im, label, " ".join(prediction), word]
-            scores = [att_region_scores[word]['left'], att_region_scores[word]['right']]            
-            rows.append(row + scores)
-
-    att_region_df = pd.DataFrame(rows,
-                                 columns=["Image", "Label", "Prediction", "Word_num",
-                                          "Left_score", "Right_score"])
+            row += [att_region_scores[word]['left'], att_region_scores[word]['right']]
+        row += ['N/A' for i in range(len(out_cols) - len(row))]
+        rows.append(row)
+    att_region_df = pd.DataFrame(rows, columns=out_cols)
     return att_region_df
 
 
@@ -89,7 +91,6 @@ def get_attention_region(raw_att_dir):
         "For new test set"
         raw_att_path = os.path.join(raw_att_dir, model)
         res = os.path.join(args.out, "res_{}.csv".format(model))
-        
         # Get proabilities for attention regions
         att_region_df = get_attention_region_single(raw_att_path)
         print("Saving to {}".format(res))

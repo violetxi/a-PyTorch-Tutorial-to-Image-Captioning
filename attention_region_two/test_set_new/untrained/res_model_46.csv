@@ -1,61 +1,11 @@
-,Image,Label,Prediction,Word_num,Left_score,Right_score
-0,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,0,0.4840241381836704,0.5159758618163298
-1,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,1,0.48652848294499035,0.5134715170550095
-2,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,2,0.48652848294499035,0.5134715170550095
-3,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,3,0.48652848294499035,0.5134715170550095
-4,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,4,0.48652848294499035,0.5134715170550095
-5,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,5,0.48652848294499035,0.5134715170550095
-6,0.png,six thousand one hundred sixty two,ninety eight eight eight eight eight eight,6,0.48652848294499035,0.5134715170550095
-7,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,0,0.5056488513869714,0.4943511486130287
-8,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,1,0.5001977350145741,0.4998022649854258
-9,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,2,0.5001977350145741,0.4998022649854258
-10,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,3,0.5001977350145741,0.4998022649854258
-11,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,4,0.5001977350145741,0.4998022649854258
-12,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,5,0.5001977350145741,0.4998022649854258
-13,1.png,three thousand three hundred forty five,seventy eight eight eight eight eight eight,6,0.5001977350145741,0.4998022649854258
-14,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,0,0.5009790276099083,0.49902097239009163
-15,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,1,0.5009790276099083,0.49902097239009163
-16,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,2,0.5009790276099083,0.49902097239009163
-17,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,3,0.5009790276099083,0.49902097239009163
-18,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,4,0.5009790276099083,0.49902097239009163
-19,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,5,0.5009790276099083,0.49902097239009163
-20,2.png,one thousand nine hundred ninety one,eight eight eight eight eight eight eight,6,0.5009790276099083,0.49902097239009163
-21,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,0,0.5014113017323436,0.49858869826765634
-22,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,1,0.5014113017323436,0.49858869826765634
-23,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,2,0.5014113017323436,0.49858869826765634
-24,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,3,0.5014113017323436,0.49858869826765634
-25,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,4,0.5014113017323436,0.49858869826765634
-26,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,5,0.5014113017323436,0.49858869826765634
-27,3.png,two thousand seven hundred eighty seven,eight eight eight eight eight eight eight,6,0.5014113017323436,0.49858869826765634
-28,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,0,0.49023136581692695,0.509768634183073
-29,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,1,0.49023136581692695,0.509768634183073
-30,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,2,0.49023136581692695,0.509768634183073
-31,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,3,0.49023136581692695,0.509768634183073
-32,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,4,0.49023136581692695,0.509768634183073
-33,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,5,0.49023136581692695,0.509768634183073
-34,4.png,five thousand four hundred sixty five,eight eight eight eight eight eight eight,6,0.49023136581692695,0.509768634183073
-35,5.png,seven hundred eighty seven,seventy eight eight eight eight,0,0.5014657311643241,0.49853426883567586
-36,5.png,seven hundred eighty seven,seventy eight eight eight eight,1,0.49903210421049593,0.5009678957895042
-37,5.png,seven hundred eighty seven,seventy eight eight eight eight,2,0.49903210421049593,0.5009678957895042
-38,5.png,seven hundred eighty seven,seventy eight eight eight eight,3,0.49903210421049593,0.5009678957895042
-39,5.png,seven hundred eighty seven,seventy eight eight eight eight,4,0.49903210421049593,0.5009678957895042
-40,6.png,five hundred fifty four,seventy eight <pad> <pad> <pad>,0,0.4794303152178978,0.5205696847821022
-41,6.png,five hundred fifty four,seventy eight <pad> <pad> <pad>,1,0.4778381444208671,0.5221618555791329
-42,6.png,five hundred fifty four,seventy eight <pad> <pad> <pad>,2,0.47798364643998137,0.5220163535600186
-43,6.png,five hundred fifty four,seventy eight <pad> <pad> <pad>,3,0.47798364643998137,0.5220163535600186
-44,6.png,five hundred fifty four,seventy eight <pad> <pad> <pad>,4,0.47798364643998137,0.5220163535600186
-45,7.png,nine hundred thirty nine,ninety eight <pad> <pad> <pad>,0,0.4969480365803767,0.5030519634196233
-46,7.png,nine hundred thirty nine,ninety eight <pad> <pad> <pad>,1,0.49904718343241744,0.5009528165675826
-47,7.png,nine hundred thirty nine,ninety eight <pad> <pad> <pad>,2,0.49957188874310055,0.5004281112568992
-48,7.png,nine hundred thirty nine,ninety eight <pad> <pad> <pad>,3,0.49957188874310055,0.5004281112568992
-49,7.png,nine hundred thirty nine,ninety eight <pad> <pad> <pad>,4,0.49957188874310055,0.5004281112568992
-50,8.png,four hundred eighty eight,seventy seventy eight <pad> <pad>,0,0.5299434728307193,0.47005652716928076
-51,8.png,four hundred eighty eight,seventy seventy eight <pad> <pad>,1,0.5299434728307193,0.47005652716928076
-52,8.png,four hundred eighty eight,seventy seventy eight <pad> <pad>,2,0.5218066497080047,0.47819335029199533
-53,8.png,four hundred eighty eight,seventy seventy eight <pad> <pad>,3,0.5222765354558928,0.47772346454410697
-54,8.png,four hundred eighty eight,seventy seventy eight <pad> <pad>,4,0.5222765354558928,0.47772346454410697
-55,9.png,six hundred forty four,eight eight eight eight eight,0,0.48614364477784333,0.5138563552221569
-56,9.png,six hundred forty four,eight eight eight eight eight,1,0.48614364477784333,0.5138563552221569
-57,9.png,six hundred forty four,eight eight eight eight eight,2,0.48614364477784333,0.5138563552221569
-58,9.png,six hundred forty four,eight eight eight eight eight,3,0.48614364477784333,0.5138563552221569
-59,9.png,six hundred forty four,eight eight eight eight eight,4,0.48614364477784333,0.5138563552221569
+,Image,Label,Prediction,Word_1_Left_score,Word_1_Left_score,Word_2_Left_score,Word_2_Left_score,Word_3_Left_score,Word_3_Left_score,Word_4_Left_score,Word_4_Left_score,Word_5_Left_score,Word_5_Left_score,Word_6_Left_score,Word_6_Left_score
+0,0.png,six thousand one hundred sixty two,four hundred sixty,0.3443941314388318,0.6556058685611683,0.720309061391554,0.2796909386084459,0.71002198531613,0.2899780146838701,N/A,N/A,N/A,N/A,N/A,N/A
+1,1.png,three thousand three hundred forty five,three hundred five,0.9832750434982778,0.01672495650172232,0.13785786516748955,0.8621421348325105,0.12963070510961075,0.8703692948903893,N/A,N/A,N/A,N/A,N/A,N/A
+2,2.png,one thousand nine hundred ninety one,one hundred,0.7908174149021487,0.20918258509785126,0.7866001353923865,0.21339986460761345,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+3,3.png,two thousand seven hundred eighty seven,two hundred,0.06397498975316507,0.9360250102468353,0.022148062440652753,0.9778519375593472,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+4,4.png,five thousand four hundred sixty five,three hundred five,0.6106802949311158,0.3893197050688844,0.05713895961432028,0.9428610403856792,0.04443800034692066,0.9555619996530792,N/A,N/A,N/A,N/A,N/A,N/A
+5,5.png,seven hundred eighty seven,eighty hundred,0.7082985739119133,0.29170142608808636,0.6231183293440424,0.37688167065595757,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+6,6.png,five hundred fifty four,four hundred twenty,0.14056628213657185,0.8594337178634284,0.0005069114377572251,0.9994930885622428,0.00044594873340467916,0.9995540512665954,N/A,N/A,N/A,N/A,N/A,N/A
+7,7.png,nine hundred thirty nine,four hundred,0.3662103529663586,0.6337896470336416,0.22395250672431183,0.7760474932756881,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+8,8.png,four hundred eighty eight,four hundred,0.1802429205231838,0.819757079476816,0.061301371645091536,0.9386986283549086,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A
+9,9.png,six hundred forty four,four hundred twenty,0.29405340166110494,0.7059465983388951,0.5653525815032873,0.4346474184967127,0.5599279559620257,0.44007204403797423,N/A,N/A,N/A,N/A,N/A,N/A
