@@ -10,6 +10,7 @@ __pycache__
 *models
 *tar
 
+
 # Large raw files
 raw_attention_map/
 chinese_results/
@@ -20,3 +21,6 @@ results/
 # Unwanted changes
 kid_combined_raw/
 kid_combined_normalized/
+
+# Scratch
+scratch/
