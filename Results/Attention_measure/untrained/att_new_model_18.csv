@@ -1,0 +1,477 @@
+,Image,Label,Prediction,Word_num,Left_score,Right_score
+0,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,0,0.5126100451680506,0.4873899548319492
+1,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,1,0.5107672149099234,0.4892327850900766
+2,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,2,0.5107672149099234,0.4892327850900766
+3,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,3,0.49137933253732363,0.5086206674626762
+4,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,4,0.49137933253732363,0.5086206674626762
+5,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,5,0.49137933253732363,0.5086206674626762
+6,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,6,0.48678849016994524,0.5132115098300548
+7,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,7,0.472499975878124,0.5275000241218758
+8,0.png,seventy eight,ten <pad> <pad> eighty eighty eighty thirty one one,8,0.472499975878124,0.5275000241218758
+9,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,0,0.49221801142106764,0.5077819885789324
+10,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,1,0.49277181480655335,0.5072281851934467
+11,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,2,0.49277181480655335,0.5072281851934467
+12,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,3,0.49277181480655335,0.5072281851934467
+13,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,4,0.49849177750252627,0.5015082224974736
+14,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,5,0.4947070170309515,0.5052929829690485
+15,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,6,0.4947070170309515,0.5052929829690485
+16,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,7,0.4919215923964306,0.5080784076035694
+17,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,8,0.4919215923964306,0.5080784076035694
+18,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,9,0.5126187675248962,0.4873812324751038
+19,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,10,0.5126187675248962,0.4873812324751038
+20,1.png,eight hundred seven,ten <pad> <pad> <pad> eight nine nine thirty thirty one one one,11,0.5126187675248962,0.4873812324751038
+21,10.png,four hundred,ten <pad> <pad> six three three thirty one one,0,0.47763172081897665,0.5223682791810234
+22,10.png,four hundred,ten <pad> <pad> six three three thirty one one,1,0.47713715353541625,0.5228628464645838
+23,10.png,four hundred,ten <pad> <pad> six three three thirty one one,2,0.47713715353541625,0.5228628464645838
+24,10.png,four hundred,ten <pad> <pad> six three three thirty one one,3,0.5088848153185596,0.4911151846814405
+25,10.png,four hundred,ten <pad> <pad> six three three thirty one one,4,0.5053338101923962,0.4946661898076035
+26,10.png,four hundred,ten <pad> <pad> six three three thirty one one,5,0.5053338101923962,0.4946661898076035
+27,10.png,four hundred,ten <pad> <pad> six three three thirty one one,6,0.49069200881911923,0.5093079911808807
+28,10.png,four hundred,ten <pad> <pad> six three three thirty one one,7,0.49467059559438803,0.5053294044056118
+29,10.png,four hundred,ten <pad> <pad> six three three thirty one one,8,0.49467059559438803,0.5053294044056118
+30,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,0,0.47788543161526387,0.5221145683847362
+31,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,1,0.4806045627942436,0.5193954372057566
+32,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,2,0.4806045627942436,0.5193954372057566
+33,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,3,0.49437237873627615,0.5056276212637238
+34,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,4,0.49437237873627615,0.5056276212637238
+35,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,5,0.4968250058220191,0.5031749941779808
+36,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,6,0.4869766700408367,0.5130233299591634
+37,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,7,0.49601251363692367,0.5039874863630763
+38,11.png,four thousand,ten <pad> <pad> twenty twenty three thirty one one,8,0.49601251363692367,0.5039874863630763
+39,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,0,0.5205454332060696,0.4794545667939302
+40,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,1,0.5206213483721274,0.4793786516278724
+41,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,2,0.5206213483721274,0.4793786516278724
+42,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,3,0.4982225816848383,0.5017774183151616
+43,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,4,0.5025285199288652,0.49747148007113484
+44,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,5,0.5025285199288652,0.49747148007113484
+45,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,6,0.4918592446243222,0.5081407553756777
+46,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,7,0.47222380161434313,0.5277761983856569
+47,12.png,seventy six,ten <pad> <pad> six eighty eighty thirty one one,8,0.47222380161434313,0.5277761983856569
+48,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,0,0.5076864659733947,0.49231353402660505
+49,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,1,0.4958840371223214,0.5041159628776788
+50,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,2,0.4958840371223214,0.5041159628776788
+51,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,3,0.4958840371223214,0.5041159628776788
+52,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,4,0.5111875660835683,0.48881243391643175
+53,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,5,0.5111875660835683,0.48881243391643175
+54,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,6,0.5111875660835683,0.48881243391643175
+55,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,7,0.47956338926065495,0.5204366107393452
+56,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,8,0.47963300821950133,0.5203669917804986
+57,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,9,0.47963300821950133,0.5203669917804986
+58,13.png,seven hundred sixty,twenty <pad> <pad> <pad> three three three thirty one one one,10,0.47963300821950133,0.5203669917804986
+59,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,0,0.5000865504207191,0.4999134495792808
+60,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,1,0.5000865504207191,0.4999134495792808
+61,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,2,0.5000865504207191,0.4999134495792808
+62,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,3,0.5013942494545951,0.49860575054540496
+63,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,4,0.49888860031608245,0.5011113996839178
+64,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,5,0.49888860031608245,0.5011113996839178
+65,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,6,0.4989372708673372,0.5010627291326626
+66,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,7,0.5005943915797844,0.49940560842021564
+67,14.png,thirty one,fourteen fourteen fourteen five three three thirty one one,8,0.5005943915797844,0.49940560842021564
+68,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,0,0.4867551461096723,0.5132448538903276
+69,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,1,0.4867551461096723,0.5132448538903276
+70,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,2,0.4854439880728414,0.5145560119271585
+71,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,3,0.4854439880728414,0.5145560119271585
+72,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,4,0.4798295156775921,0.5201704843224082
+73,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,5,0.4786302384369529,0.5213697615630473
+74,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,6,0.4786302384369529,0.5213697615630473
+75,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,7,0.4786302384369529,0.5213697615630473
+76,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,8,0.5077769260285897,0.4922230739714102
+77,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,9,0.5084123668335124,0.4915876331664876
+78,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,10,0.5084123668335124,0.4915876331664876
+79,15.png,three hundred one,twenty twenty <pad> <pad> six three three three thirty one one one,11,0.5084123668335124,0.4915876331664876
+80,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,0,0.5070325882678327,0.4929674117321673
+81,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,1,0.5111028017043961,0.4888971982956039
+82,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,2,0.5111028017043961,0.4888971982956039
+83,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,3,0.4969514014916346,0.5030485985083655
+84,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,4,0.4969514014916346,0.5030485985083655
+85,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,5,0.4998137963302158,0.5001862036697841
+86,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,6,0.4998137963302158,0.5001862036697841
+87,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,7,0.507039346357724,0.49296065364227587
+88,16.png,eighty nine,sixteen <pad> <pad> eighty eighty thirty thirty one one,8,0.507039346357724,0.49296065364227587
+89,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,0,0.5085466749599872,0.49145332504001266
+90,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,1,0.5084682536885343,0.4915317463114656
+91,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,2,0.5084682536885343,0.4915317463114656
+92,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,3,0.5084682536885343,0.4915317463114656
+93,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,4,0.5021874792057399,0.4978125207942602
+94,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,5,0.5010570358628769,0.498942964137123
+95,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,6,0.5010570358628769,0.498942964137123
+96,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,7,0.5010570358628769,0.498942964137123
+97,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,8,0.5010570358628769,0.498942964137123
+98,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,9,0.4987690149440165,0.5012309850559835
+99,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,10,0.4987690149440165,0.5012309850559835
+100,17.png,eight hundred nine,ten <pad> <pad> <pad> sixty thirty thirty thirty thirty one one one,11,0.4987690149440165,0.5012309850559835
+101,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,0,0.48207088218475214,0.5179291178152479
+102,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,1,0.48207088218475214,0.5179291178152479
+103,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,2,0.48377828199457046,0.5162217180054297
+104,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,3,0.48377828199457046,0.5162217180054297
+105,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,4,0.47636552631558565,0.5236344736844143
+106,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,5,0.4772102203496185,0.5227897796503814
+107,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,6,0.4772102203496185,0.5227897796503814
+108,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,7,0.4772102203496185,0.5227897796503814
+109,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,8,0.5143007184638712,0.48569928153612896
+110,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,9,0.5143007184638712,0.48569928153612896
+111,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,10,0.5143007184638712,0.48569928153612896
+112,18.png,three hundred seven,twenty twenty <pad> <pad> six three three three one one one one,11,0.5143007184638712,0.48569928153612896
+113,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,0,0.4853474398799491,0.5146525601200507
+114,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,1,0.4864704415763228,0.5135295584236772
+115,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,2,0.4871365031665713,0.5128634968334288
+116,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,3,0.4871365031665713,0.5128634968334288
+117,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,4,0.4871365031665713,0.5128634968334288
+118,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,5,0.46879485300012796,0.531205146999872
+119,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,6,0.46724460104994353,0.5327553989500567
+120,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,7,0.46724460104994353,0.5327553989500567
+121,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,8,0.46724460104994353,0.5327553989500567
+122,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,9,0.46724460104994353,0.5327553989500567
+123,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,10,0.5154637565117877,0.48453624348821234
+124,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,11,0.513739987705543,0.4862600122944571
+125,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,12,0.513739987705543,0.4862600122944571
+126,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,13,0.513739987705543,0.4862600122944571
+127,19.png,three hundred sixty seven,fourteen twenty <pad> <pad> <pad> six three three three three sixteen one one one one,14,0.513739987705543,0.4862600122944571
+128,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,0,0.5193389443752652,0.4806610556247349
+129,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,1,0.5193389443752652,0.4806610556247349
+130,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,2,0.5158895513359781,0.4841104486640219
+131,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,3,0.518600846571655,0.48139915342834505
+132,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,4,0.518600846571655,0.48139915342834505
+133,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,5,0.518600846571655,0.48139915342834505
+134,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,6,0.48057464935976685,0.5194253506402329
+135,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,7,0.48848151650030597,0.5115184834996942
+136,2.png,sixty four,ten ten <pad> eighty eighty eighty fourteen one one,8,0.48848151650030597,0.5115184834996942
+137,20.png,thirteen,fourteen fourteen five three thirty,0,0.5179573304307563,0.4820426695692436
+138,20.png,thirteen,fourteen fourteen five three thirty,1,0.5179573304307563,0.4820426695692436
+139,20.png,thirteen,fourteen fourteen five three thirty,2,0.4937574481591731,0.5062425518408269
+140,20.png,thirteen,fourteen fourteen five three thirty,3,0.49640028720440066,0.5035997127955993
+141,20.png,thirteen,fourteen fourteen five three thirty,4,0.5095503909413104,0.4904496090586896
+142,21.png,forty two,fourteen twenty twenty six three three thirty one one,0,0.4813158816401691,0.5186841183598309
+143,21.png,forty two,fourteen twenty twenty six three three thirty one one,1,0.478457041067431,0.5215429589325693
+144,21.png,forty two,fourteen twenty twenty six three three thirty one one,2,0.478457041067431,0.5215429589325693
+145,21.png,forty two,fourteen twenty twenty six three three thirty one one,3,0.48531256679965173,0.5146874332003484
+146,21.png,forty two,fourteen twenty twenty six three three thirty one one,4,0.48487461536650517,0.5151253846334947
+147,21.png,forty two,fourteen twenty twenty six three three thirty one one,5,0.48487461536650517,0.5151253846334947
+148,21.png,forty two,fourteen twenty twenty six three three thirty one one,6,0.5271477972900596,0.4728522027099404
+149,21.png,forty two,fourteen twenty twenty six three three thirty one one,7,0.5248848479312684,0.4751151520687314
+150,21.png,forty two,fourteen twenty twenty six three three thirty one one,8,0.5248848479312684,0.4751151520687314
+151,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,0,0.4862778790218184,0.5137221209781814
+152,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,1,0.48551680504686556,0.5144831949531343
+153,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,2,0.48551680504686556,0.5144831949531343
+154,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,3,0.48551680504686556,0.5144831949531343
+155,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,4,0.48671401555063637,0.5132859844493637
+156,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,5,0.48671401555063637,0.5132859844493637
+157,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,6,0.48644297117747354,0.5135570288225264
+158,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,7,0.48644297117747354,0.5135570288225264
+159,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,8,0.48551680504686556,0.5144831949531343
+160,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,9,0.49687433864842406,0.5031256613515759
+161,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,10,0.49687433864842406,0.5031256613515759
+162,22.png,five hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty <pad> one one one,11,0.49687433864842406,0.5031256613515759
+163,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,0,0.49092722720341614,0.5090727727965838
+164,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,1,0.4939779271881182,0.5060220728118817
+165,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,2,0.4939779271881182,0.5060220728118817
+166,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,3,0.4939779271881182,0.5060220728118817
+167,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,4,0.49439162051489427,0.5056083794851056
+168,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,5,0.4956889993651396,0.5043110006348605
+169,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,6,0.49560037016049524,0.5043996298395048
+170,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,7,0.49560037016049524,0.5043996298395048
+171,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,8,0.4939779271881182,0.5060220728118817
+172,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,9,0.4889222706856782,0.5110777293143218
+173,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,10,0.4889222706856782,0.5110777293143218
+174,23.png,five hundred eighty,thirteen <pad> <pad> <pad> six three thirty thirty <pad> one one one,11,0.4889222706856782,0.5110777293143218
+175,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,0,0.500322501415344,0.49967749858465627
+176,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,1,0.5061057101154145,0.49389428988458556
+177,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,2,0.5061057101154145,0.49389428988458556
+178,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,3,0.5061057101154145,0.49389428988458556
+179,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,4,0.5002648507030486,0.49973514929695134
+180,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,5,0.5002648507030486,0.49973514929695134
+181,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,6,0.5032171810416144,0.4967828189583854
+182,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,7,0.5032171810416144,0.4967828189583854
+183,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,8,0.5032171810416144,0.4967828189583854
+184,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,9,0.5036939267467001,0.49630607325329995
+185,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,10,0.5036939267467001,0.49630607325329995
+186,24.png,two thousand three,ten <pad> <pad> <pad> twenty twenty thirty thirty thirty one one one,11,0.5036939267467001,0.49630607325329995
+187,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,0,0.4902480477824558,0.5097519522175442
+188,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,1,0.49432710563368865,0.5056728943663114
+189,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,2,0.49432710563368865,0.5056728943663114
+190,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,3,0.49432710563368865,0.5056728943663114
+191,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,4,0.4974143873692321,0.5025856126307678
+192,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,5,0.49726948933825826,0.5027305106617417
+193,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,6,0.49726948933825826,0.5027305106617417
+194,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,7,0.49726948933825826,0.5027305106617417
+195,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,8,0.5038815726789116,0.49611842732108846
+196,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,9,0.5034915917863128,0.496508408213687
+197,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,10,0.5034915917863128,0.496508408213687
+198,25.png,two thousand thirty,thirteen <pad> <pad> <pad> twenty twelve twelve twelve thirty one one one,11,0.5034915917863128,0.496508408213687
+199,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,0,0.493933775888591,0.506066224111409
+200,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,1,0.48990772908240776,0.5100922709175923
+201,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,2,0.48990772908240776,0.5100922709175923
+202,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,3,0.48990772908240776,0.5100922709175923
+203,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,4,0.4967956601488218,0.5032043398511781
+204,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,5,0.4940707337052363,0.5059292662947639
+205,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,6,0.4940707337052363,0.5059292662947639
+206,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,7,0.4940707337052363,0.5059292662947639
+207,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,8,0.4922477670595908,0.5077522329404093
+208,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,9,0.48833641554451385,0.5116635844554862
+209,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,10,0.48833641554451385,0.5116635844554862
+210,26.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,11,0.48833641554451385,0.5116635844554862
+211,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,0,0.4984186627249007,0.5015813372750992
+212,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,1,0.49604755401086065,0.5039524459891395
+213,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,2,0.49604755401086065,0.5039524459891395
+214,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,3,0.49604755401086065,0.5039524459891395
+215,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,4,0.48455005680186264,0.5154499431981372
+216,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,5,0.4862872254253075,0.5137127745746926
+217,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,6,0.4862872254253075,0.5137127745746926
+218,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,7,0.4862872254253075,0.5137127745746926
+219,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,8,0.4972280201773553,0.5027719798226447
+220,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,9,0.4948013116403121,0.5051986883596876
+221,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,10,0.4948013116403121,0.5051986883596876
+222,27.png,three hundred sixty,fourteen <pad> <pad> <pad> six three three three thirty one one one,11,0.4948013116403121,0.5051986883596876
+223,28.png,seven,fourteen three three sixteen eighty,0,0.5131764940316561,0.4868235059683438
+224,28.png,seven,fourteen three three sixteen eighty,1,0.5165937940454138,0.4834062059545863
+225,28.png,seven,fourteen three three sixteen eighty,2,0.5165937940454138,0.4834062059545863
+226,28.png,seven,fourteen three three sixteen eighty,3,0.48635319208852446,0.5136468079114754
+227,28.png,seven,fourteen three three sixteen eighty,4,0.4712576039113841,0.5287423960886161
+228,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,0,0.48684969150266344,0.5131503084973368
+229,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,1,0.48684969150266344,0.5131503084973368
+230,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,2,0.46051297035690764,0.5394870296430925
+231,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,3,0.46051297035690764,0.5394870296430925
+232,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,4,0.5128613895126901,0.48713861048730983
+233,29.png,eighteen,twenty twenty eighty eighty fourteen fourteen,5,0.5128613895126901,0.48713861048730983
+234,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,0,0.511815055743688,0.4881849442563118
+235,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,1,0.5102261443289311,0.48977385567106885
+236,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,2,0.5102261443289311,0.48977385567106885
+237,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,3,0.5102261443289311,0.48977385567106885
+238,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,4,0.5097105879588347,0.4902894120411651
+239,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,5,0.5114959688014501,0.48850403119854974
+240,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,6,0.5114959688014501,0.48850403119854974
+241,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,7,0.5114959688014501,0.48850403119854974
+242,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,8,0.500326055355292,0.4996739446447079
+243,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,9,0.5033350665560092,0.496664933443991
+244,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,10,0.5033350665560092,0.496664933443991
+245,3.png,six hundred four,ten <pad> <pad> <pad> six twelve twelve twelve thirty one one one,11,0.5033350665560092,0.496664933443991
+246,30.png,five,ten <pad> eighty eighty thirty one,0,0.49080020249993156,0.5091997975000685
+247,30.png,five,ten <pad> eighty eighty thirty one,1,0.4871822009750615,0.5128177990249385
+248,30.png,five,ten <pad> eighty eighty thirty one,2,0.4703872582532083,0.5296127417467915
+249,30.png,five,ten <pad> eighty eighty thirty one,3,0.4703872582532083,0.5296127417467915
+250,30.png,five,ten <pad> eighty eighty thirty one,4,0.5055279625610598,0.4944720374389403
+251,30.png,five,ten <pad> eighty eighty thirty one,5,0.5038480349791256,0.49615196502087444
+252,31.png,eight,eighty eighty thirty thirty,0,0.5051196895790981,0.49488031042090164
+253,31.png,eight,eighty eighty thirty thirty,1,0.5051196895790981,0.49488031042090164
+254,31.png,eight,eighty eighty thirty thirty,2,0.4914041643962469,0.5085958356037532
+255,31.png,eight,eighty eighty thirty thirty,3,0.4914041643962469,0.5085958356037532
+256,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,0,0.49065505109958696,0.509344948900413
+257,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,1,0.4880837416020985,0.5119162583979016
+258,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,2,0.4880837416020985,0.5119162583979016
+259,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,3,0.5029964745185521,0.497003525481448
+260,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,4,0.5027814906990424,0.49721850930095757
+261,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,5,0.5027814906990424,0.49721850930095757
+262,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,6,0.4859916075354618,0.5140083924645381
+263,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,7,0.4847275781492337,0.5152724218507663
+264,32.png,five hundred,ten <pad> <pad> twenty three three thirty one one,8,0.4847275781492337,0.5152724218507663
+265,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,0,0.4911676193251553,0.5088323806748447
+266,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,1,0.490088686020961,0.509911313979039
+267,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,2,0.490088686020961,0.509911313979039
+268,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,3,0.5047467419084448,0.4952532580915551
+269,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,4,0.5047467419084448,0.4952532580915551
+270,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,5,0.5086430182876123,0.49135698171238773
+271,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,6,0.490088686020961,0.509911313979039
+272,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,7,0.492843400912922,0.5071565990870779
+273,33.png,five thousand,thirteen <pad> <pad> twenty twenty three <pad> one one,8,0.492843400912922,0.5071565990870779
+274,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,0,0.5060745407203703,0.4939254592796297
+275,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,1,0.5019325214374356,0.4980674785625644
+276,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,2,0.5019325214374356,0.4980674785625644
+277,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,3,0.49750228845372024,0.5024977115462798
+278,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,4,0.49475022249337913,0.505249777506621
+279,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,5,0.49475022249337913,0.505249777506621
+280,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,6,0.4982059914851614,0.5017940085148384
+281,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,7,0.4876560409645733,0.5123439590354266
+282,34.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,8,0.4876560409645733,0.5123439590354266
+283,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,0,0.4978345441140744,0.5021654558859254
+284,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,1,0.4972304044970379,0.5027695955029623
+285,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,2,0.4972304044970379,0.5027695955029623
+286,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,3,0.4972304044970379,0.5027695955029623
+287,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,4,0.48314534397921793,0.5168546560207821
+288,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,5,0.4872294495275965,0.5127705504724035
+289,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,6,0.4872294495275965,0.5127705504724035
+290,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,7,0.4864463172087873,0.5135536827912126
+291,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,8,0.4864463172087873,0.5135536827912126
+292,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,9,0.4908125079353155,0.5091874920646846
+293,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,10,0.4908125079353155,0.5091874920646846
+294,35.png,five hundred nine,thirteen <pad> <pad> <pad> twenty three three thirty thirty one one one,11,0.4908125079353155,0.5091874920646846
+295,36.png,forty two,fourteen twenty twenty six three three thirty one one,0,0.4813158816401691,0.5186841183598309
+296,36.png,forty two,fourteen twenty twenty six three three thirty one one,1,0.478457041067431,0.5215429589325693
+297,36.png,forty two,fourteen twenty twenty six three three thirty one one,2,0.478457041067431,0.5215429589325693
+298,36.png,forty two,fourteen twenty twenty six three three thirty one one,3,0.48531256679965173,0.5146874332003484
+299,36.png,forty two,fourteen twenty twenty six three three thirty one one,4,0.48487461536650517,0.5151253846334947
+300,36.png,forty two,fourteen twenty twenty six three three thirty one one,5,0.48487461536650517,0.5151253846334947
+301,36.png,forty two,fourteen twenty twenty six three three thirty one one,6,0.5271477972900596,0.4728522027099404
+302,36.png,forty two,fourteen twenty twenty six three three thirty one one,7,0.5248848479312684,0.4751151520687314
+303,36.png,forty two,fourteen twenty twenty six three three thirty one one,8,0.5248848479312684,0.4751151520687314
+304,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,0,0.4750741760087884,0.5249258239912119
+305,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,1,0.4769621702480309,0.5230378297519693
+306,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,2,0.4777476418468036,0.5222523581531963
+307,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,3,0.4777476418468036,0.5222523581531963
+308,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,4,0.488347706888421,0.511652293111579
+309,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,5,0.49546107320221233,0.5045389267977876
+310,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,6,0.49546107320221233,0.5045389267977876
+311,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,7,0.49546107320221233,0.5045389267977876
+312,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,8,0.5128315406648614,0.4871684593351384
+313,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,9,0.5154848200016211,0.4845151799983787
+314,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,10,0.5154848200016211,0.4845151799983787
+315,37.png,four hundred twenty,ten twenty <pad> <pad> six three three three thirty one one one,11,0.5154848200016211,0.4845151799983787
+316,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,0,0.49252303412725207,0.507476965872748
+317,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,1,0.48707354095207883,0.5129264590479214
+318,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,2,0.48654973017808356,0.5134502698219164
+319,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,3,0.47994376143175405,0.520056238568246
+320,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,4,0.4777664551846444,0.5222335448153557
+321,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,5,0.4759662684862225,0.5240337315137777
+322,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,6,0.5116887986596622,0.4883112013403379
+323,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,7,0.5165983822241781,0.4834016177758221
+324,38.png,twenty seven,ten twenty <pad> five three eighty thirty one one,8,0.5165983822241781,0.4834016177758221
+325,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,0,0.49003298102384163,0.5099670189761581
+326,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,1,0.49003298102384163,0.5099670189761581
+327,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,2,0.478257316247758,0.5217426837522418
+328,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,3,0.478257316247758,0.5217426837522418
+329,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,4,0.49179900229245477,0.5082009977075452
+330,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,5,0.49179900229245477,0.5082009977075452
+331,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,6,0.49179900229245477,0.5082009977075452
+332,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,7,0.5030015874062086,0.4969984125937913
+333,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,8,0.5085137139630703,0.49148628603692984
+334,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,9,0.5085137139630703,0.49148628603692984
+335,39.png,two hundred seven,twenty twenty <pad> <pad> three three three thirty one one one,10,0.5085137139630703,0.49148628603692984
+336,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,0,0.510095467558924,0.489904532441076
+337,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,1,0.5121111955320466,0.4878888044679534
+338,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,2,0.5121111955320466,0.4878888044679534
+339,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,3,0.5047929082303793,0.4952070917696206
+340,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,4,0.5047929082303793,0.4952070917696206
+341,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,5,0.5038582891255801,0.49614171087442005
+342,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,6,0.5038582891255801,0.49614171087442005
+343,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,7,0.4956576178538346,0.5043423821461657
+344,4.png,eighty five,sixteen <pad> <pad> eighty eighty thirty thirty one one,8,0.4956576178538346,0.5043423821461657
+345,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,0,0.4931433448301099,0.5068566551698902
+346,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,1,0.4894683493960754,0.5105316506039247
+347,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,2,0.4894683493960754,0.5105316506039247
+348,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,3,0.4894683493960754,0.5105316506039247
+349,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,4,0.49563704852571877,0.5043629514742813
+350,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,5,0.49563704852571877,0.5043629514742813
+351,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,6,0.49471581500591505,0.505284184994085
+352,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,7,0.49471581500591505,0.505284184994085
+353,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,8,0.5012311960067177,0.49876880399328233
+354,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,9,0.5009578263563218,0.4990421736436783
+355,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,10,0.5009578263563218,0.4990421736436783
+356,40.png,six hundred eight,thirteen <pad> <pad> <pad> nine nine thirty thirty eighteen one one one,11,0.5009578263563218,0.4990421736436783
+357,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,0,0.4867450536917101,0.5132549463082897
+358,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,1,0.4863586660117017,0.5136413339882984
+359,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,2,0.4863586660117017,0.5136413339882984
+360,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,3,0.4863586660117017,0.5136413339882984
+361,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,4,0.4863586660117017,0.5136413339882984
+362,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,5,0.4927814419042838,0.5072185580957164
+363,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,6,0.4938921659052229,0.5061078340947771
+364,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,7,0.4941639735957762,0.5058360264042238
+365,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,8,0.4941639735957762,0.5058360264042238
+366,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,9,0.4941639735957762,0.5058360264042238
+367,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,10,0.5068999300437053,0.49310006995629463
+368,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,11,0.5064213763595973,0.4935786236404029
+369,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,12,0.5064213763595973,0.4935786236404029
+370,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,13,0.5064213763595973,0.4935786236404029
+371,41.png,six hundred fifty eight,thirteen <pad> <pad> <pad> <pad> eighty nine thirty thirty thirty fourteen one one one one,14,0.5064213763595973,0.4935786236404029
+372,42.png,seventeen,twenty twenty forty three sixteen sixteen,0,0.4837013881568441,0.5162986118431562
+373,42.png,seventeen,twenty twenty forty three sixteen sixteen,1,0.4837013881568441,0.5162986118431562
+374,42.png,seventeen,twenty twenty forty three sixteen sixteen,2,0.45457516524805747,0.5454248347519425
+375,42.png,seventeen,twenty twenty forty three sixteen sixteen,3,0.4473170370077147,0.5526829629922853
+376,42.png,seventeen,twenty twenty forty three sixteen sixteen,4,0.5324550568524878,0.4675449431475123
+377,42.png,seventeen,twenty twenty forty three sixteen sixteen,5,0.5324550568524878,0.4675449431475123
+378,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,0,0.49337688898015475,0.5066231110198451
+379,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,1,0.4922815025920936,0.5077184974079066
+380,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,2,0.4922815025920936,0.5077184974079066
+381,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,3,0.5001760328061231,0.49982396719387695
+382,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,4,0.5001760328061231,0.49982396719387695
+383,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,5,0.4965673823960886,0.5034326176039114
+384,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,6,0.4885967739043767,0.5114032260956235
+385,43.png,twenty eight,eighty <pad> <pad> nine nine fourteen one one,7,0.4885967739043767,0.5114032260956235
+386,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,0,0.4838020115596106,0.5161979884403892
+387,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,1,0.4849843669401226,0.5150156330598774
+388,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,2,0.4849843669401226,0.5150156330598774
+389,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,3,0.4849843669401226,0.5150156330598774
+390,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,4,0.4849843669401226,0.5150156330598774
+391,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,5,0.474164084572793,0.5258359154272069
+392,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,6,0.47250532728640215,0.5274946727135978
+393,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,7,0.47250532728640215,0.5274946727135978
+394,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,8,0.47250532728640215,0.5274946727135978
+395,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,9,0.47250532728640215,0.5274946727135978
+396,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,10,0.5055597393171004,0.4944402606828997
+397,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,11,0.5044005600924802,0.49559943990751987
+398,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,12,0.5044005600924802,0.49559943990751987
+399,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,13,0.5044005600924802,0.49559943990751987
+400,44.png,five hundred sixty seven,fourteen <pad> <pad> <pad> <pad> six three three three three thirty one one one one,14,0.5044005600924802,0.49559943990751987
+401,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,0,0.5032882012270895,0.49671179877291044
+402,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,1,0.5046340039211545,0.49536599607884546
+403,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,2,0.5046340039211545,0.49536599607884546
+404,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,3,0.5046340039211545,0.49536599607884546
+405,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,4,0.5046340039211545,0.49536599607884546
+406,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,5,0.4902006398198565,0.5097993601801436
+407,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,6,0.4893744428250586,0.5106255571749417
+408,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,7,0.4893744428250586,0.5106255571749417
+409,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,8,0.48937363223772606,0.5106263677622739
+410,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,9,0.48937363223772606,0.5106263677622739
+411,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,10,0.49887070297675395,0.5011292970232458
+412,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,11,0.4886392876141616,0.5113607123858385
+413,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,12,0.4886392876141616,0.5113607123858385
+414,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,13,0.4886392876141616,0.5113607123858385
+415,45.png,five hundred seventy six,fourteen <pad> <pad> <pad> <pad> twenty three three two two thirty one one one one,14,0.4886392876141616,0.5113607123858385
+416,46.png,one,twenty twenty forty five thirty eighty,0,0.49927885263562727,0.5007211473643729
+417,46.png,one,twenty twenty forty five thirty eighty,1,0.49927885263562727,0.5007211473643729
+418,46.png,one,twenty twenty forty five thirty eighty,2,0.4942366701664048,0.5057633298335952
+419,46.png,one,twenty twenty forty five thirty eighty,3,0.49680888526395156,0.5031911147360484
+420,46.png,one,twenty twenty forty five thirty eighty,4,0.5167669869943922,0.4832330130056077
+421,46.png,one,twenty twenty forty five thirty eighty,5,0.5122703670006856,0.4877296329993143
+422,47.png,nine,six <pad> eighty three thirty thirty,0,0.5139220495520527,0.48607795044794716
+423,47.png,nine,six <pad> eighty three thirty thirty,1,0.5153550895186584,0.48464491048134156
+424,47.png,nine,six <pad> eighty three thirty thirty,2,0.5124206860419895,0.48757931395801035
+425,47.png,nine,six <pad> eighty three thirty thirty,3,0.5173327618956894,0.48266723810431056
+426,47.png,nine,six <pad> eighty three thirty thirty,4,0.486885501735349,0.513114498264651
+427,47.png,nine,six <pad> eighty three thirty thirty,5,0.486885501735349,0.513114498264651
+428,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,0,0.5032271540210039,0.4967728459789961
+429,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,1,0.5048374089770526,0.4951625910229472
+430,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,2,0.5048374089770526,0.4951625910229472
+431,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,3,0.5048374089770526,0.4951625910229472
+432,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,4,0.5063189255798092,0.4936810744201907
+433,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,5,0.5047959546878388,0.49520404531216117
+434,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,6,0.5053117705844344,0.4946882294155658
+435,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,7,0.5053117705844344,0.4946882294155658
+436,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,8,0.5053117705844344,0.4946882294155658
+437,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,9,0.5033119043469747,0.49668809565302535
+438,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,10,0.5033119043469747,0.49668809565302535
+439,5.png,eight hundred fifty,thirteen <pad> <pad> <pad> twenty three thirty thirty thirty one one one,11,0.5033119043469747,0.49668809565302535
+440,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,0,0.5060745407203703,0.4939254592796297
+441,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,1,0.5019325214374356,0.4980674785625644
+442,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,2,0.5019325214374356,0.4980674785625644
+443,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,3,0.49750228845372024,0.5024977115462798
+444,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,4,0.49475022249337913,0.505249777506621
+445,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,5,0.49475022249337913,0.505249777506621
+446,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,6,0.4982059914851614,0.5017940085148384
+447,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,7,0.4876560409645733,0.5123439590354266
+448,6.png,thirty six,fourteen <pad> <pad> eighty three three thirty one one,8,0.4876560409645733,0.5123439590354266
+449,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,0,0.493933775888591,0.506066224111409
+450,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,1,0.48990772908240776,0.5100922709175923
+451,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,2,0.48990772908240776,0.5100922709175923
+452,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,3,0.48990772908240776,0.5100922709175923
+453,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,4,0.4967956601488218,0.5032043398511781
+454,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,5,0.4940707337052363,0.5059292662947639
+455,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,6,0.4940707337052363,0.5059292662947639
+456,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,7,0.4940707337052363,0.5059292662947639
+457,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,8,0.4922477670595908,0.5077522329404093
+458,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,9,0.48833641554451385,0.5116635844554862
+459,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,10,0.48833641554451385,0.5116635844554862
+460,7.png,three hundred six,fourteen <pad> <pad> <pad> six three three three eighteen one one one,11,0.48833641554451385,0.5116635844554862
+461,8.png,twelve,twenty twenty five three thirty one,0,0.4971866095019296,0.5028133904980703
+462,8.png,twelve,twenty twenty five three thirty one,1,0.4971866095019296,0.5028133904980703
+463,8.png,twelve,twenty twenty five three thirty one,2,0.4648843022276519,0.5351156977723481
+464,8.png,twelve,twenty twenty five three thirty one,3,0.46722757597612935,0.5327724240238706
+465,8.png,twelve,twenty twenty five three thirty one,4,0.5152055556895478,0.48479444431045227
+466,8.png,twelve,twenty twenty five three thirty one,5,0.5111310500002834,0.48886894999971686
+467,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,0,0.49534102509479944,0.5046589749052004
+468,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,1,0.49445952499654744,0.5055404750034524
+469,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,2,0.49445952499654744,0.5055404750034524
+470,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,3,0.49370394194428413,0.506296058055716
+471,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,4,0.49455238142452623,0.5054476185754737
+472,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,5,0.49455238142452623,0.5054476185754737
+473,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,6,0.5030421365459227,0.4969578634540774
+474,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,7,0.5020484116052654,0.49795158839473447
+475,9.png,twenty two,ten <pad> <pad> six three three thirty eighteen one,8,0.5021851038745673,0.49781489612543256

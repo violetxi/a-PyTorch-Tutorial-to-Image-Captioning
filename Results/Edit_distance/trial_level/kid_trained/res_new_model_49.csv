@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,eighty,9,1.png,eight hundred seven,two hundred,13,1
+1,sixty four,2.png,twenty,9,3.png,six hundred four,two hundred twenty,17,1
+2,eighty five,4.png,eighty,5,5.png,eight hundred fifty,two hundred,11,1
+3,thirty six,6.png,three,7,7.png,three hundred six,three hundred,10,1
+4,twelve,8.png,one hundred,9,9.png,twenty two,two hundred,8,0
+5,four hundred,10.png,four hundred,0,11.png,four thousand,four thousand five,9,1
+6,seventy six,12.png,sixteen,9,13.png,seven hundred sixty,two hundred sixty,12,1
+7,thirty one,14.png,three,6,15.png,three hundred one,three hundred,8,1
+8,eighty nine,16.png,eighty,5,17.png,eight hundred nine,two hundred,10,1
+9,three hundred seven,18.png,three hundred,6,19.png,three hundred sixty seven,three hundred,6,0
+10,thirteen,20.png,three,3,21.png,forty two,one hundred,9,1
+11,five hundred eight,22.png,two,18,23.png,five hundred eighty,two hundred,10,0
+12,two thousand three,24.png,two thousand two,4,25.png,two thousand thirty,three thousand five,8,1
+13,three hundred six,26.png,three hundred,4,27.png,three hundred sixty,three hundred twenty,6,1
+14,seven,28.png,seven,0,29.png,eighteen,eighty,6,1
+15,five,30.png,five,0,31.png,eight,eight,4,1
+16,five hundred,32.png,two hundred,4,33.png,five thousand,three thousand five,13,1
+17,thirty six,34.png,three,7,35.png,five hundred nine,five hundred,12,1
+18,forty two,36.png,one hundred,11,37.png,four hundred twenty,four hundred twenty,13,1
+19,twenty seven,38.png,two hundred,9,39.png,two hundred seven,two hundred two,12,1
+20,six hundred eight,40.png,six hundred,6,41.png,six hundred fifty eight,two hundred,9,1
+21,seventeen,42.png,one,7,43.png,twenty eight,two,8,1
+22,five hundred sixty seven,44.png,five hundred twenty,9,45.png,five hundred seventy six,five hundred twenty,9,0
+23,one,46.png,one,0,47.png,nine,nine,2,1
