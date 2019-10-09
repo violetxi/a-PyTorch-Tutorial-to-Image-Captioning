@@ -31,10 +31,7 @@ python caption_bootstrap.py -m [PATH_TO_SAVED_MODELS] -wm ../Training_and_testin
 -oa [PATH_TO_SAVE_RAW_ATTENTION] -g ../Training_and_testing_items/images_raw/test_new/num_labels.json \ 
 -t ../Training_and_testing_items/csv/test_trial_new.csv -ot [PATH_TO_SAVE_TRIAL_LEVEL_RESULTS] \ 
  -r [PATH_TO/OVERALL_ACC.csv] -st [new or old] -et [edit or prob] -op [PATH_TO_SAVE_RAW_PROBABILITY]
-Test our trained models, please download our models [here](https://drive.google.com/file/d/1MBrFSgdgnFxzYc12WfcCRN31d-rdrxk4/view?usp=sharing) and then run the above command.
+Test our trained models, please download our models <a href=https://drive.google.com/file/d/1MBrFSgdgnFxzYc12WfcCRN31d-rdrxk4/view?usp=sharing> here </a> and then run the above command.
 
-<h4> Generate attention scores. </h4>
-
-<h4> </h4>
 
 <h1> Below are the README.md content from https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning. More information can be found there. </h1>
