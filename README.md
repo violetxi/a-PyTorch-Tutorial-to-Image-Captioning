@@ -23,7 +23,7 @@ The model and training procedure here are based on code from https://github.com/
 
 Python 3.6 and PyTorch 0.4.1 are used for these scripts.
 <h4> Training </h4>
-python train_bootstrap.py -m <PATH_TO_MODEL_OUTPUT> -d ../Training_and_testing_items/images_processed/ -n <NUN_OF_MODELS>
+python train_bootstrap.py -m [PATH_TO_MODEL_OUTPUT] -d ../Training_and_testing_items/images_processed/ -n [NUN_OF_MODELS]
 
 <h4> Testing Trained Models </h4>
 Test newly trained models: 
