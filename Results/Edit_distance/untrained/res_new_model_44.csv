@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,seventy seven,5,1.png,eight hundred seven,seventy seven seven,10,1
+1,sixty four,2.png,<end> seven,10,3.png,six hundred four,seventy seven seven,15,1
+2,eighty five,4.png,fourteen seven,10,5.png,eight hundred fifty,seventy seven seven,13,1
+3,thirty six,6.png,<end> seven,10,7.png,three hundred six,<end> seven seven,15,1
+4,twelve,8.png,<end>,5,9.png,twenty two,<unk> seven,9,1
+5,four hundred,10.png,seventy seven,12,11.png,four thousand,seventy fourteen,13,1
+6,seventy six,12.png,<unk> seven,10,13.png,seven hundred sixty,seventy seven seven,10,0
+7,thirty one,14.png,<unk> <unk>,10,15.png,three hundred one,seventy seven seven,14,1
+8,eighty nine,16.png,seventy seven,8,17.png,eight hundred nine,six seven seven,12,1
+9,three hundred seven,18.png,seventy seven seven,11,19.png,three hundred sixty seven,seventy <unk> seven seven,14,1
+10,thirteen,20.png,<unk>,8,21.png,forty two,<end> <end>,9,1
+11,five hundred eight,22.png,seventy seven seven,15,23.png,five hundred eighty,seventy seven seven,15,0
+12,two thousand three,24.png,fourteen seven seven,16,25.png,two thousand thirty,fourteen fourteen seven,18,1
+13,three hundred six,26.png,<end> seven seven,15,27.png,three hundred sixty,<end> seven seven,15,0
+14,seven,28.png,<unk>,5,29.png,eighteen,<end>,4,0
+15,five,30.png,<end>,5,31.png,eight,<end>,5,0
+16,five hundred,32.png,seventy seven,10,33.png,five thousand,fourteen fourteen,12,1
+17,thirty six,34.png,<end> seven,10,35.png,five hundred nine,seventy seven seven,15,1
+18,forty two,36.png,<end> <end>,10,37.png,four hundred twenty,<end> seven seven,16,1
+19,twenty seven,38.png,<unk> seventy,7,39.png,two hundred seven,<unk> seven seven,10,1
+20,six hundred eight,40.png,six seven seven,11,41.png,six hundred fifty eight,fourteen seven seven seven,22,1
+21,seventeen,42.png,<unk>,8,43.png,twenty eight,seventy seven,4,0
+22,five hundred sixty seven,44.png,seventy seventy seven seven,16,45.png,five hundred seventy six,seventy seven seven seven,14,0
+23,one,46.png,<end>,4,47.png,nine,<end>,4,0

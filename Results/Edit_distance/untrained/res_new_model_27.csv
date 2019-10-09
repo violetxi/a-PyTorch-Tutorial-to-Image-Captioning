@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,<start> <start>,12,1.png,eight hundred seven,fourteen fourteen fourteen,21,1
+1,sixty four,2.png,<start> <start>,11,3.png,six hundred four,fourteen fourteen fourteen,20,1
+2,eighty five,4.png,<start> <start>,13,5.png,eight hundred fifty,fourteen fourteen fourteen,21,1
+3,thirty six,6.png,fourteen fourteen,14,7.png,three hundred six,fourteen fourteen fourteen,22,1
+4,twelve,8.png,<start>,7,9.png,twenty two,<start> <start>,14,1
+5,four hundred,10.png,fourteen fourteen,10,11.png,four thousand,<start> forty,11,1
+6,seventy six,12.png,<start> ninety,11,13.png,seven hundred sixty,<start> fourteen fourteen,22,1
+7,thirty one,14.png,<start> <start>,12,15.png,three hundred one,fourteen fourteen fourteen,20,1
+8,eighty nine,16.png,<start> fourteen,13,17.png,eight hundred nine,fourteen fourteen fourteen,22,1
+9,three hundred seven,18.png,fourteen fourteen fourteen,17,19.png,three hundred sixty seven,fourteen fourteen fourteen fourteen,24,1
+10,thirteen,20.png,ninety,6,21.png,forty two,<start> <start>,13,1
+11,five hundred eight,22.png,fourteen fourteen fourteen,19,23.png,five hundred eighty,fourteen fourteen fourteen,19,0
+12,two thousand three,24.png,fourteen fourteen fourteen,19,25.png,two thousand thirty,fourteen fourteen fourteen,19,0
+13,three hundred six,26.png,fourteen fourteen fourteen,19,27.png,three hundred sixty,fourteen fourteen fourteen,19,0
+14,seven,28.png,fifteen,5,29.png,eighteen,<start>,6,1
+15,five,30.png,ninety,4,31.png,eight,ninety,4,0
+16,five hundred,32.png,fourteen fourteen,12,33.png,five thousand,fourteen fourteen,12,0
+17,thirty six,34.png,fourteen fourteen,14,35.png,five hundred nine,fourteen fourteen fourteen,22,1
+18,forty two,36.png,<start> <start>,11,37.png,four hundred twenty,<start> <start> fourteen,19,1
+19,twenty seven,38.png,<start> <start>,12,39.png,two hundred seven,<start> fourteen fourteen,20,1
+20,six hundred eight,40.png,fourteen fourteen fourteen,21,41.png,six hundred fifty eight,fourteen fourteen fourteen fourteen,28,1
+21,seventeen,42.png,fifteen,5,43.png,twenty eight,<start> ninety,11,1
+22,five hundred sixty seven,44.png,fourteen fourteen fourteen fourteen,25,45.png,five hundred seventy six,<start> fourteen fourteen fourteen,26,1
+23,one,46.png,ninety,4,47.png,nine,<start>,7,1

@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,two hundred six,0.png,fifteen eighteen eighteen,20,1.png,two hundred sixty,fifteen eighteen eighteen,20,0
+1,one hundred,2.png,fifteen eighteen,13,3.png,one thousand,fifteen fifteen,12,0
+2,sixty seven,4.png,seventy eighteen,10,5.png,six hundred seventy,fifteen eighteen eighteen,19,1
+3,one thousand two,6.png,fifteen fifteen fifteen,19,7.png,one thousand twenty,fifteen fifteen eighteen,20,1
+4,twenty one,8.png,fifteen eighteen,12,9.png,two hundred one,fifteen eighteen eighteen,19,1
+5,one hundred five,10.png,fifteen eighteen eighteen,19,11.png,one hundred twenty five,fifteen eighteen eighteen eighteen,26,1
+6,three hundred five,12.png,fifteen eighteen eighteen,18,13.png,three hundred fifty,fifteen eighteen eighteen,18,0
+7,forty two,14.png,fifteen eighteen,12,15.png,four hundred two,fifteen eighteen eighteen,21,1
+8,five,16.png,fifteen,4,17.png,fifteen,fifteen,4,1
+9,eleven,18.png,fifteen,5,19.png,twenty four,fifteen eighteen,12,1
+10,two,20.png,fifteen,6,21.png,eight,fifteen,6,0
+11,twenty five,22.png,fifteen eighteen,12,23.png,four hundred five,fifteen eighteen eighteen,18,1
+12,sixty two,24.png,fifteen eighteen,12,25.png,six hundred two,fifteen eighteen eighteen,21,1
+13,twenty one,26.png,fifteen eighteen,12,27.png,two hundred ten,eleven eighteen eighteen,19,1
+14,twenty four,28.png,fifteen eighteen,13,29.png,two hundred four,fifteen eighteen eighteen,20,1
+15,seventeen,30.png,seventy,3,31.png,twenty one,fifteen eighteen,10,1
+16,thirty five,32.png,fifteen eighteen,12,33.png,three hundred five,fifteen eighteen eighteen,19,1
+17,forty seven,34.png,seventy eighteen,11,35.png,four hundred seventy,seventy eighteen eighteen,19,1
+18,nineteen,36.png,fifteen,3,37.png,one hundred nine,fifteen eighteen eighteen,17,1
+19,sixteen,38.png,fifteen,2,39.png,one hundred six,fifteen eighteen eighteen,20,1
+20,fifty three,40.png,fifteen eighteen,8,41.png,eighty,fifteen,6,0
+21,two hundred sixteen,42.png,eleven eighteen eighteen,16,43.png,two hundred sixty one,fifteen eighteen eighteen eighteen,23,1
+22,four hundred twelve,44.png,fifteen eighteen eighteen,20,45.png,four hundred twenty one,seventy eighteen eighteen eighteen,28,1
+23,six,46.png,fifteen,6,47.png,thirteen,seventy,6,0

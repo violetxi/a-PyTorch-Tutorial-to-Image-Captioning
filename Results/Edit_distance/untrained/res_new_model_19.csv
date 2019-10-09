@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,eleven eleven,9,1.png,eight hundred seven,eleven eleven eleven,14,1
+1,sixty four,2.png,<start> eleven,11,3.png,six hundred four,<start> eleven eleven,18,1
+2,eighty five,4.png,eleven eleven,9,5.png,eight hundred fifty,eleven eleven eleven,16,1
+3,thirty six,6.png,eleven eleven,12,7.png,three hundred six,hundred eleven eleven,19,1
+4,twelve,8.png,fifty,6,9.png,twenty two,<start> eleven,9,1
+5,four hundred,10.png,fifty eleven,10,11.png,four thousand,<start> eleven,12,1
+6,seventy six,12.png,<start> eleven,12,13.png,seven hundred sixty,<start> eleven eleven,16,1
+7,thirty one,14.png,<start> eleven,10,15.png,three hundred one,hundred eleven eleven,17,1
+8,eighty nine,16.png,eleven eleven,10,17.png,eight hundred nine,eleven eleven eleven,16,1
+9,three hundred seven,18.png,hundred eleven eleven,13,19.png,three hundred sixty seven,eleven eleven eleven eleven,18,1
+10,thirteen,20.png,<start>,7,21.png,forty two,fifty eleven,8,1
+11,five hundred eight,22.png,eleven eleven eleven,15,23.png,five hundred eighty,eleven eleven eleven,15,0
+12,two thousand three,24.png,<start> eleven eleven,18,25.png,two thousand thirty,<start> <start> eleven,17,0
+13,three hundred six,26.png,hundred eleven eleven,17,27.png,three hundred sixty,hundred eleven eleven,17,0
+14,seven,28.png,eleven,2,29.png,eighteen,fifty,5,1
+15,five,30.png,<start>,7,31.png,eight,three,4,0
+16,five hundred,32.png,hundred eleven,12,33.png,five thousand,<start> eleven,13,1
+17,thirty six,34.png,eleven eleven,12,35.png,five hundred nine,hundred eleven eleven,19,1
+18,forty two,36.png,fifty eleven,8,37.png,four hundred twenty,<start> eleven eleven,18,1
+19,twenty seven,38.png,<start> eleven,8,39.png,two hundred seven,<start> eleven eleven,14,1
+20,six hundred eight,40.png,eleven eleven eleven,17,41.png,six hundred fifty eight,eleven eleven eleven eleven,22,1
+21,seventeen,42.png,<start>,8,43.png,twenty eight,eleven eleven,6,0
+22,five hundred sixty seven,44.png,eleven eleven eleven eleven,18,45.png,five hundred seventy six,<start> eleven eleven eleven,21,1
+23,one,46.png,nineteen,6,47.png,nine,<start>,7,1

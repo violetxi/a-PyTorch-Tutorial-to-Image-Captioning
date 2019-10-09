@@ -205,10 +205,10 @@ def visualize_att(image_path, seq, alphas, rev_word_map, smooth=True, model='mod
         # Create directory to save raw attention map, visualization and trial results
         sub_dirs = image_set + '/' + model + '/' + image_type
         out_att_map = os.path.join(args.out_att_map, sub_dirs)
-        out_vis = os.path.join(args.out_vis, sub_dirs)
+        #out_vis = os.path.join(args.out_vis, sub_dirs)    # No need for final
         try:
             os.makedirs(out_att_map)
-            os.makedirs(out_vis)
+            #os.makedirs(out_vis)    # No need for final
         except:
             pass
         if current_word not in ['<start>', '<end>']:
@@ -217,8 +217,8 @@ def visualize_att(image_path, seq, alphas, rev_word_map, smooth=True, model='mod
             np.save(os.path.join(out_att_map, att_map_file), alpha)
 
     # Save attention visualization on original image
-    plt.savefig(os.path.join(out_vis, image_name))
-    plt.close()
+    #plt.savefig(os.path.join(out_vis, image_name))
+    #plt.close()
     return ' '.join(words[1:-1])
 
 
@@ -239,15 +239,17 @@ def eval_trials(trial, img_scores, img_caption, gt, model="model_1"):
     # Load word map (word to index)
     word_map = json.load(open(args.word_map, 'r'))
     # Set information and create directories
-    set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
-    set_name = set_info[ : set_info.find('/')]
-    set_type = set_info[set_info.find('/') + 1 : ]    
+    #set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
+    #set_name = set_info[ : set_info.find('/')]
+    #set_type = set_info[set_info.find('/') + 1 : ]    
+    set_type = args.set_type
     # Create directory to save trial output
-    trial_res_out = os.path.join(args.out_trial, set_name)
-    trial_prob_out = os.path.join(args.out_prob, 
-                                  "{}/{}".format(set_name, 
-                                                 model))
-    res_name = "res_{}_{}.csv".format(set_type[:-1], model)
+    #trial_res_out = os.path.join(args.out_trial, set_name)
+    trial_res_out = args.out_trial
+    trial_prob_out = os.path.join(args.out_prob, model)
+                                  #"{}/{}".format(set_name, 
+                                  #               model))
+    res_name = "res_{}_{}.csv".format(set_type, model)
     try:
         os.makedirs(trial_prob_out)
         os.makedirs(trial_res_out)
@@ -281,20 +283,18 @@ def eval_trials(trial, img_scores, img_caption, gt, model="model_1"):
         target_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
         target_probs = img_scores[target]
         for i in range(len(target_probs)):
-            #target_prob_df["Time_{}".format(i)] = target_probs[i][0]
-            target_prob_df["Time_{}".format(i)] = (np.array(target_probs[i][0]) - np.mean(target_probs[i][0])) / np.std(target_probs[i][0])
+            target_prob_df["Time_{}".format(i)] = target_probs[i][0]    # Raw probs
                                                    
         # Foil probs
         foil_prob_df = pd.DataFrame(index=[word_map[0] for word_map in sorted_word_map])
         foil_probs = img_scores[foil]
         for i in range(len(foil_probs)):
-            #foil_prob_df["Time_{}".format(i)] = foil_probs[i][0]
-            foil_prob_df["Time_{}".format(i)] = (np.array(foil_probs[i][0]) - np.mean(foil_probs[i][0])) / np.std(foil_probs[i][0])
+            foil_prob_df["Time_{}".format(i)] = foil_probs[i][0]    # Raw probs
+
         # Probability output
         "Foil and target separate"
         prob_name = os.path.join(trial_prob_out, 
-                                 "prob_{}_trial{}.csv".format(set_type[:-1], 
-                                                              index))                                                            
+                                 "prob_{}_trial{}.csv".format(set_type, index))                                                            
         pd.concat([target_prob_df, foil_prob_df],
                   keys=[target_label, foil_label]).to_csv(prob_name)
 
@@ -348,12 +348,15 @@ def evaluate_single_trial(word_target, word_map,
 "Using edit distance"
 def eval_trials_edit_distance(trial, img_caption, gt, model="model_1"):
     # Set information and create directories
-    set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
-    set_name = set_info[ : set_info.find('/')]
-    set_type = set_info[set_info.find('/') + 1 : ]    
+    #set_info = args.img_dir[ args.img_dir.find("eval/")+len("eval/"): ]
+    #set_name = set_info[ : set_info.find('/')]
+    #set_type = set_info[set_info.find('/') + 1 : ]
+    set_type = args.set_type
+
     # Create directory to save trial output
-    trial_res_out = os.path.join(args.out_trial, set_name)
-    res_name = "res_{}_{}.csv".format(set_type[:-1], model)
+    #trial_res_out = os.path.join(args.out_trial, set_name)
+    trial_res_out = args.out_trial
+    res_name = "res_{}_{}.csv".format(set_type, model)
     try:
         os.makedirs(trial_res_out)
     except:
@@ -390,14 +393,13 @@ def eval_trials_edit_distance(trial, img_caption, gt, model="model_1"):
         # Record foil_predict_correct for evaluation (0 is correct prediciton)
         foil_predict_correct = edit_distance(foil_label, foil_res)
         is_correct = 0
-        '''
-        # No need for negation
+
+        # Negation
         if not foil_predict_correct or not dis_target_predicted:
             is_correct = 1
         else:
-        '''
-        if dis_target_predicted < dis_foil_predicted:
-            is_correct = 1
+            if dis_target_predicted < dis_foil_predicted:
+                is_correct = 1
 
         res_df.loc[index] = [target_label, target, target_res, dis_target_predicted, 
                              foil, foil_label, foil_res, dis_foil_predicted, is_correct]
@@ -419,6 +421,7 @@ parser.add_argument('--word_map', '-wm', help='path to word map JSON')
 parser.add_argument('--beam_size', '-b', default=1, type=int, help='beam size for beam search')
 parser.add_argument('--dont_smooth', dest='smooth', action='store_false', help='do not smooth alpha overlay')
 ''' Create caption for images in a folder (modified by violetxi) '''
+parser.add_argument('--set_type', '-st', help="old or new")
 parser.add_argument('--num_models', '-n', type=int, help="Number of models used for evaluation")
 parser.add_argument('--img_dir', '-i', help='path to image directory')
 parser.add_argument('--out_vis', '-ov', help='Output directory to save visualization')
@@ -428,6 +431,7 @@ parser.add_argument('--trial', '-t', help="Path to where tiral file is.")
 parser.add_argument('--out_trial', '-ot', help='Output directory to save trial results')
 parser.add_argument('--out_prob', '-op', help='Output directory to save raw probabilities')
 parser.add_argument('--res_acc', '-r', help="Accuracy of each model on old/new testing set")
+parser.add_argument('--eval_type', '-et', help="Evaluation type: prob or edit")
 args = parser.parse_args()
 # model name
 model_file = 'BEST_checkpoint_coco_1_cap_per_img_1_min_word_freq.pth.tar'
@@ -435,8 +439,7 @@ model_file = 'BEST_checkpoint_coco_1_cap_per_img_1_min_word_freq.pth.tar'
 
 if __name__ == '__main__':
     # File to save overall accuracy of a model
-    #res_acc_out = os.path.join(args.out_trial, 'res_acc.txt')
-    #res_acc_f = open(args.res_acc, 'a')
+    res_acc_f = open(args.res_acc, 'a')
     for n in range(1, args.num_models+1):
         # Load word map (word2ix)
         with open(args.word_map, 'r') as j:
@@ -470,7 +473,9 @@ if __name__ == '__main__':
             img_caption[img] = caption
             
         # Get model accuracy and save it into a txt file
-        #model_acc = eval_trials_edit_distance(args.trial, img_caption, args.gt, model=cur_model)
-        #model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
-        #res_acc_f.write(model_acc)
-    #res_acc_f.close()
+        if args.eval_type == 'edit':
+            model_acc = eval_trials_edit_distance(args.trial, img_caption, args.gt, model=cur_model)
+        else:    # Probability
+            model_acc = eval_trials(args.trial, img_scores, img_caption, args.gt, model=cur_model)
+        res_acc_f.write(model_acc)
+    res_acc_f.close()

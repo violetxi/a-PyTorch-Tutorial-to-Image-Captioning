@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,three eighteen,9,1.png,eight hundred seven,three eighteen six,13,1
+1,sixty four,2.png,thirteen six,10,3.png,six hundred four,six six six,8,0
+2,eighty five,4.png,three eighteen,12,5.png,eight hundred fifty,three six six,11,0
+3,thirty six,6.png,fifteen six,6,7.png,three hundred six,fifteen six six,10,1
+4,twelve,8.png,fifteen,6,9.png,twenty two,fifteen six,9,1
+5,four hundred,10.png,thirteen six,10,11.png,four thousand,eighty eighteen,13,1
+6,seventy six,12.png,three six,6,13.png,seven hundred sixty,fifteen six six,9,1
+7,thirty one,14.png,fifteen eighteen,13,15.png,three hundred one,fifteen six six,13,0
+8,eighty nine,16.png,three six,9,17.png,eight hundred nine,three eighteen six,12,1
+9,three hundred seven,18.png,fifteen six six,15,19.png,three hundred sixty seven,fifteen fifteen six six,17,1
+10,thirteen,20.png,fifteen,3,21.png,forty two,thirteen six,4,1
+11,five hundred eight,22.png,three eighteen six,15,23.png,five hundred eighty,three eighteen six,15,0
+12,two thousand three,24.png,eighty eighty six,17,25.png,two thousand thirty,eighty eighty six,17,0
+13,three hundred six,26.png,fifteen six six,11,27.png,three hundred sixty,fifteen six six,11,0
+14,seven,28.png,eighty,6,29.png,eighteen,two,5,0
+15,five,30.png,six,3,31.png,eight,eighteen,6,1
+16,five hundred,32.png,three six,11,33.png,five thousand,eighty eighteen,12,1
+17,thirty six,34.png,fifteen six,6,35.png,five hundred nine,fifteen six six,10,1
+18,forty two,36.png,thirteen six,9,37.png,four hundred twenty,thirteen six six,13,1
+19,twenty seven,38.png,fifteen six,10,39.png,two hundred seven,eighty six six,10,0
+20,six hundred eight,40.png,three six six,14,41.png,six hundred fifty eight,three eighteen eighteen six,19,1
+21,seventeen,42.png,fifteen,5,43.png,twenty eight,eighteen six,8,1
+22,five hundred sixty seven,44.png,fifteen six six six,15,45.png,five hundred seventy six,three six six six,17,1
+23,one,46.png,eighty,6,47.png,nine,three,4,0

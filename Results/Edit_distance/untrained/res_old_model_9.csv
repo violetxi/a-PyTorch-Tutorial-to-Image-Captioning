@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,two hundred six,0.png,three three three,13,1.png,two hundred sixty,three three three,13,0
+1,one hundred,2.png,three three,9,3.png,one thousand,<unk> three,9,0
+2,sixty seven,4.png,three three,9,5.png,six hundred seventy,three three three,14,1
+3,one thousand two,6.png,<unk> three eleven,14,7.png,one thousand twenty,<unk> three three,14,0
+4,twenty one,8.png,three three,8,9.png,two hundred one,three three three,12,1
+5,one hundred five,10.png,three three three,13,11.png,one hundred twenty five,three three three three,16,1
+6,three hundred five,12.png,three three three,9,13.png,three hundred fifty,two three three,13,1
+7,forty two,14.png,three three,8,15.png,four hundred two,three three three,13,1
+8,five,16.png,three,4,17.png,fifteen,three,4,0
+9,eleven,18.png,seventy,4,19.png,twenty four,three three,9,1
+10,two,20.png,two,0,21.png,eight,three,4,1
+11,twenty five,22.png,three three,9,23.png,four hundred five,three three three,12,1
+12,sixty two,24.png,three three,9,25.png,six hundred two,three three three,14,1
+13,twenty one,26.png,three three,8,27.png,two hundred ten,three three three,12,1
+14,twenty four,28.png,three three,10,29.png,two hundred four,three three three,13,1
+15,seventeen,30.png,seventy,3,31.png,twenty one,three three,8,1
+16,thirty five,32.png,three three,7,33.png,three hundred five,three three three,12,1
+17,forty seven,34.png,seventy seventy,7,35.png,four hundred seventy,three seventy seventy,12,1
+18,nineteen,36.png,three,6,37.png,one hundred nine,three three three,13,1
+19,sixteen,38.png,three,5,39.png,one hundred six,three three three,14,1
+20,fifty three,40.png,three three,5,41.png,eighty,three,6,1
+21,two hundred sixteen,42.png,three three three,13,43.png,two hundred sixty one,three three three three,17,1
+22,four hundred twelve,44.png,<unk> seventy seventy,18,45.png,four hundred twenty one,seventy seventy seventy sixty,25,1
+23,six,46.png,two,3,47.png,thirteen,three,5,1

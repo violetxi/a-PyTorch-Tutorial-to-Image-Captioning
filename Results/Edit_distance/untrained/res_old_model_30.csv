@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,two hundred six,0.png,four seventy seventy,17,1.png,two hundred sixty,four seventy seventy,17,0
+1,one hundred,2.png,four seventy,10,3.png,one thousand,four four,9,0
+2,sixty seven,4.png,twenty seventy,6,5.png,six hundred seventy,four seventy seventy,11,1
+3,one thousand two,6.png,four four four,13,7.png,one thousand twenty,four seventy seventy,17,1
+4,twenty one,8.png,twenty <end>,4,9.png,two hundred one,four seventy seventy,14,1
+5,one hundred five,10.png,four seventy seventy,15,11.png,one hundred twenty five,one seventy seventy seventy,18,1
+6,three hundred five,12.png,seventy seventy seventy,18,13.png,three hundred fifty,seventy seventy seventy,18,0
+7,forty two,14.png,twenty seventy,11,15.png,four hundred two,seventy seventy seventy,19,1
+8,five,16.png,twenty,6,17.png,fifteen,twenty,6,0
+9,eleven,18.png,eleven,0,19.png,twenty four,seventy seventy,10,1
+10,two,20.png,twenty,4,21.png,eight,seventy,7,1
+11,twenty five,22.png,seventy seventy,8,23.png,four hundred five,seventy seventy seventy,15,1
+12,sixty two,24.png,twenty seventy,11,25.png,six hundred two,four seventy seventy,16,1
+13,twenty one,26.png,twenty <end>,4,27.png,two hundred ten,four four four,12,1
+14,twenty four,28.png,seventy seventy,10,29.png,two hundred four,four seventy seventy,15,1
+15,seventeen,30.png,twenty,6,31.png,twenty one,twenty <end>,8,1
+16,thirty five,32.png,twenty seventy,8,33.png,three hundred five,seventy seventy seventy,17,1
+17,forty seven,34.png,two seventy,7,35.png,four hundred seventy,one seventy seventy,11,1
+18,nineteen,36.png,twenty,7,37.png,one hundred nine,four seventy seventy,15,1
+19,sixteen,38.png,twenty,6,39.png,one hundred six,four seventy seventy,15,1
+20,fifty three,40.png,twenty seventy,10,41.png,eighty,four,9,0
+21,two hundred sixteen,42.png,four four four,16,43.png,two hundred sixty one,four seventy seventy seventy,21,1
+22,four hundred twelve,44.png,two seventy seventy,17,45.png,four hundred twenty one,seventy seventy seventy seventy,25,1
+23,six,46.png,twenty,6,47.png,thirteen,twenty,6,0

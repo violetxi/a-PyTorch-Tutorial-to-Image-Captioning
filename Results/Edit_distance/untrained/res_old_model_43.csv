@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,two hundred six,0.png,ninety ninety ninety,16,1.png,two hundred sixty,ninety ninety ninety,16,0
+1,one hundred,2.png,ninety ninety,9,3.png,one thousand,ninety ninety,9,0
+2,sixty seven,4.png,ninety ninety,8,5.png,six hundred seventy,ninety ninety ninety,14,1
+3,one thousand two,6.png,ninety ninety ninety,16,7.png,one thousand twenty,ninety ninety ninety,16,0
+4,twenty one,8.png,ninety ninety,8,9.png,two hundred one,ninety ninety ninety,13,1
+5,one hundred five,10.png,ninety ninety ninety,13,11.png,one hundred twenty five,ninety ninety ninety ninety,19,1
+6,three hundred five,12.png,ninety ninety ninety,15,13.png,three hundred fifty,ninety ninety ninety,15,0
+7,forty two,14.png,eighteen ninety,13,15.png,four hundred two,ninety ninety ninety,16,1
+8,five,16.png,ninety,4,17.png,fifteen,ninety,4,0
+9,eleven,18.png,ninety,6,19.png,twenty four,ninety ninety,11,1
+10,two,20.png,ninety,6,21.png,eight,ninety,6,0
+11,twenty five,22.png,ninety ninety,8,23.png,four hundred five,ninety ninety ninety,13,1
+12,sixty two,24.png,ninety ninety,9,25.png,six hundred two,ninety ninety ninety,15,1
+13,twenty one,26.png,ninety ninety,8,27.png,two hundred ten,ninety ninety ninety,13,1
+14,twenty four,28.png,ninety ninety,10,29.png,two hundred four,ninety ninety ninety,15,1
+15,seventeen,30.png,thirty,8,31.png,twenty one,ninety ninety,10,1
+16,thirty five,32.png,ninety ninety,8,33.png,three hundred five,ninety ninety ninety,13,1
+17,forty seven,34.png,eighteen ninety,12,35.png,four hundred seventy,ninety ninety ninety,15,1
+18,nineteen,36.png,ninety,3,37.png,one hundred nine,ninety ninety ninety,13,1
+19,sixteen,38.png,ninety,5,39.png,one hundred six,ninety ninety ninety,16,1
+20,fifty three,40.png,ninety ninety,8,41.png,eighty,ninety,9,1
+21,two hundred sixteen,42.png,ninety ninety ninety,16,43.png,two hundred sixty one,ninety ninety ninety ninety,21,1
+22,four hundred twelve,44.png,eighteen ninety ninety,19,45.png,four hundred twenty one,eighteen ninety ninety ninety,24,1
+23,six,46.png,ninety,5,47.png,thirteen,ninety,5,0

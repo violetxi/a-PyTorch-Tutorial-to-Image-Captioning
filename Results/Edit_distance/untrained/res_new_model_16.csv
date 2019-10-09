@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,<unk> <unk>,11,1.png,eight hundred seven,nine forty forty,12,1
+1,sixty four,2.png,<unk> <unk>,10,3.png,six hundred four,nine <unk> <unk>,14,1
+2,eighty five,4.png,<unk> <unk>,11,5.png,eight hundred fifty,nine thousand thousand,19,1
+3,thirty six,6.png,<unk> <unk>,11,7.png,three hundred six,nine <unk> <unk>,15,1
+4,twelve,8.png,<unk>,6,9.png,twenty two,<unk> <unk>,11,1
+5,four hundred,10.png,forty forty,8,11.png,four thousand,five forty,9,1
+6,seventy six,12.png,<unk> <unk>,11,13.png,seven hundred sixty,forty forty forty,14,1
+7,thirty one,14.png,<unk> <unk>,10,15.png,three hundred one,<unk> <unk> <unk>,15,1
+8,eighty nine,16.png,nine forty,10,17.png,eight hundred nine,nine nine <unk>,11,1
+9,three hundred seven,18.png,nine <unk> <unk>,14,19.png,three hundred sixty seven,<unk> <unk> <unk> <unk>,19,1
+10,thirteen,20.png,<unk>,8,21.png,forty two,<unk> <unk>,10,1
+11,five hundred eight,22.png,nine <unk> <unk>,12,23.png,five hundred eighty,nine <unk> <unk>,12,0
+12,two thousand three,24.png,five forty forty,15,25.png,two thousand thirty,five forty forty,15,0
+13,three hundred six,26.png,nine <unk> <unk>,13,27.png,three hundred sixty,nine <unk> <unk>,13,0
+14,seven,28.png,<unk>,5,29.png,eighteen,<start>,6,1
+15,five,30.png,<unk>,5,31.png,eight,forty,4,0
+16,five hundred,32.png,nine <unk>,7,33.png,five thousand,five forty,6,0
+17,thirty six,34.png,<unk> <unk>,11,35.png,five hundred nine,nine nine <unk>,14,1
+18,forty two,36.png,<unk> <unk>,10,37.png,four hundred twenty,<unk> <unk> <unk>,16,1
+19,twenty seven,38.png,<unk> <unk>,10,39.png,two hundred seven,nine <unk> <unk>,13,1
+20,six hundred eight,40.png,nine thousand thousand,16,41.png,six hundred fifty eight,nine <unk> <unk> <unk>,17,1
+21,seventeen,42.png,<unk>,8,43.png,twenty eight,<unk> <unk>,10,1
+22,five hundred sixty seven,44.png,<unk> <unk> <unk> <unk>,20,45.png,five hundred seventy six,<unk> <unk> <unk> <unk>,20,0
+23,one,46.png,<unk>,4,47.png,nine,forty,4,0

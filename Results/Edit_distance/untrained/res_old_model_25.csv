@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,two hundred six,0.png,forty one <end>,14,1.png,two hundred sixty,ten fifteen fifteen,14,0
+1,one hundred,2.png,twelve one,9,3.png,one thousand,forty <end>,9,0
+2,sixty seven,4.png,one one,9,5.png,six hundred seventy,twelve one one,11,1
+3,one thousand two,6.png,forty <end> <end>,15,7.png,one thousand twenty,forty <end> <end>,15,0
+4,twenty one,8.png,three thirteen,10,9.png,two hundred one,forty fifteen <end>,15,1
+5,one hundred five,10.png,ten ten <end>,13,11.png,one hundred twenty five,three three one one,15,1
+6,three hundred five,12.png,three one one,8,13.png,three hundred fifty,forty one one,12,1
+7,forty two,14.png,nine forty,9,15.png,four hundred two,fifty forty forty,11,1
+8,five,16.png,three,4,17.png,fifteen,three,4,0
+9,eleven,18.png,thirteen,6,19.png,twenty four,thirteen forty,12,1
+10,two,20.png,three,4,21.png,eight,one,3,0
+11,twenty five,22.png,three three,9,23.png,four hundred five,three three three,12,1
+12,sixty two,24.png,three one,8,25.png,six hundred two,forty one <end>,12,1
+13,twenty one,26.png,three thirteen,10,27.png,two hundred ten,twelve <end> <end>,12,1
+14,twenty four,28.png,thirteen forty,9,29.png,two hundred four,fifty forty fifteen,14,1
+15,seventeen,30.png,nine,7,31.png,twenty one,three thirteen,9,1
+16,thirty five,32.png,one one,9,33.png,three hundred five,three one one,9,0
+17,forty seven,34.png,nine forty,10,35.png,four hundred seventy,fifty seven fifteen,10,0
+18,nineteen,36.png,three,6,37.png,one hundred nine,twelve one one,11,1
+19,sixteen,38.png,three,5,39.png,one hundred six,twelve one one,11,1
+20,fifty three,40.png,three one,9,41.png,eighty,one,10,1
+21,two hundred sixteen,42.png,twelve one <end>,15,43.png,two hundred sixty one,ten ten fifteen fifteen,13,0
+22,four hundred twelve,44.png,nine forty forty,16,45.png,four hundred twenty one,nine forty forty fifteen,19,1
+23,six,46.png,three,5,47.png,thirteen,three,5,0

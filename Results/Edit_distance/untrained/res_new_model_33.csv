@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,seven seven,7,1.png,eight hundred seven,nineteen twenty eighty,11,1
+1,sixty four,2.png,seven seven,9,3.png,six hundred four,nineteen seven eighty,18,1
+2,eighty five,4.png,seven seven,9,5.png,eight hundred fifty,<pad> <pad> <pad>,16,1
+3,thirty six,6.png,seven seven,10,7.png,three hundred six,seven seven seven,15,1
+4,twelve,8.png,seven,4,9.png,twenty two,seven seven,8,1
+5,four hundred,10.png,nineteen seven,12,11.png,four thousand,nineteen twenty,13,1
+6,seventy six,12.png,seven seven,6,13.png,seven hundred sixty,twenty twenty twenty,14,1
+7,thirty one,14.png,seven seven,10,15.png,three hundred one,nineteen seven seven,16,1
+8,eighty nine,16.png,seven seven,10,17.png,eight hundred nine,ten eighty eighty,9,0
+9,three hundred seven,18.png,nineteen seven seven,11,19.png,three hundred sixty seven,nineteen seven seven seven,15,1
+10,thirteen,20.png,seven,6,21.png,forty two,seven seven,8,1
+11,five hundred eight,22.png,<pad> seven seven,16,23.png,five hundred eighty,<pad> seven seven,16,0
+12,two thousand three,24.png,ten twenty twenty,14,25.png,two thousand thirty,ten twenty twenty,14,0
+13,three hundred six,26.png,seven seven seven,14,27.png,three hundred sixty,<pad> seven seven,15,1
+14,seven,28.png,seven,0,29.png,eighteen,seven,0,1
+15,five,30.png,seven,3,31.png,eight,seven,3,0
+16,five hundred,32.png,<pad> seven,11,33.png,five thousand,twenty twenty,12,1
+17,thirty six,34.png,seven seven,10,35.png,five hundred nine,ten seven seven,12,1
+18,forty two,36.png,seven seven,10,37.png,four hundred twenty,seven seven seven,16,1
+19,twenty seven,38.png,seven seven,5,39.png,two hundred seven,twenty twenty eighty,11,1
+20,six hundred eight,40.png,<pad> <pad> <pad>,16,41.png,six hundred fifty eight,<pad> seven seven seven,19,1
+21,seventeen,42.png,seven,4,43.png,twenty eight,seven seven,3,0
+22,five hundred sixty seven,44.png,nineteen seven seven seven,14,45.png,five hundred seventy six,seven seven seven seven,13,0
+23,one,46.png,seven,4,47.png,nine,seven,4,0

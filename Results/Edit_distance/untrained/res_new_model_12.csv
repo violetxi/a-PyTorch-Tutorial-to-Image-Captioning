@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,ninety sixteen,10,1.png,eight hundred seven,nine sixteen sixteen,16,1
+1,sixty four,2.png,sixteen sixteen,10,3.png,six hundred four,ninety sixteen sixteen,17,1
+2,eighty five,4.png,ninety thirteen,9,5.png,eight hundred fifty,ninety nine nine,10,1
+3,thirty six,6.png,<unk> sixteen,10,7.png,three hundred six,<unk> sixteen sixteen,15,1
+4,twelve,8.png,nine,5,9.png,twenty two,nine sixteen,10,1
+5,four hundred,10.png,sixteen sixteen,13,11.png,four thousand,sixteen sixteen,13,0
+6,seventy six,12.png,ninety sixteen,8,13.png,seven hundred sixty,nine sixteen sixteen,14,1
+7,thirty one,14.png,nine nine,7,15.png,three hundred one,<unk> sixteen sixteen,17,1
+8,eighty nine,16.png,ninety sixteen,8,17.png,eight hundred nine,ninety sixteen sixteen,15,1
+9,three hundred seven,18.png,<unk> sixteen sixteen,15,19.png,three hundred sixty seven,<unk> sixteen sixteen sixteen,21,1
+10,thirteen,20.png,nine,6,21.png,forty two,nine sixteen,7,1
+11,five hundred eight,22.png,ninety sixteen sixteen,16,23.png,five hundred eighty,ninety sixteen sixteen,16,0
+12,two thousand three,24.png,ninety nine nine,14,25.png,two thousand thirty,ninety sixteen nine,17,1
+13,three hundred six,26.png,<unk> sixteen sixteen,15,27.png,three hundred sixty,<unk> sixteen sixteen,15,0
+14,seven,28.png,sixteen,4,29.png,eighteen,ninety,5,1
+15,five,30.png,ninety,4,31.png,eight,ninety,4,0
+16,five hundred,32.png,ninety sixteen,10,33.png,five thousand,ninety ninety,9,0
+17,thirty six,34.png,<unk> sixteen,10,35.png,five hundred nine,ninety sixteen sixteen,15,1
+18,forty two,36.png,nine sixteen,11,37.png,four hundred twenty,nine sixteen sixteen,17,1
+19,twenty seven,38.png,nine nine,9,39.png,two hundred seven,nine sixteen sixteen,14,1
+20,six hundred eight,40.png,ninety ninety sixteen,16,41.png,six hundred fifty eight,ninety nine nine nine,17,1
+21,seventeen,42.png,nine,7,43.png,twenty eight,ninety ninety,10,1
+22,five hundred sixty seven,44.png,<unk> sixteen sixteen sixteen,18,45.png,five hundred seventy six,nine sixteen sixteen sixteen,15,0
+23,one,46.png,sixteen,6,47.png,nine,ninety,4,0

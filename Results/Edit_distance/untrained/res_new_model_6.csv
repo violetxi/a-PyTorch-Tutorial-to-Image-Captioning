@@ -1,0 +1,25 @@
+,desired_label,target_image,target_model_generated_label,dis_target_predicted,foil_image,foil_word,foil_model_generated_label,dis_foil_predicted,correct
+0,seventy eight,0.png,twenty thousand,11,1.png,eight hundred seven,six thousand thousand,18,1
+1,sixty four,2.png,twenty thousand,10,3.png,six hundred four,six thousand thousand,14,1
+2,eighty five,4.png,twenty thousand,12,5.png,eight hundred fifty,twenty thousand thousand,21,1
+3,thirty six,6.png,twenty nineteen,10,7.png,three hundred six,six thousand thousand,17,1
+4,twelve,8.png,thousand,7,9.png,twenty two,twenty thousand,12,1
+5,four hundred,10.png,six thousand,10,11.png,four thousand,six six,11,1
+6,seventy six,12.png,twenty nineteen,10,13.png,seven hundred sixty,<start> thousand thousand,21,1
+7,thirty one,14.png,fifty nineteen,9,15.png,three hundred one,six thousand thousand,16,1
+8,eighty nine,16.png,twenty thousand,11,17.png,eight hundred nine,six thousand thousand,17,1
+9,three hundred seven,18.png,six nineteen nineteen,16,19.png,three hundred sixty seven,six nineteen nineteen nineteen,21,1
+10,thirteen,20.png,thousand,6,21.png,forty two,thousand thousand,13,1
+11,five hundred eight,22.png,seventeen thousand thousand,20,23.png,five hundred eighty,seventeen thousand thousand,20,0
+12,two thousand three,24.png,six thousand thousand,9,25.png,two thousand thirty,six thousand thousand,9,0
+13,three hundred six,26.png,six thousand thousand,17,27.png,three hundred sixty,six thirteen thousand,17,0
+14,seven,28.png,twenty,5,29.png,eighteen,fifty,5,0
+15,five,30.png,twenty,6,31.png,eight,eight,4,1
+16,five hundred,32.png,six thousand,9,33.png,five thousand,seventeen thousand,13,1
+17,thirty six,34.png,twenty nineteen,10,35.png,five hundred nine,twenty thousand thousand,19,1
+18,forty two,36.png,thousand thousand,13,37.png,four hundred twenty,six thousand thousand,17,1
+19,twenty seven,38.png,twenty nineteen,5,39.png,two hundred seven,six thousand thousand,18,1
+20,six hundred eight,40.png,<start> thousand thousand,19,41.png,six hundred fifty eight,twenty thousand thousand thousand,26,1
+21,seventeen,42.png,seven,4,43.png,twenty eight,twenty thousand,12,1
+22,five hundred sixty seven,44.png,twenty nineteen nineteen nineteen,23,45.png,five hundred seventy six,twenty nineteen nineteen nineteen,23,0
+23,one,46.png,twelve,5,47.png,nine,thousand,6,1
