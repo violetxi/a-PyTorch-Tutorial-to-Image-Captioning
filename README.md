@@ -27,7 +27,11 @@ python train_bootstrap.py -m [PATH_TO_MODEL_OUTPUT] -d ../Training_and_testing_i
 
 <h4> Testing Trained Models </h4>
 Test newly trained models: 
-Test our trained models, please download our models at Google_Drive_url and then run the above command.
+python caption_bootstrap.py -m [PATH_TO_SAVED_MODELS] -wm ../Training_and_testing_items/images_processed/WORDMAP_coco_1_cap_per_img_1_min_word_freq.json -i ../Training_and_testing_items/images_raw/test_new/ -n 50 \
+-oa [PATH_TO_SAVE_RAW_ATTENTION] -g ../Training_and_testing_items/images_raw/test_new/num_labels.json \ 
+-t ../Training_and_testing_items/csv/test_trial_new.csv -ot [PATH_TO_SAVE_TRIAL_LEVEL_RESULTS] \ 
+ -r [PATH_TO/OVERALL_ACC.csv] -st [new or old] -et [edit or prob] -op [PATH_TO_SAVE_RAW_PROBABILITY]
+Test our trained models, please download our models [here](https://drive.google.com/file/d/1MBrFSgdgnFxzYc12WfcCRN31d-rdrxk4/view?usp=sharing) and then run the above command.
 
 <h4> Generate attention scores. </h4>
 
